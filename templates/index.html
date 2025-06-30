@@ -269,6 +269,26 @@
     animation-delay: 0.2s;
     }
 
+    #passwordChecklist li {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(-5px);
+    transition:
+      max-height 0.4s ease,
+      opacity 0.4s ease,
+      transform 0.4s ease;
+    margin-bottom: 6px; /* ✅ Bonus spacing */
+  }
+
+  #passwordChecklist li.visible {
+    max-height: 40px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
 
   </style>
 </head>
@@ -298,6 +318,16 @@
       <div class="error" id="loginError" style="color:red; font-weight:600; font-size:16px; margin-bottom:10px; display:none;"></div>
       <input type="text" id="username" placeholder="Enter Username" required>
       <input type="password" id="password" placeholder="Enter Password" required>
+      <!-- Password Checklist -->
+      <ul id="passwordChecklist" style="display:none; font-size: 14px; margin-top: -10px; margin-bottom: 15px; color: #333; list-style: none; padding-left: 0;">
+      <li id="length">❌ At least 8 characters</li>
+      <li id="uppercase">❌ Contains uppercase letter (A–Z)</li>
+      <li id="lowercase">❌ Contains lowercase letter (a–z)</li>
+      <li id="number">❌ Contains a number (0–9)</li>
+      <li id="special">❌ Contains special character (!@#$...)</li>
+      </ul>
+
+
       <div class="captcha-box">
         <span class="captcha" id="captchaText"></span>
         <button class="refresh-btn" onclick="generateCaptcha()" title="Refresh Captcha">↻</button>
@@ -445,10 +475,20 @@
   error.textContent = "";
 
   if (!username || !password || !captchaInput) {
-    error.textContent = "Please fill all fields.";
-    error.style.display = "block";
-    return;
-  }
+  error.textContent = "Please fill all fields.";
+  error.style.display = "block";
+  return;
+}
+
+// ✅ Password format validation on login
+const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;
+
+if (!passwordRegex.test(password)) {
+  error.textContent = "Password must include uppercase, lowercase, number, special character, and be at least 8 characters.";
+  error.style.display = "block";
+  return;
+}
+
 
   if (captchaInput !== document.getElementById("captchaText").textContent) {
     error.textContent = "Incorrect captcha!";
@@ -517,6 +557,56 @@
 }
 
     // --- End of Re-added User Tracking and Login Logic ---
+const passwordField = document.getElementById("password");
+const checklist = document.getElementById("passwordChecklist");
+
+const items = {
+  length: document.getElementById("length"),
+  uppercase: document.getElementById("uppercase"),
+  lowercase: document.getElementById("lowercase"),
+  number: document.getElementById("number"),
+  special: document.getElementById("special"),
+};
+
+passwordField.addEventListener("input", function () {
+  const val = this.value;
+
+  if (val.trim() === "") {
+    checklist.style.display = "none";
+    Object.values(items).forEach(item => item.classList.remove("visible"));
+    return;
+  } else {
+    checklist.style.display = "block";
+  }
+
+  const conditions = {
+    length: val.length >= 8,
+    uppercase: /[A-Z]/.test(val),
+    lowercase: /[a-z]/.test(val),
+    number: /\d/.test(val),
+    special: /[\W_]/.test(val),
+  };
+
+  const texts = {
+    length: "At least 8 characters",
+    uppercase: "Contains uppercase letter (A–Z)",
+    lowercase: "Contains lowercase letter (a–z)",
+    number: "Contains a number (0–9)",
+    special: "Contains special character (!@#$...)"
+  };
+
+  for (const key in conditions) {
+    const passed = conditions[key];
+    items[key].textContent = `${passed ? "✅" : "❌"} ${texts[key]}`;
+    if (passed) {
+      items[key].classList.add("visible");
+    } else {
+      items[key].classList.remove("visible");
+    }
+  }
+});
+
+
 
     window.onload = () => {
       generateCaptcha();
