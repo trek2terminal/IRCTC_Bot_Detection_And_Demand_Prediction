@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to IRCTC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+    }
+
+    .slideshow {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+    }
+
+    .slideshow img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      animation: fade 28s infinite;
+    }
+
+    /* 7 images x 3s = 21s loop */
+    .slideshow img:nth-child(1) { animation-delay: 0s; }
+    .slideshow img:nth-child(2) { animation-delay: 4s; }
+    .slideshow img:nth-child(3) { animation-delay: 8s; }
+    .slideshow img:nth-child(4) { animation-delay: 12s; }
+    .slideshow img:nth-child(5) { animation-delay: 16s; }
+    .slideshow img:nth-child(6) { animation-delay: 20s; }
+    .slideshow img:nth-child(7) { animation-delay: 24s; }
+
+    @keyframes fade {
+      0% { opacity: 0; }
+      10% { opacity: 1; }
+      30% { opacity: 1; }
+      40% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .content h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .content p {
+      font-size: 20px;
+      animation: fadeInUp 1.5s ease-out;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Slideshow Background -->
+  <div class="slideshow">
+    <img src="/static/images/welcome_bg.jpg" alt="Welcome BG">
+    <img src="/static/images/train1.jpg" alt="Train 1">
+    <img src="/static/images/train2.jpg" alt="Train 2">
+    <img src="/static/images/train3.jpg" alt="Train 3">
+    <img src="/static/images/train4.jpg" alt="Train 4">
+    <img src="/static/images/train5.jpg" alt="Train 5">
+    <img src="/static/images/train6.jpg" alt="Train 6">
+  </div>
+
+  <div class="overlay"></div>
+
+  <!-- Personalized Greeting -->
+  <div class="content">
+    <h1>Welcome to IRCTC, {{ username }}!</h1>
+    <p>Your login has been verified. Have a great journey ahead!</p>
+  </div>
+
+</body>
+</html>

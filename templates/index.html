@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IRCTC Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <style>
+    /* ... (your existing CSS remains here) ... */
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+    }
+
+    .slideshow {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+    }
+
+    .slideshow img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 1.5s ease-in-out;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: -1;
+    }
+
+    .datetime {
+      position: fixed;
+      top: 10px;
+      right: 20px;
+      color: white;
+      font-size: 20px;
+      font-family: 'Roboto Mono', monospace;
+      background-color: rgba(0, 78, 146, 0.7);
+      padding: 6px 12px;
+      border-radius: 10px;
+      z-index: 3;
+    }
+
+    .datetime .day {
+      color: #ffe680;
+      font-weight: bold;
+    }
+
+    .login-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding-left: 8%;
+    position: relative;
+    z-index: 1;
+    opacity: 0; /* <-- Start hidden */
+    }
+
+
+    .container {
+    background-color: rgba(255, 255, 255, 0.12); /* more transparent */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: background-color 0.4s ease, box-shadow 0.4s ease;
+    padding: 40px 35px;
+    border-radius: 20px;
+    width: 380px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    }
+
+
+    .container.active {
+      background-color: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+    }
+
+    .container.active h2 {
+    color: #004e92;
+    text-shadow: none;
+    }
+
+    .container.active .refresh-btn {
+    color: #004e92;
+    text-shadow: none;
+    }
+
+
+
+    .logo-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 20px;
+      animation: pop-in 0.8s ease-out;
+    }
+
+    .logo-row img {
+      width: 90px;
+      height: auto;
+      transition: transform 0.3s ease;
+      animation: pulse 4s infinite ease-in-out;
+    }
+
+    .logo-row img:hover {
+      transform: scale(1.15);
+    }
+
+    @keyframes pop-in {
+      0% { transform: scale(0.8); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+
+    h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 26px;
+
+    color: #f8f9fa;
+    text-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.7),
+      0 2px 6px rgba(0, 0, 0, 0.5);
+
+    transition: color 0.4s ease, text-shadow 0.4s ease;
+
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: slideInTitle 1s ease-out forwards;
+    }
+
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 12px 14px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 15px;
+    }
+
+    input:focus {
+      border-color: #004e92;
+      box-shadow: 0 0 8px rgba(0, 78, 146, 0.4);
+      outline: none;
+    }
+
+    .captcha-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .captcha {
+      background-color: #f1f1f1;
+      padding: 10px 16px;
+      font-weight: bold;
+      font-size: 18px;
+      border-radius: 8px;
+      letter-spacing: 3px;
+      color: #333;
+    }
+
+    .refresh-btn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: #f8f9fa;
+    text-shadow:
+      0 1px 2px rgba(0, 0, 0, 0.7),
+      0 2px 6px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: color 0.4s ease, text-shadow 0.4s ease;
+    }
+
+
+    button {
+      width: 100%;
+      background-color: #004e92;
+      color: white;
+      padding: 13px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 18px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    }
+
+
+    .fact-wrapper {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 2;
+      text-align: right;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .fact-header {
+      font-size: 24px;
+      color: #ffe680;
+    }
+
+    .fact-box {
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+    }
+
+    @keyframes slideInTitle {
+      0% {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideInFromRight {
+      0% {
+        opacity: 0;
+        transform: translateX(100vw);
+      }
+      100% {
+          opacity: 1;
+          transform: translateX(0);
+      }
+    }
+    .login-wrapper.animate-slide-in {
+    animation: slideInFromRight 2s ease-out forwards;
+    animation-delay: 0.2s;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="datetime" id="datetime"></div>
+
+  <div class="slideshow">
+    <img src="/static/images/train1.jpg" alt="Train 1">
+    <img src="/static/images/train2.jpg" alt="Train 2">
+    <img src="/static/images/train3.jpg" alt="Train 3">
+    <img src="/static/images/train4.jpg" alt="Train 4">
+    <img src="/static/images/train5.jpg" alt="Train 5">
+    <img src="/static/images/train6.jpg" alt="Train 6">
+    <img src="/static/images/train7.jpg" alt="Train 7">
+    <img src="/static/images/train8.jpg" alt="Train 8">
+  </div>
+
+  <div class="overlay"></div>
+
+  <div class="login-wrapper">
+    <div class="container">
+      <div class="logo-row">
+        <img src="/static/images/irctc_logo.png" alt="IRCTC Logo">
+        <img src="/static/images/railway_logo.png" alt="Railway Logo">
+      </div>
+      <h2>IRCTC Login</h2>
+      <div class="error" id="loginError" style="color:red; font-weight:600; font-size:16px; margin-bottom:10px; display:none;"></div>
+      <input type="text" id="username" placeholder="Enter Username" required>
+      <input type="password" id="password" placeholder="Enter Password" required>
+      <div class="captcha-box">
+        <span class="captcha" id="captchaText"></span>
+        <button class="refresh-btn" onclick="generateCaptcha()" title="Refresh Captcha">↻</button>
+      </div>
+      <input type="text" id="captchaInput" placeholder="Enter Captcha" required>
+      <button onclick="handleLogin()">Login</button>
+      <div class="footer">© IRCTC 2025 | A Govt. of India Enterprise</div>
+    </div>
+  </div>
+
+  <div class="fact-wrapper">
+    <div class="fact-header">Did You Know ?</div>
+    <div class="fact-box" id="factBox"></div>
+  </div>
+
+  <script>
+    const facts = [
+      "All 8 Northeast States now connected by rail, enhancing development and accessibility.",
+      "Agartala–Akhaura link strengthens cross-border trade and connectivity.",
+      "Jiribam–Imphal Line in Manipur features world’s tallest railway pier bridge (141m).",
+      "Indian Railways spans 68,000+ km — 4th largest in the world.",
+      "IRCTC is among Asia’s busiest e-commerce sites with millions of transactions daily.",
+      "Vivek Express runs 4,273 km from Dibrugarh to Kanyakumari — India's longest rail journey.",
+      "Chenab Bridge in J&K is taller than the Eiffel Tower — 359m above river level.",
+      "Hubballi Station in Karnataka has the world’s longest railway platform (1,507m).",
+      "India’s first passenger train ran in 1853 between Mumbai and Thane.",
+      "Indian Railways targets net-zero carbon emissions by 2030 with full electrification.",
+      "Bogie Manufacturing Factory in Sonipat is India’s first railway plant fully run by women.",
+      "IRCTC introduced AI-powered 'Ask Disha' chatbot for customer support in 13 languages.",
+      "Bapudham Motihari Station is where Mahatma Gandhi started the Champaran Satyagraha in 1917.",
+      "Indian Railways owns over 2.5 lakh hectares of land — more than the size of Luxembourg.",
+      "Railway route in Kashmir Valley includes India’s longest tunnel — Pir Panjal Tunnel (11.2 km).",
+      "IRCTC runs India's first dedicated Buddhist Circuit Train covering key pilgrimage sites.",
+      "India’s first solar-powered DEMU train was launched in Delhi in 2017.",
+      "Railways built Asia’s first double-stack container train corridor — the Western DFC.",
+      "Indian Railways has its own dedicated university — National Rail & Transport Institute, Vadodara.",
+      "Vikalp scheme by IRCTC allows waitlisted passengers to travel on alternate trains without extra cost."
+    ];
+
+    let usedIndexes = new Set(); // Keep this for random fact rotation without repeats
+    function rotateFacts() {
+      if (usedIndexes.size === facts.length) usedIndexes.clear();
+      let index;
+      do { index = Math.floor(Math.random() * facts.length); } while (usedIndexes.has(index));
+      usedIndexes.add(index);
+      document.getElementById("factBox").textContent = facts[index];
+    }
+
+    function generateCaptcha() {
+      const chars = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789!@#$%&";
+      let captcha = "";
+      for (let i = 0; i < 6; i++) {
+        captcha += chars.charAt(Math.floor(Math.random() * chars.length));
+      }
+      document.getElementById("captchaText").textContent = captcha;
+    }
+
+    function updateDateTime() {
+      const now = new Date();
+      const day = now.toLocaleDateString('en-IN', { weekday: 'long' });
+      const date = now.toLocaleDateString('en-GB');
+      const time = now.toLocaleTimeString();
+      document.getElementById("datetime").innerHTML = `<span class="day">${day}</span> | ${date} ${time}`;
+    }
+
+    function startRandomSlideshow() {
+      const slides = Array.from(document.querySelectorAll(".slideshow img"));
+      let current = -1;
+      let index = 0;
+      let shuffled = shuffle(slides.slice());
+
+      function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
+
+      function showNext() {
+        if (current !== -1) current.style.opacity = 0;
+        current = shuffled[index];
+        current.style.opacity = 1;
+
+        index++;
+        if (index >= shuffled.length) {
+          index = 0;
+          shuffled = shuffle(slides.slice());
+        }
+      }
+
+      showNext();
+      setInterval(showNext, 7000);
+    }
+
+    function setupLoginFocusEffect() {
+      const container = document.querySelector(".container");
+      document.addEventListener("click", (e) => {
+        if (container.contains(e.target)) {
+          container.classList.add("active");
+        } else {
+          container.classList.remove("active");
+        }
+      });
+    }
+
+    // --- Start of Re-added User Tracking and Login Logic ---
+    let mouseDistance = 0, lastMouseX = null, lastMouseY = null;
+    let keyStrokes = [];
+    let scrollBehavior = "none";
+    let formStartTime = Date.now();
+
+    document.addEventListener("mousemove", (e) => {
+      if (lastMouseX !== null && lastMouseY !== null) {
+        const dx = e.clientX - lastMouseX;
+        const dy = e.clientY - lastMouseY;
+        mouseDistance += Math.sqrt(dx * dx + dy * dy);
+      }
+      lastMouseX = e.clientX;
+      lastMouseY = e.clientY;
+    });
+
+    document.addEventListener("keydown", () => {
+      keyStrokes.push(Date.now());
+    });
+
+    window.addEventListener("scroll", () => {
+      const scrollY = window.scrollY;
+      scrollBehavior = scrollY > 200 ? "fast" : scrollY > 100 ? "medium" : scrollY > 0 ? "slow" : "none";
+    });
+
+    function calculateTypingSpeed() {
+      if (keyStrokes.length < 2) return 0;
+      const timeSpan = (keyStrokes[keyStrokes.length - 1] - keyStrokes[0]) / 1000;
+      return (keyStrokes.length / timeSpan) * 60;
+    }
+
+    async function handleLogin() {
+  const username = document.getElementById("username").value.trim();
+  const password = document.getElementById("password").value.trim();
+  const captchaInput = document.getElementById("captchaInput").value.trim();
+  const error = document.getElementById("loginError");
+
+  error.style.display = "none";
+  error.textContent = "";
+
+  if (!username || !password || !captchaInput) {
+    error.textContent = "Please fill all fields.";
+    error.style.display = "block";
+    return;
+  }
+
+  if (captchaInput !== document.getElementById("captchaText").textContent) {
+    error.textContent = "Incorrect captcha!";
+    error.style.display = "block";
+    generateCaptcha();
+    return;
+  }
+
+  const formEndTime = Date.now();
+  const typingSpeed = calculateTypingSpeed();
+  const formFillTimeSec = (formEndTime - formStartTime) / 1000;
+
+  const payload = {
+    username: username,
+    mouse_movement_units: mouseDistance.toFixed(2),
+    typing_speed_cpm: typingSpeed.toFixed(2),
+    click_pattern_score: 0.01,
+    time_spent_on_page_sec: formFillTimeSec.toFixed(2),
+    scroll_behavior: scrollBehavior,
+    captcha_success: 1,
+    form_fill_time_sec: formFillTimeSec.toFixed(2)
+  };
+
+  try {
+    const res = await fetch("/predict", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+
+    const result = await res.json();
+
+    if (result.blocked) {
+      error.textContent = result.message;
+      error.style.display = "block";
+      setTimeout(() => {
+        if (result.redirect_url) {
+          window.location.href = result.redirect_url;
+        } else {
+          window.location.reload();
+        }
+      }, 1000);
+    } else if (result.prediction === 1) {
+      error.textContent = result.message || "⚠️ Unusual behavior detected";
+      error.style.display = "block";
+      error.style.color = "red";
+      error.style.fontWeight = "bold";
+      error.style.textAlign = "center";
+      setTimeout(() => {
+        if (result.redirect_url) {
+          window.location.href = result.redirect_url;
+        } else {
+          window.location.reload();
+        }
+      }, 1000);
+    } else if (result.redirect_url) {
+      window.location.href = result.redirect_url;
+    } else {
+      error.textContent = "✅ Login success, but no redirect URL provided!";
+      error.style.display = "block";
+    }
+  } catch (err) {
+    error.textContent = "Server error: " + err.message;
+    error.style.display = "block";
+  }
+}
+
+    // --- End of Re-added User Tracking and Login Logic ---
+
+    window.onload = () => {
+      generateCaptcha();
+      rotateFacts();
+      updateDateTime();
+      startRandomSlideshow();
+      setupLoginFocusEffect();
+      setInterval(updateDateTime, 1000);
+      setInterval(rotateFacts, 7000);
+
+      document.querySelector(".login-wrapper").classList.add("animate-slide-in");
+    };
+  </script>
+</body>
+</html>
