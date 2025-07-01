@@ -38,6 +38,16 @@ scroll_map = {
 def index():
     return render_template("index.html")
 
+# @app.route('/captcha-debug')
+# def captcha_debug():
+#     if not app.debug:
+#         return jsonify({"error": "Not allowed"}), 403
+#     if 'captcha_text' in session:
+#         return jsonify({"captcha_text": session['captcha_text']})
+#     else:
+#         return jsonify({"error": "CAPTCHA not set"}), 400
+
+
 @app.route('/access-denied')
 def access_denied():
     return render_template("access_denied.html")
