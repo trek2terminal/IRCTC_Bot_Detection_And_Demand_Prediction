@@ -5,18 +5,28 @@
   <title>IRCTC Login</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display&family=Roboto+Mono&display=swap" rel="stylesheet">
   <style>
+  @font-face {
+    font-family: 'ArialCustom';
+    src: url('/static/fonts/DejaVuSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  </style>
+
+  <style>
     /* ... (your existing CSS remains here) ... */
     * {
       box-sizing: border-box;
     }
 
     html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      font-family: 'Poppins', sans-serif;
-      overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'ArialCustom', 'Poppins', sans-serif;
+    overflow: hidden;
     }
+
 
     .slideshow {
       position: fixed;
@@ -329,7 +339,8 @@
 
 
       <div class="captcha-box">
-        <span class="captcha" id="captchaText"></span>
+        <img id="captchaImage" src="/captcha" alt="Captcha Image" style="height:70px; width:200px; border-radius:8px; border:1px solid #ccc;">
+
         <button class="refresh-btn" onclick="generateCaptcha()" title="Refresh Captcha">↻</button>
       </div>
       <input type="text" id="captchaInput" placeholder="Enter Captcha" required>
@@ -377,13 +388,12 @@
     }
 
     function generateCaptcha() {
-      const chars = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789!@#$%&";
-      let captcha = "";
-      for (let i = 0; i < 6; i++) {
-        captcha += chars.charAt(Math.floor(Math.random() * chars.length));
-      }
-      document.getElementById("captchaText").textContent = captcha;
+    const captchaImg = document.getElementById("captchaImage");
+    if (captchaImg) {
+      captchaImg.src = "/captcha?" + new Date().getTime();  // Prevent browser caching
     }
+  }
+
 
     function updateDateTime() {
       const now = new Date();
@@ -490,12 +500,8 @@ if (!passwordRegex.test(password)) {
 }
 
 
-  if (captchaInput !== document.getElementById("captchaText").textContent) {
-    error.textContent = "Incorrect captcha!";
-    error.style.display = "block";
-    generateCaptcha();
-    return;
-  }
+ // Client-side captcha text check removed. CAPTCHA will be validated on the server.
+
 
   const formEndTime = Date.now();
   const typingSpeed = calculateTypingSpeed();
@@ -509,6 +515,7 @@ if (!passwordRegex.test(password)) {
     time_spent_on_page_sec: formFillTimeSec.toFixed(2),
     scroll_behavior: scrollBehavior,
     captcha_success: 1,
+    captcha_input: captchaInput,
     form_fill_time_sec: formFillTimeSec.toFixed(2)
   };
 
