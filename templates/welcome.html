@@ -35,7 +35,6 @@
       animation: fade 28s infinite;
     }
 
-    /* 7 images x 3s = 21s loop */
     .slideshow img:nth-child(1) { animation-delay: 0s; }
     .slideshow img:nth-child(2) { animation-delay: 4s; }
     .slideshow img:nth-child(3) { animation-delay: 8s; }
@@ -66,21 +65,85 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      flex-direction: column;
       color: #fff;
       text-align: center;
-      flex-direction: column;
+      margin-top: 50px;
     }
 
     .content h1 {
       font-size: 42px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       animation: fadeInUp 1s ease-out;
     }
 
     .content p {
       font-size: 20px;
       animation: fadeInUp 1.5s ease-out;
+    }
+
+    .search-form {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 25px;
+      border-radius: 12px;
+      max-width: 500px;
+      width: 100%;
+      margin-top: 30px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      animation: fadeInUp 2s ease-out;
+      position: relative;
+    }
+
+    .search-form h2 {
+      color: #003366;
+      margin-bottom: 20px;
+    }
+
+    .search-form input, .search-form button {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .search-form button {
+      background-color: #003366;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .search-form button:hover {
+      background-color: #0055a5;
+    }
+
+    .relative {
+      position: relative;
+    }
+
+    .suggestions {
+      position: absolute;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      max-height: 150px;
+      overflow-y: auto;
+      width: calc(100% - 24px);
+      z-index: 1000;
+      color: #000;
+      text-align: left;
+    }
+
+    .suggestions div {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .suggestions div:hover {
+      background-color: #f0f0f0;
     }
 
     @keyframes fadeInUp {
@@ -97,7 +160,7 @@
 </head>
 <body>
 
-  <!-- Slideshow Background -->
+  <!-- Background slideshow -->
   <div class="slideshow">
     <img src="/static/images/welcome_bg.jpg" alt="Welcome BG">
     <img src="/static/images/train1.jpg" alt="Train 1">
@@ -110,11 +173,88 @@
 
   <div class="overlay"></div>
 
-  <!-- Personalized Greeting -->
   <div class="content">
     <h1>Welcome to IRCTC, {{ username }}!</h1>
     <p>Your login has been verified. Have a great journey ahead!</p>
+
+    <!-- Train Search Form -->
+    <form class="search-form" action="{{ url_for('train_results') }}" method="post">
+  <h2>Tatkal Train Availability</h2>
+
+  <div class="relative">
+    <input type="text" id="source" name="source" placeholder="Source Station (e.g., Guwahati)" required autocomplete="off">
+    <div id="source-suggestions" class="suggestions" style="display:none;"></div>
   </div>
+
+  <div class="relative">
+    <input type="text" id="destination" name="destination" placeholder="Destination Station (e.g., Delhi)" required autocomplete="off">
+    <div id="destination-suggestions" class="suggestions" style="display:none;"></div>
+  </div>
+
+  <input type="date" name="date" required min="{{ (date.today()).isoformat() }}" max="{{ (date.today() + timedelta(days=6)).isoformat() }}">
+
+  <!-- NEW DROPDOWN FOR CLASS -->
+  <select name="travel_class" required style="width:100%; padding:12px; margin-bottom:15px; border:1px solid #ccc; border-radius:8px; font-size:16px;">
+    <option value="">-- Select Class --</option>
+    <option value="SL">Sleeper (SL)</option>
+    <option value="3AC">AC 3-Tier (3A)</option>
+    <option value="2AC">AC 2-Tier (2A)</option>
+    <option value="1AC">AC First Class (1A)</option>
+    </select>
+
+  <button type="submit">Check Trains & Predict</button>
+</form>
+
+  </div>
+
+  <script>
+    function attachAutocomplete(inputId, suggestionsId) {
+      const input = document.getElementById(inputId);
+      const suggestionsBox = document.getElementById(suggestionsId);
+
+      input.addEventListener("input", async () => {
+        const query = input.value.trim();
+        if (!query) {
+          suggestionsBox.style.display = "none";
+          return;
+        }
+
+        try {
+          const res = await fetch(`/stations?q=${query}`);
+          const suggestions = await res.json();
+          suggestionsBox.innerHTML = "";
+
+          if (suggestions.length === 0) {
+            suggestionsBox.style.display = "none";
+            return;
+          }
+
+          suggestions.forEach(item => {
+            const div = document.createElement("div");
+            div.textContent = item;
+            div.onclick = () => {
+              input.value = item;
+              suggestionsBox.style.display = "none";
+            };
+            suggestionsBox.appendChild(div);
+          });
+
+          suggestionsBox.style.display = "block";
+        } catch (err) {
+          console.error("Failed to fetch suggestions", err);
+        }
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!suggestionsBox.contains(e.target) && e.target !== input) {
+          suggestionsBox.style.display = "none";
+        }
+      });
+    }
+
+    attachAutocomplete("source", "source-suggestions");
+    attachAutocomplete("destination", "destination-suggestions");
+  </script>
 
 </body>
 </html>

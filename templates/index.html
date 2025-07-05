@@ -279,23 +279,45 @@
     animation-delay: 0.2s;
     }
 
-    #passwordChecklist li {
-    max-height: 0;
-    opacity: 0;
+    #passwordChecklist {
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    color: #333;
+    list-style: none;
+    padding-left: 0;
+    transition: opacity 0.4s ease;
     overflow: hidden;
-    transform: translateY(-5px);
-    transition:
-      max-height 0.4s ease,
-      opacity 0.4s ease,
-      transform 0.4s ease;
-    margin-bottom: 6px; /* ✅ Bonus spacing */
-  }
+    }
 
-  #passwordChecklist li.visible {
-    max-height: 40px;
+    #passwordChecklist li {
     opacity: 1;
     transform: translateY(0);
-}
+    max-height: 40px;
+    margin-bottom: 6px;
+    transition:
+      opacity 0.4s ease,
+      transform 0.4s ease,
+      max-height 0.4s ease;
+    }
+
+    #passwordChecklist li.removed {
+    opacity: 0;
+    transform: translateY(-10px);
+    max-height: 0;
+    margin-bottom: 0;
+    padding: 0;
+    }
+
+    #strengthBar {
+    height: 100%;
+    width: 0%;
+    background-color: red;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    }
+
+
 
 
 
@@ -328,6 +350,13 @@
       <div class="error" id="loginError" style="color:red; font-weight:600; font-size:16px; margin-bottom:10px; display:none;"></div>
       <input type="text" id="username" placeholder="Enter Username" required>
       <input type="password" id="password" placeholder="Enter Password" required>
+      <!-- Password Strength Bar -->
+      <div id="strengthBarWrapper" style="height: 6px; width: 100%; background-color: #e0e0e0; border-radius: 10px; margin-top: -12px; margin-bottom: 12px; overflow: hidden; display: none;">
+        <div id="strengthBar" style="height: 100%; width: 0%; background-color: red; transition: width 0.4s ease, background-color 0.4s ease;"></div>
+        <div id="strengthLabel" style="font-size: 13px; margin-bottom: 12px; text-align: right; color: #fff; font-weight: 500; display: none;"></div>
+
+      </div>
+
       <!-- Password Checklist -->
       <ul id="passwordChecklist" style="display:none; font-size: 14px; margin-top: -10px; margin-bottom: 15px; color: #333; list-style: none; padding-left: 0;">
       <li id="length">❌ At least 8 characters</li>
@@ -567,6 +596,11 @@ if (!passwordRegex.test(password)) {
 const passwordField = document.getElementById("password");
 const checklist = document.getElementById("passwordChecklist");
 
+const strengthBar = document.getElementById("strengthBar");
+const strengthBarWrapper = document.getElementById("strengthBarWrapper");
+
+
+
 const items = {
   length: document.getElementById("length"),
   uppercase: document.getElementById("uppercase"),
@@ -578,13 +612,21 @@ const items = {
 passwordField.addEventListener("input", function () {
   const val = this.value;
 
-  if (val.trim() === "") {
-    checklist.style.display = "none";
-    Object.values(items).forEach(item => item.classList.remove("visible"));
-    return;
-  } else {
-    checklist.style.display = "block";
-  }
+  if (document.activeElement === passwordField) {
+  checklist.style.opacity = "1";
+  checklist.style.display = "block";
+  strengthBarWrapper.style.display = "block";
+} else if (val.trim() === "") {
+  checklist.style.opacity = "0";
+  checklist.style.display = "none";
+  strengthBarWrapper.style.display = "none";
+  Object.values(items).forEach(item => {
+    item.classList.remove("removed");
+    item.style.display = "block";
+  });
+  strengthBar.style.width = "0%";
+  return;
+}
 
   const conditions = {
     length: val.length >= 8,
@@ -602,15 +644,57 @@ passwordField.addEventListener("input", function () {
     special: "Contains special character (!@#$...)"
   };
 
+
+  let score = 0;
   for (const key in conditions) {
     const passed = conditions[key];
-    items[key].textContent = `${passed ? "✅" : "❌"} ${texts[key]}`;
-    if (passed) {
-      items[key].classList.add("visible");
-    } else {
-      items[key].classList.remove("visible");
+    const item = items[key];
+
+    if (passed) score++; // Count passed conditions
+
+    item.textContent = `${passed ? "✅" : "❌"} ${texts[key]}`;
+
+    if (passed && !item.classList.contains("removed")) {
+      item.classList.add("removed");
+      setTimeout(() => {
+        item.style.display = "none";
+      }, 400); // Match this with your CSS transition
+    } else if (!passed) {
+      item.style.display = "block";
+      item.classList.remove("removed");
     }
   }
+
+  const strengthPercent = (score / 5) * 100;
+  strengthBar.style.width = strengthPercent + "%";
+
+  if (score <= 1) {
+    strengthBar.style.background = "linear-gradient(90deg, #ff4b4b, #ff0000)"; // Red shades
+  } else if (score === 2) {
+    strengthBar.style.background = "linear-gradient(90deg, #ff9900, #ffcc00)"; // Orange shades
+  } else if (score === 3 || score === 4) {
+    strengthBar.style.background = "linear-gradient(90deg, #ffcc00, #66cc00)"; // Yellow-Green
+  } else {
+    strengthBar.style.background = "linear-gradient(90deg, #33cc33, #00ff99)"; // Green shades
+  }
+
+  const label = document.getElementById("strengthLabel");
+  label.style.display = "block";
+  if (score <= 1) {
+    label.textContent = "Weak";
+    label.style.color = "#ff4b4b";
+  } else if (score === 2) {
+    label.textContent = "Fair";
+    label.style.color = "#ff9900";
+  } else if (score <= 4) {
+    label.textContent = "Good";
+    label.style.color = "#ffcc00";
+  } else {
+    label.textContent = "Strong";
+    label.style.color = "#33cc33";
+  }
+
+
 });
    document.addEventListener("keydown", function(event) {
   if (event.key === "Enter") {
