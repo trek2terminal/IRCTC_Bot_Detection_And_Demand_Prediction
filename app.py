@@ -37,8 +37,9 @@ def retrain_bot_model():
         X = df[[
             "mouse_movement_units", "typing_speed_cpm", "click_pattern_score",
             "time_spent_on_page_sec", "scroll_behavior", "captcha_success",
-            "form_fill_time_sec"
+            "form_fill_time_sec", "captcha_time_sec"
         ]]
+
         y = df["label"]
 
         scaler = StandardScaler()
@@ -112,6 +113,7 @@ def retrain_bot_model():
 # Load encoders and model once (ideally at the top of your file or in app setup)
 class_encoder = joblib.load('model/class_encoder.pkl')
 quota_encoder = joblib.load('model/quota_encoder.pkl')
+scaler = joblib.load('model/bot_scaler.pkl')  # ✅ Load scaler for inference
 # Setup
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Replace with a strong key
@@ -211,24 +213,6 @@ def captcha_image():
             y = random.randint(0, img_height - 1)
             draw.point((x, y), fill=(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
 
-    # bbox = font.getbbox(captcha_text)
-    # text_width = bbox[2] - bbox[0]
-    # text_height = bbox[3] - bbox[1]
-    # x = (img_width - text_width) // 2
-    # y = (img_height - text_height) // 2
-    # draw.text((x, y), captcha_text, font=font, fill=(0, 0, 0))
-    #
-    # for _ in range(25):
-    #     x = random.randint(0, 160)
-    #     y = random.randint(0, 60)
-    #     draw.point((x, y), fill=(random.randint(0,255), random.randint(0,255), random.randint(0,255)))
-    #
-    #
-    #
-    # buf = io.BytesIO()
-    # img.save(buf, format='PNG')
-    # buf.seek(0)
-    # return send_file(buf, mimetype='image/png')
 
     # Optional: Blur the image
     img = img.filter(ImageFilter.GaussianBlur(1))
@@ -248,7 +232,7 @@ def predict():
         required_fields = [
             "mouse_movement_units", "typing_speed_cpm", "click_pattern_score",
             "time_spent_on_page_sec", "scroll_behavior", "captcha_success", "form_fill_time_sec",
-            "captcha_input", "username"
+            "captcha_input", "username","captcha_time_sec"
         ]
         for field in required_fields:
             if field not in data:
@@ -261,8 +245,6 @@ def predict():
                 "message": "❌ Incorrect CAPTCHA entered."
             })
 
-
-
         sample = pd.DataFrame([{
             "mouse_movement_units": float(data["mouse_movement_units"]),
             "typing_speed_cpm": float(data["typing_speed_cpm"]),
@@ -270,45 +252,57 @@ def predict():
             "time_spent_on_page_sec": float(data["time_spent_on_page_sec"]),
             "scroll_behavior": scroll_map.get(data["scroll_behavior"], 0),
             "captcha_success": int(data["captcha_success"]),
-            "form_fill_time_sec": float(data["form_fill_time_sec"])
+            "form_fill_time_sec": float(data["form_fill_time_sec"]),
+            "captcha_time_sec": float(data["captcha_time_sec"])
         }])
 
-        print("Prepared Data:\n", sample)
-        prob = model.predict(sample)[0][0]
-        print(f" Raw Probability: {prob:.4f}")
+        print("Prepared Raw Data:\n", sample)
+
+        # ✅ Scale using saved scaler before model prediction
+        bot_scaler = joblib.load(os.path.join(BASE_DIR, "model", "bot_scaler.pkl"))
+        sample_scaled = bot_scaler.transform(sample)
+
+        prob = model.predict(sample_scaled)[0][0]
+        print(f"Scaled Probability: {prob:.4f}")
 
         # ✅ Extreme rule-based check
         def is_extreme_outlier(d):
             return (
                     float(d["typing_speed_cpm"]) > 800 or
                     float(d["mouse_movement_units"]) < 60 or
-                    float(d["click_pattern_score"]) < 0.05 or
+                    float(d["click_pattern_score"]) < 0.005 or
                     float(d["form_fill_time_sec"]) < 3 or
                     (d["scroll_behavior"] == "none" and float(d["time_spent_on_page_sec"]) < 4) or
                     int(d["captcha_success"]) == 0
             )
 
-        captcha_time_taken = time.time() - session.get("captcha_start_time", time.time())
+        captcha_time_taken = float(data.get("captcha_time_sec", 0))
         print(f"⏱️ CAPTCHA solved in {captcha_time_taken:.2f} seconds")
 
         # More accurate decision logic
-        if prob < 0.2:
-            is_bot = 0  # Very confident it's human
-        elif prob < 0.5:
-            if is_extreme_outlier(data) or captcha_time_taken < 1.5:
-                print("⚠️ Human-like bot: model trusts user, but behavior is too abnormal.")
+        if prob < 0.35:
+            is_bot = 0
+        elif prob < 0.65:
+            if is_extreme_outlier(data) or captcha_time_taken < 2:
                 is_bot = 1
             else:
                 is_bot = 0
         else:
-            is_bot = 1  # Likely bot
+            is_bot = 1
+
+            # ✅ Add this for debugging
+        with open("logs/debug_predictions.log", "a") as debug_log:
+            debug_log.write(f"\n=== Prediction Log {datetime.now()} ===\n")
+            debug_log.write(f"Input Data:\n{sample.to_dict(orient='records')}\n")
+            debug_log.write(f"Model Probability: {prob:.4f}\n")
+            debug_log.write(f"Classified as bot: {is_bot}\n")
 
         file_exists = os.path.isfile(LOG_FILE)
         with open(LOG_FILE, mode="a", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=[
                 "timestamp", "username", "mouse_movement_units", "typing_speed_cpm",
                 "click_pattern_score", "time_spent_on_page_sec", "scroll_behavior",
-                "captcha_success", "form_fill_time_sec","label"
+                "captcha_success", "form_fill_time_sec", "captcha_time_sec", "label"
             ])
             if not file_exists:
                 writer.writeheader()
@@ -322,8 +316,10 @@ def predict():
                 "scroll_behavior": data["scroll_behavior"],
                 "captcha_success": data["captcha_success"],
                 "form_fill_time_sec": data["form_fill_time_sec"],
-                "label": is_bot  # ✅ This line is important!
+                "captcha_time_sec": data["captcha_time_sec"],
+                "label": is_bot
             })
+
         try:
             df = pd.read_csv(LOG_FILE)
             if len(df) % 10 == 0:

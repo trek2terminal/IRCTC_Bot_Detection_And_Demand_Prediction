@@ -372,7 +372,8 @@
 
         <button class="refresh-btn" onclick="generateCaptcha()" title="Refresh Captcha">↻</button>
       </div>
-      <input type="text" id="captchaInput" placeholder="Enter Captcha" required>
+      <input type="text" id="captchaInput" placeholder="Enter Captcha" required oninput="startCaptchaTimer()">
+
       <button onclick="handleLogin()">Login</button>
       <div class="footer">© IRCTC 2025 | A Govt. of India Enterprise</div>
     </div>
@@ -415,6 +416,29 @@
       usedIndexes.add(index);
       document.getElementById("factBox").textContent = facts[index];
     }
+
+    let captchaStartTime = null;
+    let captchaEndTime = null;
+    let captchaTimerStopped = false;
+
+    function startCaptchaTimer() {
+      if (captchaStartTime === null) {
+        captchaStartTime = Date.now();
+      }
+    }
+
+    function stopCaptchaTimerIfNeeded() {
+    const input = document.getElementById("captchaInput").value.trim();
+    if (!captchaTimerStopped && input.length === 6) {
+      captchaEndTime = Date.now();
+      captchaTimerStopped = true;
+    }
+  }
+    document.getElementById("captchaInput").addEventListener("input", () => {
+    startCaptchaTimer();
+    stopCaptchaTimerIfNeeded();
+    });
+
 
     function generateCaptcha() {
     const captchaImg = document.getElementById("captchaImage");
@@ -508,6 +532,10 @@
   const username = document.getElementById("username").value.trim();
   const password = document.getElementById("password").value.trim();
   const captchaInput = document.getElementById("captchaInput").value.trim();
+  const captchaTimeSec = (captchaStartTime && captchaEndTime)
+  ? ((captchaEndTime - captchaStartTime) / 1000).toFixed(2)
+  : 0;
+
   const error = document.getElementById("loginError");
 
   error.style.display = "none";
@@ -536,6 +564,8 @@ if (!passwordRegex.test(password)) {
   const typingSpeed = calculateTypingSpeed();
   const formFillTimeSec = (formEndTime - formStartTime) / 1000;
 
+
+
   const payload = {
     username: username,
     mouse_movement_units: mouseDistance.toFixed(2),
@@ -545,7 +575,8 @@ if (!passwordRegex.test(password)) {
     scroll_behavior: scrollBehavior,
     captcha_success: 1,
     captcha_input: captchaInput,
-    form_fill_time_sec: formFillTimeSec.toFixed(2)
+    form_fill_time_sec: formFillTimeSec.toFixed(2),
+    captcha_time_sec: captchaTimeSec
   };
 
   try {
