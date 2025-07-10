@@ -23,6 +23,11 @@ def retrain_bot_model():
     import traceback
     import datetime
     import csv
+    import shutil
+    import joblib
+    import os
+    import pandas as pd
+    import tensorflow as tf
 
     print("🔁 Retraining bot detection model...")
 
@@ -34,19 +39,39 @@ def retrain_bot_model():
         df['scroll_behavior'] = df['scroll_behavior'].astype('category').cat.codes
         df.dropna(inplace=True)
 
+        # ✅ Validation checks
+        label_counts = df['label'].value_counts()
+        if len(df) < 100 or label_counts.min() < 10:
+            print(f"⚠️ Skipping retraining due to insufficient or imbalanced data. Samples: {len(df)}, Label distribution: {label_counts.to_dict()}")
+
+            # Log skipped attempt
+            file_exists = os.path.exists(log_csv_path)
+            with open(log_csv_path, mode='a', newline='') as f:
+                writer = csv.writer(f)
+                if not file_exists:
+                    writer.writerow([
+                        "timestamp", "train_accuracy", "val_accuracy", "train_loss", "val_loss",
+                        "old_val_accuracy", "old_val_loss", "model_updated", "comment"
+                    ])
+                writer.writerow([
+                    now, "", "", "", "", "", "", "No", f"Insufficient data: {len(df)} samples"
+                ])
+            return False
+
         X = df[[
             "mouse_movement_units", "typing_speed_cpm", "click_pattern_score",
             "time_spent_on_page_sec", "scroll_behavior", "captcha_success",
             "form_fill_time_sec", "captcha_time_sec"
         ]]
-
         y = df["label"]
 
-        scaler = StandardScaler()
-        X_scaled = scaler.fit_transform(X)
+        # Create new scaler and scale the data
+        new_scaler = StandardScaler()
+        X_scaled = new_scaler.fit_transform(X)
 
         X_train, X_val, y_train, y_val = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
 
+        # ✅ Define new model
         new_model = Sequential([
             Dense(128, activation='relu', input_shape=(X.shape[1],), kernel_regularizer=l2(0.001)),
             BatchNormalization(),
@@ -73,29 +98,59 @@ def retrain_bot_model():
             verbose=0
         )
 
-        # Save model
-        new_model.save(MODEL_PATH)
-
-        # Extract final metrics
+        # Extract new model metrics
         final_train_acc = history.history['accuracy'][-1]
         final_val_acc = history.history['val_accuracy'][-1]
         final_train_loss = history.history['loss'][-1]
         final_val_loss = history.history['val_loss'][-1]
 
-        # Save to CSV
+        # ✅ Evaluate old model
+        old_model = tf.keras.models.load_model(MODEL_PATH)
+        old_scaler = joblib.load(os.path.join(BASE_DIR, "model", "bot_scaler.pkl"))
+        X_val_old = old_scaler.transform(X_val)
+        old_loss, old_acc = old_model.evaluate(X_val_old, y_val, verbose=0)
+
+        print(f"📊 Old Model - Val Accuracy: {old_acc:.4f}, Val Loss: {old_loss:.4f}")
+        print(f"📊 New Model - Val Accuracy: {final_val_acc:.4f}, Val Loss: {final_val_loss:.4f}")
+
+        # ✅ Save retraining log
         file_exists = os.path.exists(log_csv_path)
         with open(log_csv_path, mode='a', newline='') as f:
             writer = csv.writer(f)
             if not file_exists:
                 writer.writerow([
-                    "timestamp", "train_accuracy", "val_accuracy", "train_loss", "val_loss"
+                    "timestamp", "train_accuracy", "val_accuracy", "train_loss", "val_loss",
+                    "old_val_accuracy", "old_val_loss", "model_updated", "comment"
                 ])
-            writer.writerow([
-                now, round(final_train_acc, 4), round(final_val_acc, 4),
-                round(final_train_loss, 4), round(final_val_loss, 4)
-            ])
 
-        print(f"✅ Retraining complete. Train Acc: {final_train_acc:.4f}, Val Acc: {final_val_acc:.4f}")
+            if final_val_acc > old_acc and final_val_loss < old_loss:
+                # Backup current model
+                backup_path = MODEL_PATH.replace(".h5", "_backup.h5")
+                shutil.copy(MODEL_PATH, backup_path)
+                print(f"🗂️ Old model backed up at: {backup_path}")
+
+                # Save new model
+                new_model.save(MODEL_PATH)
+                print("✅ New model is better. Model updated.")
+
+                # Save new scaler
+                joblib.dump(new_scaler, os.path.join(BASE_DIR, "model", "bot_scaler.pkl"))
+                print("✅ New scaler saved.")
+
+                writer.writerow([
+                    now, round(final_train_acc, 4), round(final_val_acc, 4),
+                    round(final_train_loss, 4), round(final_val_loss, 4),
+                    round(old_acc, 4), round(old_loss, 4), "Yes", "Better model"
+                ])
+            else:
+                print("⚠️ New model did not improve performance. Keeping existing model and scaler.")
+                writer.writerow([
+                    now, round(final_train_acc, 4), round(final_val_acc, 4),
+                    round(final_train_loss, 4), round(final_val_loss, 4),
+                    round(old_acc, 4), round(old_loss, 4), "No", "Worse or equal model"
+                ])
+                return False
+
         return True
 
     except Exception as e:
@@ -105,6 +160,7 @@ def retrain_bot_model():
             f.write(traceback.format_exc())
             f.write("\n")
         return False
+
 
 
 
