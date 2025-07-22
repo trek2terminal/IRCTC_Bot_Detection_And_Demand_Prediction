@@ -8,8 +8,11 @@ from PIL import Image, ImageDraw, ImageFont
 from PIL import ImageFilter
 import io
 import random
-from flask import request, render_template
+from flask import Flask, render_template, request
+import pandas as pd
 import joblib
+import calendar
+from datetime import datetime, timedelta
 import time
 
 def retrain_bot_model():
