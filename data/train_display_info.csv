@@ -1,0 +1,2468 @@
+train_no,train_name,source,source_name,destination,destination_name
+12505,North East Express,SBC,Bangalore,JP,Jaipur
+15910,Avadh Assam Express,SBC,Bangalore,VSKP,Visakhapatnam
+15910,Avadh Assam Express,JP,Jaipur,CSMT,Mumbai CST
+12505,North East Express,BBS,Bhubaneswar,DBRG,Dibrugarh
+12378,Padatik Express,DBRG,Dibrugarh,JP,Jaipur
+15910,Avadh Assam Express,SCL,Silchar,GHY,Guwahati
+15666,BG Express,DBRG,Dibrugarh,PNBE,Patna
+15960,Kanchanjunga Express,AGTL,Agartala,HWH,Howrah
+15644,Kamakhya Express,BSB,Varanasi,PNBE,Patna
+15666,BG Express,BBS,Bhubaneswar,HWH,Howrah
+15666,BG Express,SBC,Bangalore,PNBE,Patna
+15666,BG Express,BSB,Varanasi,RNC,Ranchi
+12378,Padatik Express,BBS,Bhubaneswar,DBRG,Dibrugarh
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,BBS,Bhubaneswar
+15644,Kamakhya Express,PNBE,Patna,BBS,Bhubaneswar
+12423,Rajdhani Express,NDLS,New Delhi,DBRG,Dibrugarh
+15960,Kanchanjunga Express,RNC,Ranchi,SDAH,Sealdah
+15644,Kamakhya Express,KOAA,Kolkata,JP,Jaipur
+12001,Shatabdi Express,RNC,Ranchi,NDLS,New Delhi
+12378,Padatik Express,ADI,Ahmedabad,PNBE,Patna
+15910,Avadh Assam Express,DBRG,Dibrugarh,MAS,Chennai Central
+12423,Rajdhani Express,NDLS,New Delhi,SCL,Silchar
+15960,Kanchanjunga Express,VSKP,Visakhapatnam,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,HWH,Howrah,BBS,Bhubaneswar
+15644,Kamakhya Express,DBRG,Dibrugarh,PNBE,Patna
+15644,Kamakhya Express,BBS,Bhubaneswar,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,PNBE,Patna,SBC,Bangalore
+15666,BG Express,SDAH,Sealdah,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,PNBE,Patna,SDAH,Sealdah
+15910,Avadh Assam Express,DBRG,Dibrugarh,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,SBC,Bangalore,PNBE,Patna
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,KOAA,Kolkata
+12001,Shatabdi Express,RNC,Ranchi,DBRG,Dibrugarh
+12423,Rajdhani Express,VSKP,Visakhapatnam,SDAH,Sealdah
+12423,Rajdhani Express,CSMT,Mumbai CST,JP,Jaipur
+12345,Saraighat Express,GHY,Guwahati,VSKP,Visakhapatnam
+12001,Shatabdi Express,AGTL,Agartala,BBS,Bhubaneswar
+12001,Shatabdi Express,AGTL,Agartala,JP,Jaipur
+12345,Saraighat Express,CSMT,Mumbai CST,VSKP,Visakhapatnam
+15644,Kamakhya Express,RNC,Ranchi,SCL,Silchar
+15960,Kanchanjunga Express,PNBE,Patna,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,BBS,Bhubaneswar
+12423,Rajdhani Express,MAS,Chennai Central,SBC,Bangalore
+12423,Rajdhani Express,BBS,Bhubaneswar,DBRG,Dibrugarh
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,MAS,Chennai Central
+12505,North East Express,JP,Jaipur,SDAH,Sealdah
+12378,Padatik Express,BBS,Bhubaneswar,RNC,Ranchi
+12505,North East Express,SCL,Silchar,NDLS,New Delhi
+12505,North East Express,RNC,Ranchi,BBS,Bhubaneswar
+12345,Saraighat Express,JP,Jaipur,VSKP,Visakhapatnam
+12378,Padatik Express,VSKP,Visakhapatnam,DBRG,Dibrugarh
+12001,Shatabdi Express,SDAH,Sealdah,CSMT,Mumbai CST
+15644,Kamakhya Express,JP,Jaipur,SBC,Bangalore
+12001,Shatabdi Express,SDAH,Sealdah,MAS,Chennai Central
+15666,BG Express,HWH,Howrah,MAS,Chennai Central
+12505,North East Express,NDLS,New Delhi,CSMT,Mumbai CST
+12505,North East Express,CSMT,Mumbai CST,SDAH,Sealdah
+12001,Shatabdi Express,BSB,Varanasi,CSMT,Mumbai CST
+15910,Avadh Assam Express,SCL,Silchar,JP,Jaipur
+12423,Rajdhani Express,SCL,Silchar,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,SCL,Silchar,CSMT,Mumbai CST
+12505,North East Express,KOAA,Kolkata,SCL,Silchar
+12378,Padatik Express,PNBE,Patna,DBRG,Dibrugarh
+15960,Kanchanjunga Express,AGTL,Agartala,BSB,Varanasi
+15666,BG Express,MAS,Chennai Central,CSMT,Mumbai CST
+15666,BG Express,SBC,Bangalore,GHY,Guwahati
+12378,Padatik Express,PNBE,Patna,KOAA,Kolkata
+12505,North East Express,NDLS,New Delhi,BBS,Bhubaneswar
+15960,Kanchanjunga Express,SDAH,Sealdah,GHY,Guwahati
+15644,Kamakhya Express,MAS,Chennai Central,ADI,Ahmedabad
+12001,Shatabdi Express,SBC,Bangalore,DBRG,Dibrugarh
+15910,Avadh Assam Express,ADI,Ahmedabad,SDAH,Sealdah
+12345,Saraighat Express,BSB,Varanasi,SBC,Bangalore
+12505,North East Express,KOAA,Kolkata,RNC,Ranchi
+15644,Kamakhya Express,NDLS,New Delhi,PNBE,Patna
+12423,Rajdhani Express,VSKP,Visakhapatnam,JP,Jaipur
+15910,Avadh Assam Express,KOAA,Kolkata,BSB,Varanasi
+15960,Kanchanjunga Express,MAS,Chennai Central,DBRG,Dibrugarh
+15644,Kamakhya Express,BSB,Varanasi,BBS,Bhubaneswar
+12345,Saraighat Express,CSMT,Mumbai CST,SCL,Silchar
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,JP,Jaipur
+12345,Saraighat Express,PNBE,Patna,HWH,Howrah
+15644,Kamakhya Express,SDAH,Sealdah,DBRG,Dibrugarh
+12505,North East Express,HWH,Howrah,JP,Jaipur
+12378,Padatik Express,MAS,Chennai Central,SDAH,Sealdah
+15644,Kamakhya Express,RNC,Ranchi,PNBE,Patna
+12001,Shatabdi Express,SDAH,Sealdah,BBS,Bhubaneswar
+12505,North East Express,SBC,Bangalore,SCL,Silchar
+12423,Rajdhani Express,VSKP,Visakhapatnam,CSMT,Mumbai CST
+15644,Kamakhya Express,JP,Jaipur,NDLS,New Delhi
+12345,Saraighat Express,KOAA,Kolkata,DBRG,Dibrugarh
+15910,Avadh Assam Express,NDLS,New Delhi,JP,Jaipur
+12423,Rajdhani Express,KOAA,Kolkata,ADI,Ahmedabad
+15644,Kamakhya Express,BBS,Bhubaneswar,MAS,Chennai Central
+15644,Kamakhya Express,DBRG,Dibrugarh,AGTL,Agartala
+12001,Shatabdi Express,SDAH,Sealdah,BSB,Varanasi
+15666,BG Express,KOAA,Kolkata,RNC,Ranchi
+15910,Avadh Assam Express,ADI,Ahmedabad,RNC,Ranchi
+15644,Kamakhya Express,PNBE,Patna,ADI,Ahmedabad
+15644,Kamakhya Express,HWH,Howrah,BBS,Bhubaneswar
+15644,Kamakhya Express,KOAA,Kolkata,CSMT,Mumbai CST
+12001,Shatabdi Express,HWH,Howrah,BBS,Bhubaneswar
+15960,Kanchanjunga Express,BSB,Varanasi,DBRG,Dibrugarh
+12001,Shatabdi Express,NDLS,New Delhi,SDAH,Sealdah
+15960,Kanchanjunga Express,SCL,Silchar,BSB,Varanasi
+12505,North East Express,BSB,Varanasi,ADI,Ahmedabad
+12001,Shatabdi Express,BBS,Bhubaneswar,AGTL,Agartala
+15644,Kamakhya Express,SBC,Bangalore,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,HWH,Howrah,KOAA,Kolkata
+15666,BG Express,SDAH,Sealdah,CSMT,Mumbai CST
+12001,Shatabdi Express,NDLS,New Delhi,PNBE,Patna
+12345,Saraighat Express,CSMT,Mumbai CST,JP,Jaipur
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,DBRG,Dibrugarh
+12505,North East Express,BSB,Varanasi,AGTL,Agartala
+12378,Padatik Express,SCL,Silchar,AGTL,Agartala
+12378,Padatik Express,BBS,Bhubaneswar,GHY,Guwahati
+12505,North East Express,SDAH,Sealdah,BSB,Varanasi
+12378,Padatik Express,SBC,Bangalore,JP,Jaipur
+12423,Rajdhani Express,SDAH,Sealdah,NDLS,New Delhi
+12378,Padatik Express,GHY,Guwahati,BSB,Varanasi
+12505,North East Express,NDLS,New Delhi,JP,Jaipur
+12378,Padatik Express,BBS,Bhubaneswar,MAS,Chennai Central
+12345,Saraighat Express,MAS,Chennai Central,RNC,Ranchi
+15644,Kamakhya Express,NDLS,New Delhi,MAS,Chennai Central
+12345,Saraighat Express,VSKP,Visakhapatnam,SCL,Silchar
+12501,Poorvottar Sampark Kranti,HWH,Howrah,ADI,Ahmedabad
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,ADI,Ahmedabad
+15960,Kanchanjunga Express,JP,Jaipur,RNC,Ranchi
+15666,BG Express,BSB,Varanasi,DBRG,Dibrugarh
+15644,Kamakhya Express,BSB,Varanasi,JP,Jaipur
+12345,Saraighat Express,BSB,Varanasi,NDLS,New Delhi
+12001,Shatabdi Express,CSMT,Mumbai CST,PNBE,Patna
+15910,Avadh Assam Express,BSB,Varanasi,SCL,Silchar
+12001,Shatabdi Express,SDAH,Sealdah,DBRG,Dibrugarh
+12505,North East Express,GHY,Guwahati,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,MAS,Chennai Central,JP,Jaipur
+12378,Padatik Express,AGTL,Agartala,VSKP,Visakhapatnam
+12001,Shatabdi Express,DBRG,Dibrugarh,NDLS,New Delhi
+12001,Shatabdi Express,PNBE,Patna,AGTL,Agartala
+15910,Avadh Assam Express,ADI,Ahmedabad,GHY,Guwahati
+12505,North East Express,SCL,Silchar,SBC,Bangalore
+15644,Kamakhya Express,SDAH,Sealdah,SBC,Bangalore
+15666,BG Express,CSMT,Mumbai CST,BSB,Varanasi
+15666,BG Express,ADI,Ahmedabad,NDLS,New Delhi
+15666,BG Express,CSMT,Mumbai CST,SBC,Bangalore
+12423,Rajdhani Express,HWH,Howrah,CSMT,Mumbai CST
+15644,Kamakhya Express,GHY,Guwahati,HWH,Howrah
+15910,Avadh Assam Express,JP,Jaipur,DBRG,Dibrugarh
+15644,Kamakhya Express,MAS,Chennai Central,KOAA,Kolkata
+12345,Saraighat Express,MAS,Chennai Central,AGTL,Agartala
+15960,Kanchanjunga Express,MAS,Chennai Central,SBC,Bangalore
+15910,Avadh Assam Express,MAS,Chennai Central,SCL,Silchar
+15910,Avadh Assam Express,GHY,Guwahati,BBS,Bhubaneswar
+15910,Avadh Assam Express,BBS,Bhubaneswar,SBC,Bangalore
+15666,BG Express,SBC,Bangalore,BBS,Bhubaneswar
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,RNC,Ranchi
+15960,Kanchanjunga Express,GHY,Guwahati,NDLS,New Delhi
+12423,Rajdhani Express,NDLS,New Delhi,PNBE,Patna
+12345,Saraighat Express,RNC,Ranchi,DBRG,Dibrugarh
+15666,BG Express,SDAH,Sealdah,PNBE,Patna
+15910,Avadh Assam Express,JP,Jaipur,SCL,Silchar
+12345,Saraighat Express,HWH,Howrah,CSMT,Mumbai CST
+12378,Padatik Express,MAS,Chennai Central,VSKP,Visakhapatnam
+12345,Saraighat Express,JP,Jaipur,RNC,Ranchi
+15644,Kamakhya Express,RNC,Ranchi,JP,Jaipur
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,BBS,Bhubaneswar
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,SCL,Silchar
+15960,Kanchanjunga Express,MAS,Chennai Central,ADI,Ahmedabad
+15644,Kamakhya Express,NDLS,New Delhi,KOAA,Kolkata
+12423,Rajdhani Express,VSKP,Visakhapatnam,KOAA,Kolkata
+12345,Saraighat Express,PNBE,Patna,KOAA,Kolkata
+15644,Kamakhya Express,SBC,Bangalore,GHY,Guwahati
+12378,Padatik Express,JP,Jaipur,RNC,Ranchi
+12505,North East Express,VSKP,Visakhapatnam,HWH,Howrah
+15666,BG Express,GHY,Guwahati,MAS,Chennai Central
+15960,Kanchanjunga Express,PNBE,Patna,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,HWH,Howrah,SDAH,Sealdah
+15644,Kamakhya Express,HWH,Howrah,DBRG,Dibrugarh
+12345,Saraighat Express,KOAA,Kolkata,ADI,Ahmedabad
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,HWH,Howrah
+12001,Shatabdi Express,ADI,Ahmedabad,AGTL,Agartala
+15666,BG Express,GHY,Guwahati,SCL,Silchar
+15910,Avadh Assam Express,SBC,Bangalore,PNBE,Patna
+12001,Shatabdi Express,SDAH,Sealdah,PNBE,Patna
+15666,BG Express,AGTL,Agartala,BBS,Bhubaneswar
+15910,Avadh Assam Express,AGTL,Agartala,SDAH,Sealdah
+12001,Shatabdi Express,BBS,Bhubaneswar,RNC,Ranchi
+12345,Saraighat Express,RNC,Ranchi,HWH,Howrah
+12345,Saraighat Express,GHY,Guwahati,SDAH,Sealdah
+15960,Kanchanjunga Express,BBS,Bhubaneswar,GHY,Guwahati
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,SBC,Bangalore
+15960,Kanchanjunga Express,JP,Jaipur,HWH,Howrah
+15666,BG Express,VSKP,Visakhapatnam,GHY,Guwahati
+12378,Padatik Express,PNBE,Patna,RNC,Ranchi
+12505,North East Express,CSMT,Mumbai CST,ADI,Ahmedabad
+15644,Kamakhya Express,KOAA,Kolkata,NDLS,New Delhi
+12001,Shatabdi Express,ADI,Ahmedabad,SCL,Silchar
+12001,Shatabdi Express,CSMT,Mumbai CST,GHY,Guwahati
+12378,Padatik Express,RNC,Ranchi,NDLS,New Delhi
+15644,Kamakhya Express,SDAH,Sealdah,AGTL,Agartala
+15644,Kamakhya Express,MAS,Chennai Central,JP,Jaipur
+15644,Kamakhya Express,MAS,Chennai Central,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,JP,Jaipur,SDAH,Sealdah
+15910,Avadh Assam Express,MAS,Chennai Central,BBS,Bhubaneswar
+15960,Kanchanjunga Express,DBRG,Dibrugarh,JP,Jaipur
+12423,Rajdhani Express,JP,Jaipur,SDAH,Sealdah
+12505,North East Express,GHY,Guwahati,JP,Jaipur
+15960,Kanchanjunga Express,SBC,Bangalore,BSB,Varanasi
+12505,North East Express,AGTL,Agartala,GHY,Guwahati
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,SCL,Silchar
+15666,BG Express,ADI,Ahmedabad,RNC,Ranchi
+15644,Kamakhya Express,PNBE,Patna,NDLS,New Delhi
+15910,Avadh Assam Express,GHY,Guwahati,ADI,Ahmedabad
+12423,Rajdhani Express,KOAA,Kolkata,GHY,Guwahati
+12423,Rajdhani Express,MAS,Chennai Central,NDLS,New Delhi
+12505,North East Express,MAS,Chennai Central,RNC,Ranchi
+12001,Shatabdi Express,PNBE,Patna,MAS,Chennai Central
+12505,North East Express,KOAA,Kolkata,GHY,Guwahati
+12505,North East Express,GHY,Guwahati,AGTL,Agartala
+15644,Kamakhya Express,PNBE,Patna,DBRG,Dibrugarh
+12505,North East Express,SCL,Silchar,BSB,Varanasi
+15644,Kamakhya Express,SCL,Silchar,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,GHY,Guwahati
+12001,Shatabdi Express,CSMT,Mumbai CST,MAS,Chennai Central
+15910,Avadh Assam Express,SDAH,Sealdah,RNC,Ranchi
+15960,Kanchanjunga Express,AGTL,Agartala,SCL,Silchar
+12378,Padatik Express,VSKP,Visakhapatnam,SBC,Bangalore
+12378,Padatik Express,MAS,Chennai Central,HWH,Howrah
+12378,Padatik Express,MAS,Chennai Central,ADI,Ahmedabad
+15666,BG Express,ADI,Ahmedabad,PNBE,Patna
+12423,Rajdhani Express,BBS,Bhubaneswar,GHY,Guwahati
+12378,Padatik Express,BSB,Varanasi,JP,Jaipur
+12423,Rajdhani Express,KOAA,Kolkata,JP,Jaipur
+12505,North East Express,DBRG,Dibrugarh,NDLS,New Delhi
+15910,Avadh Assam Express,SBC,Bangalore,BSB,Varanasi
+15666,BG Express,SCL,Silchar,DBRG,Dibrugarh
+15910,Avadh Assam Express,DBRG,Dibrugarh,NDLS,New Delhi
+15960,Kanchanjunga Express,SDAH,Sealdah,MAS,Chennai Central
+12423,Rajdhani Express,CSMT,Mumbai CST,GHY,Guwahati
+12345,Saraighat Express,BBS,Bhubaneswar,VSKP,Visakhapatnam
+12423,Rajdhani Express,MAS,Chennai Central,SCL,Silchar
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,PNBE,Patna
+15960,Kanchanjunga Express,RNC,Ranchi,CSMT,Mumbai CST
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,KOAA,Kolkata
+12378,Padatik Express,GHY,Guwahati,HWH,Howrah
+12001,Shatabdi Express,SDAH,Sealdah,RNC,Ranchi
+15666,BG Express,AGTL,Agartala,BSB,Varanasi
+15960,Kanchanjunga Express,SDAH,Sealdah,SCL,Silchar
+15910,Avadh Assam Express,HWH,Howrah,PNBE,Patna
+15666,BG Express,AGTL,Agartala,CSMT,Mumbai CST
+12423,Rajdhani Express,SDAH,Sealdah,GHY,Guwahati
+12001,Shatabdi Express,BSB,Varanasi,AGTL,Agartala
+12345,Saraighat Express,SCL,Silchar,CSMT,Mumbai CST
+15644,Kamakhya Express,CSMT,Mumbai CST,BBS,Bhubaneswar
+12423,Rajdhani Express,RNC,Ranchi,VSKP,Visakhapatnam
+12378,Padatik Express,SBC,Bangalore,NDLS,New Delhi
+15960,Kanchanjunga Express,CSMT,Mumbai CST,PNBE,Patna
+15910,Avadh Assam Express,SCL,Silchar,ADI,Ahmedabad
+12001,Shatabdi Express,BSB,Varanasi,RNC,Ranchi
+12378,Padatik Express,PNBE,Patna,GHY,Guwahati
+12423,Rajdhani Express,SBC,Bangalore,SCL,Silchar
+12378,Padatik Express,JP,Jaipur,CSMT,Mumbai CST
+12423,Rajdhani Express,HWH,Howrah,GHY,Guwahati
+15666,BG Express,BBS,Bhubaneswar,MAS,Chennai Central
+15910,Avadh Assam Express,BSB,Varanasi,AGTL,Agartala
+12345,Saraighat Express,AGTL,Agartala,NDLS,New Delhi
+12378,Padatik Express,VSKP,Visakhapatnam,SDAH,Sealdah
+12345,Saraighat Express,BSB,Varanasi,AGTL,Agartala
+12378,Padatik Express,PNBE,Patna,BSB,Varanasi
+12423,Rajdhani Express,DBRG,Dibrugarh,SBC,Bangalore
+12505,North East Express,VSKP,Visakhapatnam,RNC,Ranchi
+15960,Kanchanjunga Express,SDAH,Sealdah,SBC,Bangalore
+15910,Avadh Assam Express,AGTL,Agartala,NDLS,New Delhi
+12505,North East Express,KOAA,Kolkata,BSB,Varanasi
+12345,Saraighat Express,DBRG,Dibrugarh,BSB,Varanasi
+15910,Avadh Assam Express,HWH,Howrah,ADI,Ahmedabad
+15960,Kanchanjunga Express,MAS,Chennai Central,RNC,Ranchi
+12423,Rajdhani Express,BBS,Bhubaneswar,SCL,Silchar
+15960,Kanchanjunga Express,KOAA,Kolkata,CSMT,Mumbai CST
+12423,Rajdhani Express,SDAH,Sealdah,MAS,Chennai Central
+15910,Avadh Assam Express,MAS,Chennai Central,AGTL,Agartala
+12001,Shatabdi Express,CSMT,Mumbai CST,JP,Jaipur
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,DBRG,Dibrugarh
+12378,Padatik Express,JP,Jaipur,DBRG,Dibrugarh
+12001,Shatabdi Express,HWH,Howrah,SBC,Bangalore
+12001,Shatabdi Express,VSKP,Visakhapatnam,MAS,Chennai Central
+15960,Kanchanjunga Express,SBC,Bangalore,AGTL,Agartala
+15960,Kanchanjunga Express,MAS,Chennai Central,CSMT,Mumbai CST
+15910,Avadh Assam Express,BBS,Bhubaneswar,GHY,Guwahati
+12001,Shatabdi Express,AGTL,Agartala,ADI,Ahmedabad
+15960,Kanchanjunga Express,ADI,Ahmedabad,NDLS,New Delhi
+12501,Poorvottar Sampark Kranti,SBC,Bangalore,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,BSB,Varanasi
+12345,Saraighat Express,DBRG,Dibrugarh,NDLS,New Delhi
+12423,Rajdhani Express,PNBE,Patna,SCL,Silchar
+15666,BG Express,PNBE,Patna,SCL,Silchar
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,CSMT,Mumbai CST
+12423,Rajdhani Express,KOAA,Kolkata,VSKP,Visakhapatnam
+12345,Saraighat Express,DBRG,Dibrugarh,HWH,Howrah
+15910,Avadh Assam Express,DBRG,Dibrugarh,SDAH,Sealdah
+12423,Rajdhani Express,DBRG,Dibrugarh,ADI,Ahmedabad
+15666,BG Express,AGTL,Agartala,SCL,Silchar
+15666,BG Express,PNBE,Patna,NDLS,New Delhi
+12001,Shatabdi Express,BBS,Bhubaneswar,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,MAS,Chennai Central
+12505,North East Express,DBRG,Dibrugarh,GHY,Guwahati
+15644,Kamakhya Express,CSMT,Mumbai CST,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,CSMT,Mumbai CST
+12001,Shatabdi Express,BBS,Bhubaneswar,GHY,Guwahati
+12345,Saraighat Express,ADI,Ahmedabad,BBS,Bhubaneswar
+15644,Kamakhya Express,VSKP,Visakhapatnam,AGTL,Agartala
+15910,Avadh Assam Express,KOAA,Kolkata,PNBE,Patna
+15644,Kamakhya Express,GHY,Guwahati,SDAH,Sealdah
+12378,Padatik Express,NDLS,New Delhi,KOAA,Kolkata
+12001,Shatabdi Express,RNC,Ranchi,HWH,Howrah
+15644,Kamakhya Express,BSB,Varanasi,AGTL,Agartala
+15644,Kamakhya Express,VSKP,Visakhapatnam,KOAA,Kolkata
+12505,North East Express,VSKP,Visakhapatnam,BSB,Varanasi
+15666,BG Express,NDLS,New Delhi,RNC,Ranchi
+12001,Shatabdi Express,PNBE,Patna,HWH,Howrah
+15644,Kamakhya Express,KOAA,Kolkata,GHY,Guwahati
+15666,BG Express,RNC,Ranchi,BBS,Bhubaneswar
+12423,Rajdhani Express,GHY,Guwahati,SCL,Silchar
+15910,Avadh Assam Express,HWH,Howrah,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,PNBE,Patna,ADI,Ahmedabad
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,GHY,Guwahati
+15644,Kamakhya Express,MAS,Chennai Central,RNC,Ranchi
+12001,Shatabdi Express,GHY,Guwahati,DBRG,Dibrugarh
+12423,Rajdhani Express,AGTL,Agartala,RNC,Ranchi
+15644,Kamakhya Express,PNBE,Patna,BSB,Varanasi
+12345,Saraighat Express,MAS,Chennai Central,SCL,Silchar
+15960,Kanchanjunga Express,CSMT,Mumbai CST,ADI,Ahmedabad
+12505,North East Express,KOAA,Kolkata,BBS,Bhubaneswar
+15644,Kamakhya Express,JP,Jaipur,SDAH,Sealdah
+12423,Rajdhani Express,BBS,Bhubaneswar,KOAA,Kolkata
+15644,Kamakhya Express,SBC,Bangalore,AGTL,Agartala
+12001,Shatabdi Express,KOAA,Kolkata,AGTL,Agartala
+12505,North East Express,RNC,Ranchi,CSMT,Mumbai CST
+12505,North East Express,BBS,Bhubaneswar,ADI,Ahmedabad
+12505,North East Express,MAS,Chennai Central,KOAA,Kolkata
+12345,Saraighat Express,BSB,Varanasi,KOAA,Kolkata
+12345,Saraighat Express,BSB,Varanasi,ADI,Ahmedabad
+12001,Shatabdi Express,NDLS,New Delhi,DBRG,Dibrugarh
+12001,Shatabdi Express,BBS,Bhubaneswar,JP,Jaipur
+15666,BG Express,DBRG,Dibrugarh,HWH,Howrah
+12001,Shatabdi Express,MAS,Chennai Central,BSB,Varanasi
+12001,Shatabdi Express,VSKP,Visakhapatnam,JP,Jaipur
+12345,Saraighat Express,RNC,Ranchi,KOAA,Kolkata
+12001,Shatabdi Express,AGTL,Agartala,KOAA,Kolkata
+15910,Avadh Assam Express,AGTL,Agartala,HWH,Howrah
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,BSB,Varanasi
+15910,Avadh Assam Express,MAS,Chennai Central,ADI,Ahmedabad
+12423,Rajdhani Express,JP,Jaipur,DBRG,Dibrugarh
+15666,BG Express,RNC,Ranchi,KOAA,Kolkata
+12378,Padatik Express,KOAA,Kolkata,BBS,Bhubaneswar
+12345,Saraighat Express,VSKP,Visakhapatnam,CSMT,Mumbai CST
+12001,Shatabdi Express,ADI,Ahmedabad,KOAA,Kolkata
+15644,Kamakhya Express,BSB,Varanasi,KOAA,Kolkata
+12423,Rajdhani Express,SBC,Bangalore,AGTL,Agartala
+15666,BG Express,BSB,Varanasi,ADI,Ahmedabad
+12505,North East Express,HWH,Howrah,PNBE,Patna
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,BBS,Bhubaneswar
+12505,North East Express,MAS,Chennai Central,ADI,Ahmedabad
+12423,Rajdhani Express,CSMT,Mumbai CST,DBRG,Dibrugarh
+12345,Saraighat Express,SDAH,Sealdah,PNBE,Patna
+12505,North East Express,KOAA,Kolkata,NDLS,New Delhi
+15644,Kamakhya Express,ADI,Ahmedabad,JP,Jaipur
+15910,Avadh Assam Express,PNBE,Patna,SCL,Silchar
+15666,BG Express,NDLS,New Delhi,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,PNBE,Patna,AGTL,Agartala
+15644,Kamakhya Express,GHY,Guwahati,CSMT,Mumbai CST
+12423,Rajdhani Express,HWH,Howrah,BSB,Varanasi
+15960,Kanchanjunga Express,BSB,Varanasi,SDAH,Sealdah
+12505,North East Express,AGTL,Agartala,VSKP,Visakhapatnam
+12001,Shatabdi Express,HWH,Howrah,ADI,Ahmedabad
+12505,North East Express,ADI,Ahmedabad,JP,Jaipur
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,DBRG,Dibrugarh
+15910,Avadh Assam Express,SCL,Silchar,BBS,Bhubaneswar
+15910,Avadh Assam Express,DBRG,Dibrugarh,HWH,Howrah
+15910,Avadh Assam Express,MAS,Chennai Central,DBRG,Dibrugarh
+12505,North East Express,CSMT,Mumbai CST,GHY,Guwahati
+12505,North East Express,NDLS,New Delhi,AGTL,Agartala
+12001,Shatabdi Express,CSMT,Mumbai CST,RNC,Ranchi
+12505,North East Express,MAS,Chennai Central,PNBE,Patna
+12378,Padatik Express,JP,Jaipur,SCL,Silchar
+15960,Kanchanjunga Express,SDAH,Sealdah,AGTL,Agartala
+15960,Kanchanjunga Express,NDLS,New Delhi,SBC,Bangalore
+15644,Kamakhya Express,BSB,Varanasi,SBC,Bangalore
+15666,BG Express,AGTL,Agartala,VSKP,Visakhapatnam
+12345,Saraighat Express,VSKP,Visakhapatnam,HWH,Howrah
+12378,Padatik Express,VSKP,Visakhapatnam,HWH,Howrah
+15960,Kanchanjunga Express,AGTL,Agartala,GHY,Guwahati
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,BSB,Varanasi
+15960,Kanchanjunga Express,DBRG,Dibrugarh,ADI,Ahmedabad
+12345,Saraighat Express,CSMT,Mumbai CST,BSB,Varanasi
+15910,Avadh Assam Express,KOAA,Kolkata,NDLS,New Delhi
+15910,Avadh Assam Express,CSMT,Mumbai CST,BBS,Bhubaneswar
+15960,Kanchanjunga Express,VSKP,Visakhapatnam,HWH,Howrah
+15910,Avadh Assam Express,CSMT,Mumbai CST,DBRG,Dibrugarh
+15666,BG Express,SDAH,Sealdah,BSB,Varanasi
+12001,Shatabdi Express,DBRG,Dibrugarh,RNC,Ranchi
+12378,Padatik Express,JP,Jaipur,HWH,Howrah
+12423,Rajdhani Express,SCL,Silchar,BBS,Bhubaneswar
+15666,BG Express,DBRG,Dibrugarh,KOAA,Kolkata
+12378,Padatik Express,MAS,Chennai Central,DBRG,Dibrugarh
+15644,Kamakhya Express,NDLS,New Delhi,BBS,Bhubaneswar
+12423,Rajdhani Express,NDLS,New Delhi,HWH,Howrah
+15910,Avadh Assam Express,DBRG,Dibrugarh,SCL,Silchar
+12378,Padatik Express,BSB,Varanasi,NDLS,New Delhi
+15960,Kanchanjunga Express,ADI,Ahmedabad,DBRG,Dibrugarh
+15910,Avadh Assam Express,CSMT,Mumbai CST,MAS,Chennai Central
+12378,Padatik Express,KOAA,Kolkata,DBRG,Dibrugarh
+12001,Shatabdi Express,SDAH,Sealdah,VSKP,Visakhapatnam
+15644,Kamakhya Express,AGTL,Agartala,JP,Jaipur
+12505,North East Express,JP,Jaipur,SCL,Silchar
+12001,Shatabdi Express,AGTL,Agartala,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,VSKP,Visakhapatnam
+12378,Padatik Express,HWH,Howrah,GHY,Guwahati
+12501,Poorvottar Sampark Kranti,SCL,Silchar,JP,Jaipur
+15960,Kanchanjunga Express,VSKP,Visakhapatnam,NDLS,New Delhi
+12001,Shatabdi Express,HWH,Howrah,KOAA,Kolkata
+15960,Kanchanjunga Express,SBC,Bangalore,KOAA,Kolkata
+15666,BG Express,BSB,Varanasi,AGTL,Agartala
+15644,Kamakhya Express,SDAH,Sealdah,SCL,Silchar
+12423,Rajdhani Express,BBS,Bhubaneswar,BSB,Varanasi
+12378,Padatik Express,AGTL,Agartala,NDLS,New Delhi
+12378,Padatik Express,MAS,Chennai Central,NDLS,New Delhi
+15960,Kanchanjunga Express,SDAH,Sealdah,RNC,Ranchi
+12001,Shatabdi Express,ADI,Ahmedabad,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,PNBE,Patna,MAS,Chennai Central
+12505,North East Express,AGTL,Agartala,BBS,Bhubaneswar
+12501,Poorvottar Sampark Kranti,JP,Jaipur,BBS,Bhubaneswar
+15910,Avadh Assam Express,RNC,Ranchi,NDLS,New Delhi
+12345,Saraighat Express,KOAA,Kolkata,SCL,Silchar
+12001,Shatabdi Express,KOAA,Kolkata,SCL,Silchar
+12345,Saraighat Express,DBRG,Dibrugarh,AGTL,Agartala
+15960,Kanchanjunga Express,DBRG,Dibrugarh,CSMT,Mumbai CST
+12423,Rajdhani Express,GHY,Guwahati,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,RNC,Ranchi
+15666,BG Express,PNBE,Patna,AGTL,Agartala
+12001,Shatabdi Express,KOAA,Kolkata,JP,Jaipur
+15960,Kanchanjunga Express,GHY,Guwahati,JP,Jaipur
+15910,Avadh Assam Express,PNBE,Patna,KOAA,Kolkata
+12345,Saraighat Express,PNBE,Patna,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,AGTL,Agartala
+12505,North East Express,ADI,Ahmedabad,CSMT,Mumbai CST
+15644,Kamakhya Express,RNC,Ranchi,AGTL,Agartala
+15960,Kanchanjunga Express,BSB,Varanasi,CSMT,Mumbai CST
+15644,Kamakhya Express,KOAA,Kolkata,VSKP,Visakhapatnam
+12505,North East Express,BBS,Bhubaneswar,SBC,Bangalore
+15644,Kamakhya Express,AGTL,Agartala,DBRG,Dibrugarh
+15910,Avadh Assam Express,NDLS,New Delhi,SCL,Silchar
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,MAS,Chennai Central
+15960,Kanchanjunga Express,BBS,Bhubaneswar,DBRG,Dibrugarh
+12378,Padatik Express,JP,Jaipur,PNBE,Patna
+15960,Kanchanjunga Express,HWH,Howrah,PNBE,Patna
+15910,Avadh Assam Express,NDLS,New Delhi,HWH,Howrah
+15960,Kanchanjunga Express,PNBE,Patna,NDLS,New Delhi
+12423,Rajdhani Express,CSMT,Mumbai CST,RNC,Ranchi
+15644,Kamakhya Express,RNC,Ranchi,CSMT,Mumbai CST
+15666,BG Express,NDLS,New Delhi,HWH,Howrah
+15666,BG Express,VSKP,Visakhapatnam,RNC,Ranchi
+12345,Saraighat Express,SCL,Silchar,DBRG,Dibrugarh
+15644,Kamakhya Express,KOAA,Kolkata,RNC,Ranchi
+15960,Kanchanjunga Express,SCL,Silchar,DBRG,Dibrugarh
+15960,Kanchanjunga Express,RNC,Ranchi,ADI,Ahmedabad
+15666,BG Express,PNBE,Patna,JP,Jaipur
+15644,Kamakhya Express,SBC,Bangalore,NDLS,New Delhi
+12501,Poorvottar Sampark Kranti,SCL,Silchar,KOAA,Kolkata
+15666,BG Express,ADI,Ahmedabad,JP,Jaipur
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,JP,Jaipur
+15910,Avadh Assam Express,ADI,Ahmedabad,HWH,Howrah
+12378,Padatik Express,BBS,Bhubaneswar,PNBE,Patna
+12423,Rajdhani Express,DBRG,Dibrugarh,SDAH,Sealdah
+15910,Avadh Assam Express,SCL,Silchar,NDLS,New Delhi
+12378,Padatik Express,AGTL,Agartala,HWH,Howrah
+15666,BG Express,JP,Jaipur,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,VSKP,Visakhapatnam,RNC,Ranchi
+15644,Kamakhya Express,BSB,Varanasi,SCL,Silchar
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,JP,Jaipur
+12378,Padatik Express,KOAA,Kolkata,NDLS,New Delhi
+12001,Shatabdi Express,RNC,Ranchi,BSB,Varanasi
+15960,Kanchanjunga Express,DBRG,Dibrugarh,KOAA,Kolkata
+12505,North East Express,JP,Jaipur,DBRG,Dibrugarh
+12423,Rajdhani Express,GHY,Guwahati,DBRG,Dibrugarh
+12378,Padatik Express,HWH,Howrah,PNBE,Patna
+12423,Rajdhani Express,CSMT,Mumbai CST,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,BBS,Bhubaneswar
+15666,BG Express,MAS,Chennai Central,HWH,Howrah
+12423,Rajdhani Express,ADI,Ahmedabad,RNC,Ranchi
+15960,Kanchanjunga Express,VSKP,Visakhapatnam,BBS,Bhubaneswar
+15910,Avadh Assam Express,RNC,Ranchi,CSMT,Mumbai CST
+12345,Saraighat Express,BBS,Bhubaneswar,RNC,Ranchi
+12001,Shatabdi Express,SCL,Silchar,HWH,Howrah
+15910,Avadh Assam Express,DBRG,Dibrugarh,RNC,Ranchi
+12423,Rajdhani Express,ADI,Ahmedabad,GHY,Guwahati
+12505,North East Express,VSKP,Visakhapatnam,SBC,Bangalore
+15960,Kanchanjunga Express,NDLS,New Delhi,PNBE,Patna
+12423,Rajdhani Express,PNBE,Patna,RNC,Ranchi
+12378,Padatik Express,PNBE,Patna,SCL,Silchar
+12378,Padatik Express,SCL,Silchar,HWH,Howrah
+12378,Padatik Express,SCL,Silchar,GHY,Guwahati
+12423,Rajdhani Express,JP,Jaipur,HWH,Howrah
+12345,Saraighat Express,SDAH,Sealdah,MAS,Chennai Central
+12001,Shatabdi Express,SCL,Silchar,CSMT,Mumbai CST
+12423,Rajdhani Express,RNC,Ranchi,BBS,Bhubaneswar
+15666,BG Express,HWH,Howrah,BSB,Varanasi
+12001,Shatabdi Express,GHY,Guwahati,SDAH,Sealdah
+12505,North East Express,ADI,Ahmedabad,HWH,Howrah
+15644,Kamakhya Express,MAS,Chennai Central,GHY,Guwahati
+12423,Rajdhani Express,ADI,Ahmedabad,KOAA,Kolkata
+12345,Saraighat Express,SDAH,Sealdah,CSMT,Mumbai CST
+15910,Avadh Assam Express,NDLS,New Delhi,BSB,Varanasi
+15644,Kamakhya Express,KOAA,Kolkata,SDAH,Sealdah
+15666,BG Express,GHY,Guwahati,VSKP,Visakhapatnam
+12378,Padatik Express,BBS,Bhubaneswar,ADI,Ahmedabad
+15960,Kanchanjunga Express,KOAA,Kolkata,JP,Jaipur
+12001,Shatabdi Express,GHY,Guwahati,CSMT,Mumbai CST
+15644,Kamakhya Express,SCL,Silchar,MAS,Chennai Central
+12378,Padatik Express,BBS,Bhubaneswar,SDAH,Sealdah
+15666,BG Express,DBRG,Dibrugarh,SCL,Silchar
+12378,Padatik Express,BBS,Bhubaneswar,BSB,Varanasi
+12505,North East Express,ADI,Ahmedabad,DBRG,Dibrugarh
+15666,BG Express,SBC,Bangalore,RNC,Ranchi
+12378,Padatik Express,MAS,Chennai Central,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,BSB,Varanasi
+12345,Saraighat Express,HWH,Howrah,KOAA,Kolkata
+12345,Saraighat Express,SBC,Bangalore,NDLS,New Delhi
+15644,Kamakhya Express,KOAA,Kolkata,SBC,Bangalore
+12423,Rajdhani Express,BBS,Bhubaneswar,MAS,Chennai Central
+12378,Padatik Express,JP,Jaipur,SDAH,Sealdah
+12001,Shatabdi Express,NDLS,New Delhi,AGTL,Agartala
+12505,North East Express,SDAH,Sealdah,GHY,Guwahati
+15666,BG Express,MAS,Chennai Central,AGTL,Agartala
+15644,Kamakhya Express,SBC,Bangalore,SDAH,Sealdah
+12505,North East Express,VSKP,Visakhapatnam,CSMT,Mumbai CST
+15666,BG Express,SCL,Silchar,JP,Jaipur
+15910,Avadh Assam Express,SBC,Bangalore,ADI,Ahmedabad
+12423,Rajdhani Express,PNBE,Patna,HWH,Howrah
+12378,Padatik Express,HWH,Howrah,KOAA,Kolkata
+15960,Kanchanjunga Express,KOAA,Kolkata,SCL,Silchar
+15910,Avadh Assam Express,CSMT,Mumbai CST,AGTL,Agartala
+12378,Padatik Express,GHY,Guwahati,JP,Jaipur
+12501,Poorvottar Sampark Kranti,JP,Jaipur,CSMT,Mumbai CST
+12423,Rajdhani Express,KOAA,Kolkata,MAS,Chennai Central
+15960,Kanchanjunga Express,PNBE,Patna,CSMT,Mumbai CST
+12505,North East Express,GHY,Guwahati,SCL,Silchar
+12001,Shatabdi Express,DBRG,Dibrugarh,SCL,Silchar
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,NDLS,New Delhi
+12001,Shatabdi Express,SBC,Bangalore,SCL,Silchar
+15644,Kamakhya Express,HWH,Howrah,AGTL,Agartala
+15910,Avadh Assam Express,CSMT,Mumbai CST,JP,Jaipur
+15910,Avadh Assam Express,SDAH,Sealdah,PNBE,Patna
+12378,Padatik Express,HWH,Howrah,ADI,Ahmedabad
+12001,Shatabdi Express,DBRG,Dibrugarh,PNBE,Patna
+15644,Kamakhya Express,AGTL,Agartala,SBC,Bangalore
+15960,Kanchanjunga Express,SBC,Bangalore,JP,Jaipur
+12378,Padatik Express,CSMT,Mumbai CST,DBRG,Dibrugarh
+12001,Shatabdi Express,HWH,Howrah,JP,Jaipur
+15910,Avadh Assam Express,RNC,Ranchi,AGTL,Agartala
+15960,Kanchanjunga Express,CSMT,Mumbai CST,SBC,Bangalore
+15644,Kamakhya Express,SBC,Bangalore,SCL,Silchar
+15666,BG Express,MAS,Chennai Central,JP,Jaipur
+12505,North East Express,BBS,Bhubaneswar,GHY,Guwahati
+12378,Padatik Express,CSMT,Mumbai CST,SDAH,Sealdah
+15960,Kanchanjunga Express,SDAH,Sealdah,HWH,Howrah
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,GHY,Guwahati
+12423,Rajdhani Express,SBC,Bangalore,BSB,Varanasi
+15910,Avadh Assam Express,HWH,Howrah,AGTL,Agartala
+12378,Padatik Express,KOAA,Kolkata,MAS,Chennai Central
+12001,Shatabdi Express,BBS,Bhubaneswar,NDLS,New Delhi
+12345,Saraighat Express,SCL,Silchar,BBS,Bhubaneswar
+15644,Kamakhya Express,AGTL,Agartala,SCL,Silchar
+15666,BG Express,SCL,Silchar,GHY,Guwahati
+15960,Kanchanjunga Express,GHY,Guwahati,BBS,Bhubaneswar
+12423,Rajdhani Express,JP,Jaipur,NDLS,New Delhi
+12423,Rajdhani Express,MAS,Chennai Central,BBS,Bhubaneswar
+12001,Shatabdi Express,DBRG,Dibrugarh,GHY,Guwahati
+15666,BG Express,RNC,Ranchi,MAS,Chennai Central
+15910,Avadh Assam Express,SCL,Silchar,AGTL,Agartala
+12345,Saraighat Express,SBC,Bangalore,CSMT,Mumbai CST
+12001,Shatabdi Express,AGTL,Agartala,BSB,Varanasi
+12378,Padatik Express,GHY,Guwahati,DBRG,Dibrugarh
+15666,BG Express,SBC,Bangalore,AGTL,Agartala
+12505,North East Express,BBS,Bhubaneswar,PNBE,Patna
+12378,Padatik Express,ADI,Ahmedabad,NDLS,New Delhi
+12505,North East Express,ADI,Ahmedabad,PNBE,Patna
+15644,Kamakhya Express,RNC,Ranchi,NDLS,New Delhi
+12378,Padatik Express,GHY,Guwahati,BBS,Bhubaneswar
+12378,Padatik Express,AGTL,Agartala,SBC,Bangalore
+12423,Rajdhani Express,GHY,Guwahati,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,SBC,Bangalore
+12345,Saraighat Express,CSMT,Mumbai CST,NDLS,New Delhi
+15644,Kamakhya Express,HWH,Howrah,NDLS,New Delhi
+12505,North East Express,BBS,Bhubaneswar,NDLS,New Delhi
+15666,BG Express,BBS,Bhubaneswar,CSMT,Mumbai CST
+12378,Padatik Express,SBC,Bangalore,PNBE,Patna
+12345,Saraighat Express,JP,Jaipur,HWH,Howrah
+12423,Rajdhani Express,ADI,Ahmedabad,NDLS,New Delhi
+12345,Saraighat Express,NDLS,New Delhi,PNBE,Patna
+12423,Rajdhani Express,AGTL,Agartala,GHY,Guwahati
+12001,Shatabdi Express,GHY,Guwahati,ADI,Ahmedabad
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,BBS,Bhubaneswar
+12001,Shatabdi Express,BSB,Varanasi,HWH,Howrah
+12378,Padatik Express,BSB,Varanasi,MAS,Chennai Central
+12505,North East Express,ADI,Ahmedabad,GHY,Guwahati
+12423,Rajdhani Express,SBC,Bangalore,ADI,Ahmedabad
+15666,BG Express,SDAH,Sealdah,RNC,Ranchi
+15644,Kamakhya Express,SCL,Silchar,CSMT,Mumbai CST
+15666,BG Express,DBRG,Dibrugarh,NDLS,New Delhi
+12423,Rajdhani Express,RNC,Ranchi,CSMT,Mumbai CST
+12505,North East Express,KOAA,Kolkata,VSKP,Visakhapatnam
+12423,Rajdhani Express,PNBE,Patna,NDLS,New Delhi
+15666,BG Express,BSB,Varanasi,PNBE,Patna
+15910,Avadh Assam Express,NDLS,New Delhi,VSKP,Visakhapatnam
+12001,Shatabdi Express,SDAH,Sealdah,NDLS,New Delhi
+12345,Saraighat Express,VSKP,Visakhapatnam,RNC,Ranchi
+12345,Saraighat Express,RNC,Ranchi,NDLS,New Delhi
+12001,Shatabdi Express,NDLS,New Delhi,SCL,Silchar
+15960,Kanchanjunga Express,RNC,Ranchi,KOAA,Kolkata
+15910,Avadh Assam Express,BBS,Bhubaneswar,CSMT,Mumbai CST
+12378,Padatik Express,ADI,Ahmedabad,BBS,Bhubaneswar
+15910,Avadh Assam Express,JP,Jaipur,RNC,Ranchi
+15910,Avadh Assam Express,MAS,Chennai Central,JP,Jaipur
+15960,Kanchanjunga Express,BBS,Bhubaneswar,KOAA,Kolkata
+12505,North East Express,NDLS,New Delhi,KOAA,Kolkata
+15910,Avadh Assam Express,PNBE,Patna,MAS,Chennai Central
+15960,Kanchanjunga Express,GHY,Guwahati,HWH,Howrah
+12001,Shatabdi Express,SCL,Silchar,PNBE,Patna
+12505,North East Express,ADI,Ahmedabad,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,PNBE,Patna,GHY,Guwahati
+15666,BG Express,PNBE,Patna,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,KOAA,Kolkata,ADI,Ahmedabad
+12345,Saraighat Express,RNC,Ranchi,PNBE,Patna
+12505,North East Express,JP,Jaipur,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,ADI,Ahmedabad,SCL,Silchar
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,BSB,Varanasi
+15666,BG Express,PNBE,Patna,BBS,Bhubaneswar
+15644,Kamakhya Express,HWH,Howrah,CSMT,Mumbai CST
+12423,Rajdhani Express,JP,Jaipur,KOAA,Kolkata
+12423,Rajdhani Express,BSB,Varanasi,CSMT,Mumbai CST
+12378,Padatik Express,SDAH,Sealdah,BBS,Bhubaneswar
+15910,Avadh Assam Express,GHY,Guwahati,SCL,Silchar
+12378,Padatik Express,ADI,Ahmedabad,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,BBS,Bhubaneswar
+15960,Kanchanjunga Express,SCL,Silchar,CSMT,Mumbai CST
+15960,Kanchanjunga Express,DBRG,Dibrugarh,GHY,Guwahati
+15960,Kanchanjunga Express,BSB,Varanasi,KOAA,Kolkata
+15666,BG Express,MAS,Chennai Central,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,HWH,Howrah,JP,Jaipur
+15910,Avadh Assam Express,BSB,Varanasi,DBRG,Dibrugarh
+15910,Avadh Assam Express,BSB,Varanasi,BBS,Bhubaneswar
+12378,Padatik Express,AGTL,Agartala,ADI,Ahmedabad
+12501,Poorvottar Sampark Kranti,SBC,Bangalore,GHY,Guwahati
+12505,North East Express,HWH,Howrah,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,SBC,Bangalore,BBS,Bhubaneswar
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,SCL,Silchar
+15644,Kamakhya Express,SCL,Silchar,PNBE,Patna
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,SDAH,Sealdah
+15666,BG Express,DBRG,Dibrugarh,SBC,Bangalore
+12378,Padatik Express,NDLS,New Delhi,MAS,Chennai Central
+12423,Rajdhani Express,MAS,Chennai Central,BSB,Varanasi
+12505,North East Express,SDAH,Sealdah,HWH,Howrah
+15644,Kamakhya Express,PNBE,Patna,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,NDLS,New Delhi
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,KOAA,Kolkata
+12345,Saraighat Express,KOAA,Kolkata,NDLS,New Delhi
+12345,Saraighat Express,ADI,Ahmedabad,CSMT,Mumbai CST
+12378,Padatik Express,BSB,Varanasi,CSMT,Mumbai CST
+12423,Rajdhani Express,JP,Jaipur,AGTL,Agartala
+15960,Kanchanjunga Express,SCL,Silchar,RNC,Ranchi
+12345,Saraighat Express,HWH,Howrah,RNC,Ranchi
+15666,BG Express,MAS,Chennai Central,GHY,Guwahati
+15960,Kanchanjunga Express,NDLS,New Delhi,CSMT,Mumbai CST
+15960,Kanchanjunga Express,NDLS,New Delhi,SDAH,Sealdah
+15910,Avadh Assam Express,BSB,Varanasi,HWH,Howrah
+12505,North East Express,GHY,Guwahati,NDLS,New Delhi
+15910,Avadh Assam Express,JP,Jaipur,NDLS,New Delhi
+12345,Saraighat Express,SDAH,Sealdah,JP,Jaipur
+12345,Saraighat Express,CSMT,Mumbai CST,BBS,Bhubaneswar
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,DBRG,Dibrugarh
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,SBC,Bangalore
+15910,Avadh Assam Express,SBC,Bangalore,KOAA,Kolkata
+15910,Avadh Assam Express,AGTL,Agartala,KOAA,Kolkata
+12001,Shatabdi Express,VSKP,Visakhapatnam,HWH,Howrah
+12345,Saraighat Express,CSMT,Mumbai CST,MAS,Chennai Central
+12001,Shatabdi Express,ADI,Ahmedabad,BBS,Bhubaneswar
+15960,Kanchanjunga Express,GHY,Guwahati,RNC,Ranchi
+12001,Shatabdi Express,PNBE,Patna,ADI,Ahmedabad
+12505,North East Express,MAS,Chennai Central,SCL,Silchar
+12345,Saraighat Express,VSKP,Visakhapatnam,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,ADI,Ahmedabad
+12423,Rajdhani Express,HWH,Howrah,DBRG,Dibrugarh
+15666,BG Express,HWH,Howrah,JP,Jaipur
+12378,Padatik Express,KOAA,Kolkata,RNC,Ranchi
+12378,Padatik Express,ADI,Ahmedabad,GHY,Guwahati
+12001,Shatabdi Express,MAS,Chennai Central,NDLS,New Delhi
+12378,Padatik Express,AGTL,Agartala,MAS,Chennai Central
+15644,Kamakhya Express,SCL,Silchar,HWH,Howrah
+15666,BG Express,ADI,Ahmedabad,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,HWH,Howrah
+12345,Saraighat Express,BSB,Varanasi,BBS,Bhubaneswar
+12505,North East Express,PNBE,Patna,AGTL,Agartala
+12378,Padatik Express,BSB,Varanasi,PNBE,Patna
+15910,Avadh Assam Express,AGTL,Agartala,ADI,Ahmedabad
+15644,Kamakhya Express,CSMT,Mumbai CST,HWH,Howrah
+12378,Padatik Express,SDAH,Sealdah,HWH,Howrah
+12505,North East Express,SBC,Bangalore,BSB,Varanasi
+15644,Kamakhya Express,DBRG,Dibrugarh,SDAH,Sealdah
+15644,Kamakhya Express,KOAA,Kolkata,ADI,Ahmedabad
+12378,Padatik Express,ADI,Ahmedabad,MAS,Chennai Central
+12423,Rajdhani Express,BSB,Varanasi,ADI,Ahmedabad
+12378,Padatik Express,MAS,Chennai Central,GHY,Guwahati
+12345,Saraighat Express,BBS,Bhubaneswar,MAS,Chennai Central
+12423,Rajdhani Express,JP,Jaipur,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,DBRG,Dibrugarh
+15644,Kamakhya Express,MAS,Chennai Central,CSMT,Mumbai CST
+15644,Kamakhya Express,MAS,Chennai Central,DBRG,Dibrugarh
+12423,Rajdhani Express,SDAH,Sealdah,SBC,Bangalore
+12423,Rajdhani Express,MAS,Chennai Central,PNBE,Patna
+12345,Saraighat Express,KOAA,Kolkata,JP,Jaipur
+12423,Rajdhani Express,RNC,Ranchi,SCL,Silchar
+12001,Shatabdi Express,PNBE,Patna,SDAH,Sealdah
+12001,Shatabdi Express,JP,Jaipur,NDLS,New Delhi
+12423,Rajdhani Express,BSB,Varanasi,HWH,Howrah
+12001,Shatabdi Express,SBC,Bangalore,AGTL,Agartala
+15910,Avadh Assam Express,PNBE,Patna,SDAH,Sealdah
+15666,BG Express,KOAA,Kolkata,MAS,Chennai Central
+12345,Saraighat Express,RNC,Ranchi,CSMT,Mumbai CST
+15960,Kanchanjunga Express,GHY,Guwahati,AGTL,Agartala
+12505,North East Express,PNBE,Patna,KOAA,Kolkata
+12001,Shatabdi Express,CSMT,Mumbai CST,DBRG,Dibrugarh
+12505,North East Express,BSB,Varanasi,GHY,Guwahati
+15960,Kanchanjunga Express,AGTL,Agartala,BBS,Bhubaneswar
+12378,Padatik Express,GHY,Guwahati,VSKP,Visakhapatnam
+12423,Rajdhani Express,KOAA,Kolkata,DBRG,Dibrugarh
+12345,Saraighat Express,JP,Jaipur,AGTL,Agartala
+15666,BG Express,AGTL,Agartala,DBRG,Dibrugarh
+15910,Avadh Assam Express,BSB,Varanasi,KOAA,Kolkata
+15960,Kanchanjunga Express,AGTL,Agartala,ADI,Ahmedabad
+15644,Kamakhya Express,VSKP,Visakhapatnam,SDAH,Sealdah
+12505,North East Express,SBC,Bangalore,ADI,Ahmedabad
+12423,Rajdhani Express,DBRG,Dibrugarh,HWH,Howrah
+15960,Kanchanjunga Express,NDLS,New Delhi,RNC,Ranchi
+12423,Rajdhani Express,HWH,Howrah,JP,Jaipur
+12001,Shatabdi Express,RNC,Ranchi,MAS,Chennai Central
+15910,Avadh Assam Express,RNC,Ranchi,SBC,Bangalore
+12423,Rajdhani Express,SDAH,Sealdah,CSMT,Mumbai CST
+12378,Padatik Express,CSMT,Mumbai CST,SCL,Silchar
+15910,Avadh Assam Express,HWH,Howrah,MAS,Chennai Central
+15666,BG Express,PNBE,Patna,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,PNBE,Patna
+15666,BG Express,SCL,Silchar,HWH,Howrah
+12505,North East Express,HWH,Howrah,BSB,Varanasi
+15960,Kanchanjunga Express,PNBE,Patna,SCL,Silchar
+12505,North East Express,CSMT,Mumbai CST,MAS,Chennai Central
+15644,Kamakhya Express,SDAH,Sealdah,JP,Jaipur
+15666,BG Express,VSKP,Visakhapatnam,KOAA,Kolkata
+15960,Kanchanjunga Express,JP,Jaipur,SBC,Bangalore
+12345,Saraighat Express,HWH,Howrah,AGTL,Agartala
+15666,BG Express,MAS,Chennai Central,BBS,Bhubaneswar
+15960,Kanchanjunga Express,BBS,Bhubaneswar,ADI,Ahmedabad
+12345,Saraighat Express,PNBE,Patna,SBC,Bangalore
+12001,Shatabdi Express,DBRG,Dibrugarh,HWH,Howrah
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,CSMT,Mumbai CST
+12001,Shatabdi Express,BBS,Bhubaneswar,KOAA,Kolkata
+12345,Saraighat Express,JP,Jaipur,MAS,Chennai Central
+12345,Saraighat Express,SDAH,Sealdah,ADI,Ahmedabad
+12378,Padatik Express,DBRG,Dibrugarh,NDLS,New Delhi
+12378,Padatik Express,DBRG,Dibrugarh,GHY,Guwahati
+15666,BG Express,BSB,Varanasi,VSKP,Visakhapatnam
+12505,North East Express,PNBE,Patna,SDAH,Sealdah
+15644,Kamakhya Express,BSB,Varanasi,MAS,Chennai Central
+12345,Saraighat Express,CSMT,Mumbai CST,SDAH,Sealdah
+12001,Shatabdi Express,JP,Jaipur,RNC,Ranchi
+12505,North East Express,BBS,Bhubaneswar,VSKP,Visakhapatnam
+12505,North East Express,RNC,Ranchi,SCL,Silchar
+12423,Rajdhani Express,RNC,Ranchi,NDLS,New Delhi
+15910,Avadh Assam Express,NDLS,New Delhi,MAS,Chennai Central
+12423,Rajdhani Express,NDLS,New Delhi,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,SCL,Silchar
+15666,BG Express,MAS,Chennai Central,RNC,Ranchi
+15910,Avadh Assam Express,AGTL,Agartala,BSB,Varanasi
+12001,Shatabdi Express,SDAH,Sealdah,AGTL,Agartala
+12378,Padatik Express,ADI,Ahmedabad,SCL,Silchar
+15910,Avadh Assam Express,ADI,Ahmedabad,BSB,Varanasi
+12001,Shatabdi Express,BSB,Varanasi,PNBE,Patna
+12001,Shatabdi Express,AGTL,Agartala,DBRG,Dibrugarh
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,AGTL,Agartala
+12378,Padatik Express,BBS,Bhubaneswar,KOAA,Kolkata
+12345,Saraighat Express,JP,Jaipur,DBRG,Dibrugarh
+12001,Shatabdi Express,RNC,Ranchi,SDAH,Sealdah
+12345,Saraighat Express,ADI,Ahmedabad,SDAH,Sealdah
+15666,BG Express,NDLS,New Delhi,BBS,Bhubaneswar
+12423,Rajdhani Express,BSB,Varanasi,KOAA,Kolkata
+15666,BG Express,CSMT,Mumbai CST,SDAH,Sealdah
+15666,BG Express,CSMT,Mumbai CST,KOAA,Kolkata
+15644,Kamakhya Express,RNC,Ranchi,MAS,Chennai Central
+15910,Avadh Assam Express,ADI,Ahmedabad,BBS,Bhubaneswar
+12423,Rajdhani Express,RNC,Ranchi,BSB,Varanasi
+12423,Rajdhani Express,RNC,Ranchi,JP,Jaipur
+15644,Kamakhya Express,JP,Jaipur,CSMT,Mumbai CST
+12505,North East Express,HWH,Howrah,NDLS,New Delhi
+15910,Avadh Assam Express,GHY,Guwahati,AGTL,Agartala
+15910,Avadh Assam Express,CSMT,Mumbai CST,ADI,Ahmedabad
+15960,Kanchanjunga Express,MAS,Chennai Central,GHY,Guwahati
+12345,Saraighat Express,BSB,Varanasi,GHY,Guwahati
+15644,Kamakhya Express,RNC,Ranchi,SBC,Bangalore
+15644,Kamakhya Express,BBS,Bhubaneswar,AGTL,Agartala
+15666,BG Express,SBC,Bangalore,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,BBS,Bhubaneswar
+15644,Kamakhya Express,CSMT,Mumbai CST,DBRG,Dibrugarh
+15666,BG Express,DBRG,Dibrugarh,RNC,Ranchi
+12423,Rajdhani Express,CSMT,Mumbai CST,HWH,Howrah
+12501,Poorvottar Sampark Kranti,SCL,Silchar,DBRG,Dibrugarh
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,SCL,Silchar
+12423,Rajdhani Express,KOAA,Kolkata,SBC,Bangalore
+12505,North East Express,GHY,Guwahati,RNC,Ranchi
+12001,Shatabdi Express,SDAH,Sealdah,SCL,Silchar
+12001,Shatabdi Express,CSMT,Mumbai CST,AGTL,Agartala
+12378,Padatik Express,SDAH,Sealdah,RNC,Ranchi
+15644,Kamakhya Express,KOAA,Kolkata,BBS,Bhubaneswar
+15910,Avadh Assam Express,AGTL,Agartala,BBS,Bhubaneswar
+12345,Saraighat Express,ADI,Ahmedabad,GHY,Guwahati
+12345,Saraighat Express,BBS,Bhubaneswar,GHY,Guwahati
+15960,Kanchanjunga Express,HWH,Howrah,VSKP,Visakhapatnam
+12378,Padatik Express,NDLS,New Delhi,HWH,Howrah
+15666,BG Express,GHY,Guwahati,SDAH,Sealdah
+12001,Shatabdi Express,PNBE,Patna,NDLS,New Delhi
+12345,Saraighat Express,SBC,Bangalore,SCL,Silchar
+15910,Avadh Assam Express,SDAH,Sealdah,BBS,Bhubaneswar
+15960,Kanchanjunga Express,RNC,Ranchi,GHY,Guwahati
+12423,Rajdhani Express,GHY,Guwahati,HWH,Howrah
+12505,North East Express,KOAA,Kolkata,HWH,Howrah
+12345,Saraighat Express,JP,Jaipur,GHY,Guwahati
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,NDLS,New Delhi
+15666,BG Express,SCL,Silchar,ADI,Ahmedabad
+12378,Padatik Express,SCL,Silchar,VSKP,Visakhapatnam
+12423,Rajdhani Express,MAS,Chennai Central,KOAA,Kolkata
+12345,Saraighat Express,NDLS,New Delhi,RNC,Ranchi
+15666,BG Express,DBRG,Dibrugarh,SDAH,Sealdah
+15910,Avadh Assam Express,RNC,Ranchi,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,BBS,Bhubaneswar
+12001,Shatabdi Express,MAS,Chennai Central,HWH,Howrah
+15960,Kanchanjunga Express,NDLS,New Delhi,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,PNBE,Patna,VSKP,Visakhapatnam
+12378,Padatik Express,CSMT,Mumbai CST,MAS,Chennai Central
+12345,Saraighat Express,AGTL,Agartala,VSKP,Visakhapatnam
+12423,Rajdhani Express,AGTL,Agartala,VSKP,Visakhapatnam
+15910,Avadh Assam Express,KOAA,Kolkata,MAS,Chennai Central
+12345,Saraighat Express,SBC,Bangalore,PNBE,Patna
+12423,Rajdhani Express,SBC,Bangalore,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,SBC,Bangalore,SCL,Silchar
+15910,Avadh Assam Express,SDAH,Sealdah,DBRG,Dibrugarh
+15910,Avadh Assam Express,GHY,Guwahati,BSB,Varanasi
+15910,Avadh Assam Express,CSMT,Mumbai CST,HWH,Howrah
+15910,Avadh Assam Express,PNBE,Patna,JP,Jaipur
+12345,Saraighat Express,SDAH,Sealdah,NDLS,New Delhi
+15644,Kamakhya Express,BSB,Varanasi,SDAH,Sealdah
+12423,Rajdhani Express,SDAH,Sealdah,HWH,Howrah
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,JP,Jaipur
+15960,Kanchanjunga Express,VSKP,Visakhapatnam,SDAH,Sealdah
+15910,Avadh Assam Express,NDLS,New Delhi,DBRG,Dibrugarh
+12378,Padatik Express,KOAA,Kolkata,AGTL,Agartala
+15666,BG Express,DBRG,Dibrugarh,MAS,Chennai Central
+12378,Padatik Express,VSKP,Visakhapatnam,BSB,Varanasi
+12345,Saraighat Express,NDLS,New Delhi,BBS,Bhubaneswar
+12001,Shatabdi Express,BSB,Varanasi,BBS,Bhubaneswar
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,SBC,Bangalore,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,JP,Jaipur
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,SDAH,Sealdah
+15644,Kamakhya Express,GHY,Guwahati,SCL,Silchar
+12505,North East Express,NDLS,New Delhi,MAS,Chennai Central
+12423,Rajdhani Express,HWH,Howrah,AGTL,Agartala
+15910,Avadh Assam Express,CSMT,Mumbai CST,GHY,Guwahati
+12423,Rajdhani Express,VSKP,Visakhapatnam,SCL,Silchar
+12378,Padatik Express,DBRG,Dibrugarh,SCL,Silchar
+12423,Rajdhani Express,PNBE,Patna,SDAH,Sealdah
+12423,Rajdhani Express,GHY,Guwahati,BSB,Varanasi
+12423,Rajdhani Express,SCL,Silchar,GHY,Guwahati
+12423,Rajdhani Express,KOAA,Kolkata,HWH,Howrah
+15666,BG Express,VSKP,Visakhapatnam,NDLS,New Delhi
+12378,Padatik Express,JP,Jaipur,KOAA,Kolkata
+15910,Avadh Assam Express,RNC,Ranchi,KOAA,Kolkata
+12378,Padatik Express,SCL,Silchar,PNBE,Patna
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,RNC,Ranchi
+12345,Saraighat Express,CSMT,Mumbai CST,HWH,Howrah
+15910,Avadh Assam Express,CSMT,Mumbai CST,NDLS,New Delhi
+15910,Avadh Assam Express,NDLS,New Delhi,BBS,Bhubaneswar
+15960,Kanchanjunga Express,NDLS,New Delhi,ADI,Ahmedabad
+15960,Kanchanjunga Express,MAS,Chennai Central,KOAA,Kolkata
+12345,Saraighat Express,SDAH,Sealdah,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,JP,Jaipur,MAS,Chennai Central
+15960,Kanchanjunga Express,SDAH,Sealdah,JP,Jaipur
+15910,Avadh Assam Express,SCL,Silchar,SDAH,Sealdah
+12345,Saraighat Express,RNC,Ranchi,JP,Jaipur
+15644,Kamakhya Express,ADI,Ahmedabad,AGTL,Agartala
+15666,BG Express,CSMT,Mumbai CST,VSKP,Visakhapatnam
+12505,North East Express,CSMT,Mumbai CST,PNBE,Patna
+12423,Rajdhani Express,GHY,Guwahati,AGTL,Agartala
+15910,Avadh Assam Express,SBC,Bangalore,CSMT,Mumbai CST
+15960,Kanchanjunga Express,ADI,Ahmedabad,PNBE,Patna
+15666,BG Express,NDLS,New Delhi,GHY,Guwahati
+12423,Rajdhani Express,MAS,Chennai Central,RNC,Ranchi
+15910,Avadh Assam Express,DBRG,Dibrugarh,ADI,Ahmedabad
+12345,Saraighat Express,HWH,Howrah,SBC,Bangalore
+15644,Kamakhya Express,KOAA,Kolkata,SCL,Silchar
+15960,Kanchanjunga Express,GHY,Guwahati,VSKP,Visakhapatnam
+12001,Shatabdi Express,MAS,Chennai Central,GHY,Guwahati
+12345,Saraighat Express,JP,Jaipur,SBC,Bangalore
+15666,BG Express,GHY,Guwahati,NDLS,New Delhi
+12423,Rajdhani Express,PNBE,Patna,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,JP,Jaipur,BSB,Varanasi
+15910,Avadh Assam Express,SBC,Bangalore,GHY,Guwahati
+12001,Shatabdi Express,SBC,Bangalore,RNC,Ranchi
+12378,Padatik Express,SDAH,Sealdah,CSMT,Mumbai CST
+12505,North East Express,KOAA,Kolkata,SBC,Bangalore
+15910,Avadh Assam Express,ADI,Ahmedabad,CSMT,Mumbai CST
+15960,Kanchanjunga Express,HWH,Howrah,BBS,Bhubaneswar
+12423,Rajdhani Express,SDAH,Sealdah,RNC,Ranchi
+12423,Rajdhani Express,SCL,Silchar,ADI,Ahmedabad
+12345,Saraighat Express,ADI,Ahmedabad,HWH,Howrah
+15910,Avadh Assam Express,ADI,Ahmedabad,DBRG,Dibrugarh
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,SCL,Silchar
+12001,Shatabdi Express,JP,Jaipur,ADI,Ahmedabad
+15666,BG Express,SCL,Silchar,BBS,Bhubaneswar
+15960,Kanchanjunga Express,BSB,Varanasi,NDLS,New Delhi
+15960,Kanchanjunga Express,HWH,Howrah,ADI,Ahmedabad
+12505,North East Express,RNC,Ranchi,PNBE,Patna
+15960,Kanchanjunga Express,SBC,Bangalore,GHY,Guwahati
+12345,Saraighat Express,BBS,Bhubaneswar,PNBE,Patna
+12423,Rajdhani Express,SBC,Bangalore,BBS,Bhubaneswar
+15910,Avadh Assam Express,GHY,Guwahati,NDLS,New Delhi
+12423,Rajdhani Express,RNC,Ranchi,SBC,Bangalore
+15644,Kamakhya Express,NDLS,New Delhi,VSKP,Visakhapatnam
+15666,BG Express,GHY,Guwahati,PNBE,Patna
+12001,Shatabdi Express,VSKP,Visakhapatnam,ADI,Ahmedabad
+15960,Kanchanjunga Express,SDAH,Sealdah,NDLS,New Delhi
+12505,North East Express,SCL,Silchar,GHY,Guwahati
+15960,Kanchanjunga Express,VSKP,Visakhapatnam,JP,Jaipur
+15960,Kanchanjunga Express,DBRG,Dibrugarh,AGTL,Agartala
+15960,Kanchanjunga Express,SDAH,Sealdah,BBS,Bhubaneswar
+12505,North East Express,AGTL,Agartala,JP,Jaipur
+12423,Rajdhani Express,MAS,Chennai Central,HWH,Howrah
+12505,North East Express,CSMT,Mumbai CST,DBRG,Dibrugarh
+12001,Shatabdi Express,SCL,Silchar,AGTL,Agartala
+15666,BG Express,SDAH,Sealdah,HWH,Howrah
+15666,BG Express,NDLS,New Delhi,AGTL,Agartala
+15910,Avadh Assam Express,VSKP,Visakhapatnam,ADI,Ahmedabad
+15666,BG Express,JP,Jaipur,ADI,Ahmedabad
+15910,Avadh Assam Express,CSMT,Mumbai CST,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,SCL,Silchar,AGTL,Agartala
+12505,North East Express,AGTL,Agartala,MAS,Chennai Central
+12378,Padatik Express,RNC,Ranchi,GHY,Guwahati
+12505,North East Express,DBRG,Dibrugarh,SCL,Silchar
+12345,Saraighat Express,RNC,Ranchi,SDAH,Sealdah
+12345,Saraighat Express,GHY,Guwahati,HWH,Howrah
+12378,Padatik Express,BSB,Varanasi,SBC,Bangalore
+15960,Kanchanjunga Express,VSKP,Visakhapatnam,SBC,Bangalore
+15666,BG Express,GHY,Guwahati,RNC,Ranchi
+15910,Avadh Assam Express,HWH,Howrah,CSMT,Mumbai CST
+12378,Padatik Express,MAS,Chennai Central,RNC,Ranchi
+12423,Rajdhani Express,NDLS,New Delhi,RNC,Ranchi
+15960,Kanchanjunga Express,SCL,Silchar,VSKP,Visakhapatnam
+15644,Kamakhya Express,SBC,Bangalore,PNBE,Patna
+15960,Kanchanjunga Express,MAS,Chennai Central,NDLS,New Delhi
+15666,BG Express,HWH,Howrah,VSKP,Visakhapatnam
+15644,Kamakhya Express,AGTL,Agartala,PNBE,Patna
+12378,Padatik Express,GHY,Guwahati,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,JP,Jaipur
+12001,Shatabdi Express,JP,Jaipur,HWH,Howrah
+12505,North East Express,MAS,Chennai Central,AGTL,Agartala
+12505,North East Express,SBC,Bangalore,CSMT,Mumbai CST
+12423,Rajdhani Express,GHY,Guwahati,PNBE,Patna
+15960,Kanchanjunga Express,HWH,Howrah,SCL,Silchar
+12423,Rajdhani Express,NDLS,New Delhi,GHY,Guwahati
+12378,Padatik Express,VSKP,Visakhapatnam,BBS,Bhubaneswar
+12378,Padatik Express,DBRG,Dibrugarh,MAS,Chennai Central
+12001,Shatabdi Express,MAS,Chennai Central,SBC,Bangalore
+12001,Shatabdi Express,PNBE,Patna,GHY,Guwahati
+15910,Avadh Assam Express,BBS,Bhubaneswar,JP,Jaipur
+15960,Kanchanjunga Express,DBRG,Dibrugarh,SCL,Silchar
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,CSMT,Mumbai CST
+12505,North East Express,SBC,Bangalore,DBRG,Dibrugarh
+15910,Avadh Assam Express,BBS,Bhubaneswar,BSB,Varanasi
+12001,Shatabdi Express,JP,Jaipur,VSKP,Visakhapatnam
+12423,Rajdhani Express,NDLS,New Delhi,BBS,Bhubaneswar
+15910,Avadh Assam Express,GHY,Guwahati,JP,Jaipur
+15960,Kanchanjunga Express,SDAH,Sealdah,BSB,Varanasi
+15644,Kamakhya Express,ADI,Ahmedabad,SCL,Silchar
+15644,Kamakhya Express,DBRG,Dibrugarh,KOAA,Kolkata
+12505,North East Express,BSB,Varanasi,KOAA,Kolkata
+15960,Kanchanjunga Express,BBS,Bhubaneswar,JP,Jaipur
+12345,Saraighat Express,HWH,Howrah,DBRG,Dibrugarh
+15666,BG Express,ADI,Ahmedabad,AGTL,Agartala
+15960,Kanchanjunga Express,BSB,Varanasi,VSKP,Visakhapatnam
+15910,Avadh Assam Express,GHY,Guwahati,DBRG,Dibrugarh
+12345,Saraighat Express,KOAA,Kolkata,AGTL,Agartala
+12378,Padatik Express,SCL,Silchar,CSMT,Mumbai CST
+15960,Kanchanjunga Express,AGTL,Agartala,DBRG,Dibrugarh
+12001,Shatabdi Express,ADI,Ahmedabad,RNC,Ranchi
+12423,Rajdhani Express,BBS,Bhubaneswar,PNBE,Patna
+15666,BG Express,AGTL,Agartala,KOAA,Kolkata
+12001,Shatabdi Express,HWH,Howrah,SCL,Silchar
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,SDAH,Sealdah
+12378,Padatik Express,VSKP,Visakhapatnam,CSMT,Mumbai CST
+12001,Shatabdi Express,GHY,Guwahati,SBC,Bangalore
+12378,Padatik Express,JP,Jaipur,ADI,Ahmedabad
+15910,Avadh Assam Express,RNC,Ranchi,BBS,Bhubaneswar
+15960,Kanchanjunga Express,SDAH,Sealdah,PNBE,Patna
+15644,Kamakhya Express,SDAH,Sealdah,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,BSB,Varanasi
+12345,Saraighat Express,RNC,Ranchi,ADI,Ahmedabad
+15644,Kamakhya Express,BBS,Bhubaneswar,KOAA,Kolkata
+12345,Saraighat Express,KOAA,Kolkata,SDAH,Sealdah
+12505,North East Express,JP,Jaipur,BSB,Varanasi
+15960,Kanchanjunga Express,ADI,Ahmedabad,MAS,Chennai Central
+15960,Kanchanjunga Express,ADI,Ahmedabad,VSKP,Visakhapatnam
+12001,Shatabdi Express,DBRG,Dibrugarh,CSMT,Mumbai CST
+12001,Shatabdi Express,VSKP,Visakhapatnam,SBC,Bangalore
+12423,Rajdhani Express,MAS,Chennai Central,JP,Jaipur
+15910,Avadh Assam Express,BSB,Varanasi,PNBE,Patna
+12001,Shatabdi Express,JP,Jaipur,CSMT,Mumbai CST
+12423,Rajdhani Express,HWH,Howrah,NDLS,New Delhi
+12345,Saraighat Express,GHY,Guwahati,AGTL,Agartala
+15666,BG Express,SBC,Bangalore,VSKP,Visakhapatnam
+15666,BG Express,ADI,Ahmedabad,BSB,Varanasi
+12345,Saraighat Express,DBRG,Dibrugarh,KOAA,Kolkata
+12001,Shatabdi Express,HWH,Howrah,NDLS,New Delhi
+12345,Saraighat Express,PNBE,Patna,MAS,Chennai Central
+12001,Shatabdi Express,KOAA,Kolkata,BBS,Bhubaneswar
+12423,Rajdhani Express,BSB,Varanasi,AGTL,Agartala
+15644,Kamakhya Express,HWH,Howrah,RNC,Ranchi
+15910,Avadh Assam Express,VSKP,Visakhapatnam,HWH,Howrah
+12423,Rajdhani Express,SBC,Bangalore,CSMT,Mumbai CST
+12345,Saraighat Express,VSKP,Visakhapatnam,MAS,Chennai Central
+12345,Saraighat Express,MAS,Chennai Central,GHY,Guwahati
+12001,Shatabdi Express,PNBE,Patna,DBRG,Dibrugarh
+12378,Padatik Express,AGTL,Agartala,DBRG,Dibrugarh
+12345,Saraighat Express,KOAA,Kolkata,RNC,Ranchi
+12378,Padatik Express,HWH,Howrah,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,AGTL,Agartala
+15960,Kanchanjunga Express,VSKP,Visakhapatnam,ADI,Ahmedabad
+15960,Kanchanjunga Express,BSB,Varanasi,SCL,Silchar
+12378,Padatik Express,NDLS,New Delhi,DBRG,Dibrugarh
+12378,Padatik Express,SBC,Bangalore,HWH,Howrah
+15666,BG Express,JP,Jaipur,CSMT,Mumbai CST
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,PNBE,Patna
+15644,Kamakhya Express,BSB,Varanasi,NDLS,New Delhi
+15666,BG Express,DBRG,Dibrugarh,BBS,Bhubaneswar
+12505,North East Express,KOAA,Kolkata,JP,Jaipur
+12001,Shatabdi Express,AGTL,Agartala,NDLS,New Delhi
+12345,Saraighat Express,KOAA,Kolkata,PNBE,Patna
+12345,Saraighat Express,BSB,Varanasi,VSKP,Visakhapatnam
+12345,Saraighat Express,HWH,Howrah,BBS,Bhubaneswar
+12001,Shatabdi Express,BSB,Varanasi,MAS,Chennai Central
+15644,Kamakhya Express,PNBE,Patna,SBC,Bangalore
+12001,Shatabdi Express,SBC,Bangalore,HWH,Howrah
+15910,Avadh Assam Express,PNBE,Patna,ADI,Ahmedabad
+15910,Avadh Assam Express,SBC,Bangalore,NDLS,New Delhi
+12505,North East Express,VSKP,Visakhapatnam,AGTL,Agartala
+12378,Padatik Express,AGTL,Agartala,CSMT,Mumbai CST
+15910,Avadh Assam Express,VSKP,Visakhapatnam,SBC,Bangalore
+12345,Saraighat Express,GHY,Guwahati,SBC,Bangalore
+15960,Kanchanjunga Express,DBRG,Dibrugarh,HWH,Howrah
+12345,Saraighat Express,ADI,Ahmedabad,AGTL,Agartala
+15666,BG Express,SCL,Silchar,RNC,Ranchi
+12423,Rajdhani Express,BSB,Varanasi,DBRG,Dibrugarh
+12378,Padatik Express,RNC,Ranchi,KOAA,Kolkata
+12378,Padatik Express,ADI,Ahmedabad,SDAH,Sealdah
+15644,Kamakhya Express,BBS,Bhubaneswar,SBC,Bangalore
+12378,Padatik Express,MAS,Chennai Central,AGTL,Agartala
+15910,Avadh Assam Express,GHY,Guwahati,VSKP,Visakhapatnam
+12345,Saraighat Express,NDLS,New Delhi,VSKP,Visakhapatnam
+12423,Rajdhani Express,PNBE,Patna,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,HWH,Howrah,AGTL,Agartala
+15666,BG Express,NDLS,New Delhi,MAS,Chennai Central
+15666,BG Express,RNC,Ranchi,ADI,Ahmedabad
+15644,Kamakhya Express,KOAA,Kolkata,BSB,Varanasi
+15666,BG Express,BBS,Bhubaneswar,SCL,Silchar
+15666,BG Express,SDAH,Sealdah,VSKP,Visakhapatnam
+12001,Shatabdi Express,BBS,Bhubaneswar,SDAH,Sealdah
+12378,Padatik Express,RNC,Ranchi,BBS,Bhubaneswar
+12001,Shatabdi Express,SCL,Silchar,ADI,Ahmedabad
+15666,BG Express,RNC,Ranchi,AGTL,Agartala
+15666,BG Express,NDLS,New Delhi,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,DBRG,Dibrugarh
+12505,North East Express,VSKP,Visakhapatnam,MAS,Chennai Central
+15644,Kamakhya Express,SCL,Silchar,ADI,Ahmedabad
+12378,Padatik Express,SCL,Silchar,BBS,Bhubaneswar
+15910,Avadh Assam Express,BSB,Varanasi,RNC,Ranchi
+12505,North East Express,AGTL,Agartala,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,SBC,Bangalore
+12345,Saraighat Express,NDLS,New Delhi,DBRG,Dibrugarh
+12423,Rajdhani Express,KOAA,Kolkata,NDLS,New Delhi
+12423,Rajdhani Express,KOAA,Kolkata,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,SCL,Silchar,GHY,Guwahati
+12505,North East Express,BSB,Varanasi,NDLS,New Delhi
+15666,BG Express,AGTL,Agartala,NDLS,New Delhi
+12001,Shatabdi Express,HWH,Howrah,AGTL,Agartala
+12423,Rajdhani Express,BSB,Varanasi,SDAH,Sealdah
+12378,Padatik Express,RNC,Ranchi,HWH,Howrah
+15644,Kamakhya Express,MAS,Chennai Central,SBC,Bangalore
+12423,Rajdhani Express,MAS,Chennai Central,AGTL,Agartala
+12505,North East Express,JP,Jaipur,PNBE,Patna
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,NDLS,New Delhi
+12345,Saraighat Express,ADI,Ahmedabad,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,SBC,Bangalore
+15666,BG Express,HWH,Howrah,KOAA,Kolkata
+12001,Shatabdi Express,SCL,Silchar,MAS,Chennai Central
+12001,Shatabdi Express,ADI,Ahmedabad,PNBE,Patna
+12001,Shatabdi Express,NDLS,New Delhi,MAS,Chennai Central
+12001,Shatabdi Express,KOAA,Kolkata,PNBE,Patna
+15644,Kamakhya Express,CSMT,Mumbai CST,JP,Jaipur
+12505,North East Express,KOAA,Kolkata,CSMT,Mumbai CST
+15644,Kamakhya Express,HWH,Howrah,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,PNBE,Patna
+12505,North East Express,BBS,Bhubaneswar,BSB,Varanasi
+12345,Saraighat Express,BBS,Bhubaneswar,CSMT,Mumbai CST
+12501,Poorvottar Sampark Kranti,PNBE,Patna,CSMT,Mumbai CST
+12505,North East Express,SDAH,Sealdah,ADI,Ahmedabad
+12345,Saraighat Express,AGTL,Agartala,BSB,Varanasi
+12378,Padatik Express,AGTL,Agartala,RNC,Ranchi
+15910,Avadh Assam Express,DBRG,Dibrugarh,VSKP,Visakhapatnam
+15910,Avadh Assam Express,GHY,Guwahati,SBC,Bangalore
+12423,Rajdhani Express,RNC,Ranchi,GHY,Guwahati
+15960,Kanchanjunga Express,GHY,Guwahati,ADI,Ahmedabad
+12345,Saraighat Express,ADI,Ahmedabad,MAS,Chennai Central
+12378,Padatik Express,VSKP,Visakhapatnam,JP,Jaipur
+12423,Rajdhani Express,JP,Jaipur,SCL,Silchar
+15666,BG Express,SCL,Silchar,BSB,Varanasi
+15960,Kanchanjunga Express,JP,Jaipur,SDAH,Sealdah
+12001,Shatabdi Express,AGTL,Agartala,RNC,Ranchi
+12345,Saraighat Express,PNBE,Patna,BSB,Varanasi
+12505,North East Express,HWH,Howrah,CSMT,Mumbai CST
+12423,Rajdhani Express,AGTL,Agartala,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,SCL,Silchar
+12505,North East Express,CSMT,Mumbai CST,SBC,Bangalore
+15666,BG Express,BBS,Bhubaneswar,BSB,Varanasi
+15644,Kamakhya Express,GHY,Guwahati,MAS,Chennai Central
+12001,Shatabdi Express,DBRG,Dibrugarh,JP,Jaipur
+12345,Saraighat Express,BBS,Bhubaneswar,HWH,Howrah
+15910,Avadh Assam Express,NDLS,New Delhi,SBC,Bangalore
+12378,Padatik Express,VSKP,Visakhapatnam,MAS,Chennai Central
+12423,Rajdhani Express,CSMT,Mumbai CST,VSKP,Visakhapatnam
+12001,Shatabdi Express,AGTL,Agartala,CSMT,Mumbai CST
+12378,Padatik Express,SCL,Silchar,KOAA,Kolkata
+15644,Kamakhya Express,SBC,Bangalore,MAS,Chennai Central
+15644,Kamakhya Express,AGTL,Agartala,GHY,Guwahati
+12423,Rajdhani Express,SCL,Silchar,MAS,Chennai Central
+12345,Saraighat Express,VSKP,Visakhapatnam,ADI,Ahmedabad
+12345,Saraighat Express,MAS,Chennai Central,ADI,Ahmedabad
+15910,Avadh Assam Express,PNBE,Patna,NDLS,New Delhi
+12378,Padatik Express,KOAA,Kolkata,CSMT,Mumbai CST
+12378,Padatik Express,ADI,Ahmedabad,AGTL,Agartala
+12378,Padatik Express,DBRG,Dibrugarh,BBS,Bhubaneswar
+15960,Kanchanjunga Express,RNC,Ranchi,SBC,Bangalore
+12505,North East Express,PNBE,Patna,SCL,Silchar
+15960,Kanchanjunga Express,RNC,Ranchi,MAS,Chennai Central
+12505,North East Express,SDAH,Sealdah,VSKP,Visakhapatnam
+12378,Padatik Express,KOAA,Kolkata,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,GHY,Guwahati
+15644,Kamakhya Express,ADI,Ahmedabad,BBS,Bhubaneswar
+15666,BG Express,CSMT,Mumbai CST,JP,Jaipur
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,VSKP,Visakhapatnam
+12001,Shatabdi Express,SCL,Silchar,KOAA,Kolkata
+12423,Rajdhani Express,AGTL,Agartala,MAS,Chennai Central
+12345,Saraighat Express,KOAA,Kolkata,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,SCL,Silchar
+15910,Avadh Assam Express,SDAH,Sealdah,HWH,Howrah
+12345,Saraighat Express,SCL,Silchar,RNC,Ranchi
+15644,Kamakhya Express,GHY,Guwahati,PNBE,Patna
+15644,Kamakhya Express,ADI,Ahmedabad,SBC,Bangalore
+12505,North East Express,NDLS,New Delhi,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,NDLS,New Delhi,BSB,Varanasi
+12505,North East Express,NDLS,New Delhi,SBC,Bangalore
+15644,Kamakhya Express,BBS,Bhubaneswar,GHY,Guwahati
+12505,North East Express,DBRG,Dibrugarh,JP,Jaipur
+15960,Kanchanjunga Express,JP,Jaipur,NDLS,New Delhi
+12001,Shatabdi Express,GHY,Guwahati,PNBE,Patna
+15666,BG Express,AGTL,Agartala,ADI,Ahmedabad
+12505,North East Express,RNC,Ranchi,NDLS,New Delhi
+15666,BG Express,JP,Jaipur,SCL,Silchar
+12423,Rajdhani Express,GHY,Guwahati,RNC,Ranchi
+15644,Kamakhya Express,DBRG,Dibrugarh,GHY,Guwahati
+12505,North East Express,ADI,Ahmedabad,RNC,Ranchi
+12001,Shatabdi Express,KOAA,Kolkata,NDLS,New Delhi
+12345,Saraighat Express,AGTL,Agartala,HWH,Howrah
+15666,BG Express,VSKP,Visakhapatnam,AGTL,Agartala
+15960,Kanchanjunga Express,BBS,Bhubaneswar,RNC,Ranchi
+12001,Shatabdi Express,ADI,Ahmedabad,JP,Jaipur
+12378,Padatik Express,SDAH,Sealdah,DBRG,Dibrugarh
+15666,BG Express,KOAA,Kolkata,CSMT,Mumbai CST
+12423,Rajdhani Express,KOAA,Kolkata,PNBE,Patna
+12345,Saraighat Express,HWH,Howrah,JP,Jaipur
+12505,North East Express,CSMT,Mumbai CST,HWH,Howrah
+15644,Kamakhya Express,MAS,Chennai Central,VSKP,Visakhapatnam
+15666,BG Express,SDAH,Sealdah,ADI,Ahmedabad
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,HWH,Howrah
+15644,Kamakhya Express,VSKP,Visakhapatnam,RNC,Ranchi
+15666,BG Express,MAS,Chennai Central,NDLS,New Delhi
+15960,Kanchanjunga Express,PNBE,Patna,BSB,Varanasi
+15644,Kamakhya Express,DBRG,Dibrugarh,ADI,Ahmedabad
+15666,BG Express,VSKP,Visakhapatnam,SCL,Silchar
+12001,Shatabdi Express,NDLS,New Delhi,SBC,Bangalore
+15644,Kamakhya Express,GHY,Guwahati,BSB,Varanasi
+15960,Kanchanjunga Express,NDLS,New Delhi,KOAA,Kolkata
+12345,Saraighat Express,KOAA,Kolkata,BBS,Bhubaneswar
+15960,Kanchanjunga Express,HWH,Howrah,RNC,Ranchi
+12505,North East Express,PNBE,Patna,BBS,Bhubaneswar
+12378,Padatik Express,RNC,Ranchi,MAS,Chennai Central
+15960,Kanchanjunga Express,PNBE,Patna,JP,Jaipur
+12378,Padatik Express,SBC,Bangalore,CSMT,Mumbai CST
+12378,Padatik Express,GHY,Guwahati,SCL,Silchar
+15666,BG Express,JP,Jaipur,KOAA,Kolkata
+12378,Padatik Express,VSKP,Visakhapatnam,NDLS,New Delhi
+12505,North East Express,HWH,Howrah,GHY,Guwahati
+15666,BG Express,PNBE,Patna,DBRG,Dibrugarh
+12345,Saraighat Express,SDAH,Sealdah,AGTL,Agartala
+15666,BG Express,KOAA,Kolkata,GHY,Guwahati
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,SDAH,Sealdah
+12378,Padatik Express,VSKP,Visakhapatnam,SCL,Silchar
+15910,Avadh Assam Express,JP,Jaipur,SBC,Bangalore
+12378,Padatik Express,KOAA,Kolkata,HWH,Howrah
+12001,Shatabdi Express,JP,Jaipur,GHY,Guwahati
+12001,Shatabdi Express,CSMT,Mumbai CST,BBS,Bhubaneswar
+15644,Kamakhya Express,ADI,Ahmedabad,DBRG,Dibrugarh
+15910,Avadh Assam Express,SBC,Bangalore,SDAH,Sealdah
+12505,North East Express,ADI,Ahmedabad,SDAH,Sealdah
+12001,Shatabdi Express,SBC,Bangalore,NDLS,New Delhi
+15666,BG Express,BSB,Varanasi,GHY,Guwahati
+12423,Rajdhani Express,AGTL,Agartala,HWH,Howrah
+12378,Padatik Express,SDAH,Sealdah,PNBE,Patna
+12345,Saraighat Express,SBC,Bangalore,RNC,Ranchi
+12001,Shatabdi Express,GHY,Guwahati,HWH,Howrah
+15910,Avadh Assam Express,KOAA,Kolkata,SBC,Bangalore
+12423,Rajdhani Express,GHY,Guwahati,JP,Jaipur
+12505,North East Express,MAS,Chennai Central,DBRG,Dibrugarh
+12378,Padatik Express,SCL,Silchar,BSB,Varanasi
+12001,Shatabdi Express,DBRG,Dibrugarh,SBC,Bangalore
+12423,Rajdhani Express,NDLS,New Delhi,MAS,Chennai Central
+12001,Shatabdi Express,BSB,Varanasi,ADI,Ahmedabad
+12001,Shatabdi Express,RNC,Ranchi,PNBE,Patna
+12423,Rajdhani Express,CSMT,Mumbai CST,ADI,Ahmedabad
+15960,Kanchanjunga Express,HWH,Howrah,JP,Jaipur
+12501,Poorvottar Sampark Kranti,JP,Jaipur,SCL,Silchar
+15666,BG Express,NDLS,New Delhi,SBC,Bangalore
+12001,Shatabdi Express,JP,Jaipur,PNBE,Patna
+12378,Padatik Express,KOAA,Kolkata,PNBE,Patna
+12501,Poorvottar Sampark Kranti,HWH,Howrah,VSKP,Visakhapatnam
+15910,Avadh Assam Express,CSMT,Mumbai CST,RNC,Ranchi
+12505,North East Express,BBS,Bhubaneswar,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,HWH,Howrah
+15666,BG Express,ADI,Ahmedabad,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,BSB,Varanasi
+12001,Shatabdi Express,ADI,Ahmedabad,GHY,Guwahati
+12423,Rajdhani Express,HWH,Howrah,VSKP,Visakhapatnam
+12505,North East Express,BSB,Varanasi,MAS,Chennai Central
+12423,Rajdhani Express,HWH,Howrah,KOAA,Kolkata
+12001,Shatabdi Express,BBS,Bhubaneswar,BSB,Varanasi
+12345,Saraighat Express,MAS,Chennai Central,BSB,Varanasi
+15910,Avadh Assam Express,JP,Jaipur,PNBE,Patna
+12378,Padatik Express,CSMT,Mumbai CST,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,DBRG,Dibrugarh
+12423,Rajdhani Express,BSB,Varanasi,SCL,Silchar
+15644,Kamakhya Express,SBC,Bangalore,ADI,Ahmedabad
+15666,BG Express,JP,Jaipur,SBC,Bangalore
+15644,Kamakhya Express,GHY,Guwahati,NDLS,New Delhi
+15644,Kamakhya Express,BBS,Bhubaneswar,RNC,Ranchi
+12423,Rajdhani Express,ADI,Ahmedabad,DBRG,Dibrugarh
+15960,Kanchanjunga Express,RNC,Ranchi,DBRG,Dibrugarh
+15960,Kanchanjunga Express,HWH,Howrah,NDLS,New Delhi
+12501,Poorvottar Sampark Kranti,JP,Jaipur,NDLS,New Delhi
+12378,Padatik Express,JP,Jaipur,AGTL,Agartala
+15960,Kanchanjunga Express,JP,Jaipur,ADI,Ahmedabad
+12345,Saraighat Express,BSB,Varanasi,SDAH,Sealdah
+12505,North East Express,MAS,Chennai Central,VSKP,Visakhapatnam
+15644,Kamakhya Express,HWH,Howrah,BSB,Varanasi
+15960,Kanchanjunga Express,VSKP,Visakhapatnam,SCL,Silchar
+15960,Kanchanjunga Express,MAS,Chennai Central,BBS,Bhubaneswar
+12423,Rajdhani Express,ADI,Ahmedabad,VSKP,Visakhapatnam
+15644,Kamakhya Express,VSKP,Visakhapatnam,MAS,Chennai Central
+12423,Rajdhani Express,BSB,Varanasi,NDLS,New Delhi
+12505,North East Express,AGTL,Agartala,PNBE,Patna
+15644,Kamakhya Express,VSKP,Visakhapatnam,PNBE,Patna
+12505,North East Express,DBRG,Dibrugarh,VSKP,Visakhapatnam
+12505,North East Express,PNBE,Patna,NDLS,New Delhi
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,VSKP,Visakhapatnam
+12345,Saraighat Express,HWH,Howrah,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,JP,Jaipur,RNC,Ranchi
+15910,Avadh Assam Express,AGTL,Agartala,MAS,Chennai Central
+15666,BG Express,JP,Jaipur,SDAH,Sealdah
+15666,BG Express,NDLS,New Delhi,JP,Jaipur
+12345,Saraighat Express,RNC,Ranchi,VSKP,Visakhapatnam
+12423,Rajdhani Express,RNC,Ranchi,HWH,Howrah
+12378,Padatik Express,CSMT,Mumbai CST,JP,Jaipur
+12001,Shatabdi Express,CSMT,Mumbai CST,HWH,Howrah
+15910,Avadh Assam Express,KOAA,Kolkata,JP,Jaipur
+12505,North East Express,SBC,Bangalore,SDAH,Sealdah
+12345,Saraighat Express,PNBE,Patna,NDLS,New Delhi
+15960,Kanchanjunga Express,VSKP,Visakhapatnam,PNBE,Patna
+12501,Poorvottar Sampark Kranti,HWH,Howrah,PNBE,Patna
+15644,Kamakhya Express,BSB,Varanasi,GHY,Guwahati
+12505,North East Express,RNC,Ranchi,GHY,Guwahati
+15666,BG Express,HWH,Howrah,PNBE,Patna
+12345,Saraighat Express,SCL,Silchar,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,HWH,Howrah
+12505,North East Express,SCL,Silchar,JP,Jaipur
+15960,Kanchanjunga Express,VSKP,Visakhapatnam,AGTL,Agartala
+15666,BG Express,JP,Jaipur,AGTL,Agartala
+12001,Shatabdi Express,KOAA,Kolkata,SDAH,Sealdah
+15644,Kamakhya Express,MAS,Chennai Central,SDAH,Sealdah
+12001,Shatabdi Express,BSB,Varanasi,GHY,Guwahati
+15960,Kanchanjunga Express,SBC,Bangalore,DBRG,Dibrugarh
+12345,Saraighat Express,HWH,Howrah,BSB,Varanasi
+12505,North East Express,BBS,Bhubaneswar,SDAH,Sealdah
+12001,Shatabdi Express,BBS,Bhubaneswar,ADI,Ahmedabad
+12378,Padatik Express,SBC,Bangalore,GHY,Guwahati
+12345,Saraighat Express,AGTL,Agartala,SDAH,Sealdah
+12001,Shatabdi Express,SBC,Bangalore,BBS,Bhubaneswar
+15644,Kamakhya Express,NDLS,New Delhi,SBC,Bangalore
+12378,Padatik Express,NDLS,New Delhi,SDAH,Sealdah
+15666,BG Express,HWH,Howrah,AGTL,Agartala
+15666,BG Express,CSMT,Mumbai CST,DBRG,Dibrugarh
+15960,Kanchanjunga Express,GHY,Guwahati,PNBE,Patna
+12345,Saraighat Express,GHY,Guwahati,NDLS,New Delhi
+15960,Kanchanjunga Express,KOAA,Kolkata,BBS,Bhubaneswar
+12345,Saraighat Express,CSMT,Mumbai CST,PNBE,Patna
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,RNC,Ranchi
+15960,Kanchanjunga Express,KOAA,Kolkata,BSB,Varanasi
+12423,Rajdhani Express,SBC,Bangalore,MAS,Chennai Central
+15644,Kamakhya Express,HWH,Howrah,SBC,Bangalore
+15666,BG Express,ADI,Ahmedabad,HWH,Howrah
+12505,North East Express,NDLS,New Delhi,BSB,Varanasi
+12423,Rajdhani Express,ADI,Ahmedabad,CSMT,Mumbai CST
+15666,BG Express,SCL,Silchar,VSKP,Visakhapatnam
+12423,Rajdhani Express,CSMT,Mumbai CST,MAS,Chennai Central
+15644,Kamakhya Express,VSKP,Visakhapatnam,CSMT,Mumbai CST
+15910,Avadh Assam Express,BBS,Bhubaneswar,NDLS,New Delhi
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,GHY,Guwahati
+12345,Saraighat Express,RNC,Ranchi,GHY,Guwahati
+12505,North East Express,HWH,Howrah,DBRG,Dibrugarh
+12505,North East Express,PNBE,Patna,VSKP,Visakhapatnam
+12001,Shatabdi Express,HWH,Howrah,PNBE,Patna
+12501,Poorvottar Sampark Kranti,PNBE,Patna,DBRG,Dibrugarh
+12345,Saraighat Express,PNBE,Patna,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,SCL,Silchar,NDLS,New Delhi
+15666,BG Express,SBC,Bangalore,CSMT,Mumbai CST
+15960,Kanchanjunga Express,JP,Jaipur,MAS,Chennai Central
+15666,BG Express,BBS,Bhubaneswar,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,VSKP,Visakhapatnam
+15910,Avadh Assam Express,HWH,Howrah,KOAA,Kolkata
+15910,Avadh Assam Express,ADI,Ahmedabad,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,JP,Jaipur
+15910,Avadh Assam Express,MAS,Chennai Central,RNC,Ranchi
+12505,North East Express,RNC,Ranchi,SBC,Bangalore
+15910,Avadh Assam Express,RNC,Ranchi,BSB,Varanasi
+12001,Shatabdi Express,RNC,Ranchi,SBC,Bangalore
+12505,North East Express,VSKP,Visakhapatnam,PNBE,Patna
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,CSMT,Mumbai CST
+15666,BG Express,HWH,Howrah,CSMT,Mumbai CST
+15910,Avadh Assam Express,BBS,Bhubaneswar,PNBE,Patna
+12378,Padatik Express,RNC,Ranchi,PNBE,Patna
+15666,BG Express,CSMT,Mumbai CST,BBS,Bhubaneswar
+15644,Kamakhya Express,AGTL,Agartala,MAS,Chennai Central
+15910,Avadh Assam Express,SBC,Bangalore,JP,Jaipur
+12423,Rajdhani Express,KOAA,Kolkata,SDAH,Sealdah
+12423,Rajdhani Express,AGTL,Agartala,ADI,Ahmedabad
+12423,Rajdhani Express,SDAH,Sealdah,PNBE,Patna
+12505,North East Express,PNBE,Patna,DBRG,Dibrugarh
+15910,Avadh Assam Express,PNBE,Patna,GHY,Guwahati
+15910,Avadh Assam Express,BSB,Varanasi,NDLS,New Delhi
+12345,Saraighat Express,PNBE,Patna,RNC,Ranchi
+15910,Avadh Assam Express,VSKP,Visakhapatnam,GHY,Guwahati
+12001,Shatabdi Express,GHY,Guwahati,VSKP,Visakhapatnam
+12505,North East Express,AGTL,Agartala,HWH,Howrah
+15910,Avadh Assam Express,JP,Jaipur,AGTL,Agartala
+15910,Avadh Assam Express,KOAA,Kolkata,DBRG,Dibrugarh
+15666,BG Express,KOAA,Kolkata,BSB,Varanasi
+12378,Padatik Express,SBC,Bangalore,DBRG,Dibrugarh
+12001,Shatabdi Express,DBRG,Dibrugarh,MAS,Chennai Central
+12505,North East Express,BBS,Bhubaneswar,SCL,Silchar
+15666,BG Express,AGTL,Agartala,GHY,Guwahati
+12501,Poorvottar Sampark Kranti,SCL,Silchar,BSB,Varanasi
+12378,Padatik Express,ADI,Ahmedabad,JP,Jaipur
+15666,BG Express,GHY,Guwahati,KOAA,Kolkata
+15910,Avadh Assam Express,DBRG,Dibrugarh,SBC,Bangalore
+15960,Kanchanjunga Express,NDLS,New Delhi,JP,Jaipur
+15666,BG Express,SCL,Silchar,MAS,Chennai Central
+15666,BG Express,ADI,Ahmedabad,SDAH,Sealdah
+12423,Rajdhani Express,SCL,Silchar,HWH,Howrah
+15644,Kamakhya Express,RNC,Ranchi,VSKP,Visakhapatnam
+15910,Avadh Assam Express,JP,Jaipur,GHY,Guwahati
+12505,North East Express,JP,Jaipur,RNC,Ranchi
+15666,BG Express,CSMT,Mumbai CST,PNBE,Patna
+15960,Kanchanjunga Express,JP,Jaipur,BSB,Varanasi
+12423,Rajdhani Express,RNC,Ranchi,MAS,Chennai Central
+12505,North East Express,DBRG,Dibrugarh,MAS,Chennai Central
+12345,Saraighat Express,JP,Jaipur,PNBE,Patna
+15960,Kanchanjunga Express,BBS,Bhubaneswar,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,DBRG,Dibrugarh
+15960,Kanchanjunga Express,RNC,Ranchi,VSKP,Visakhapatnam
+12423,Rajdhani Express,JP,Jaipur,GHY,Guwahati
+15910,Avadh Assam Express,SCL,Silchar,DBRG,Dibrugarh
+12423,Rajdhani Express,CSMT,Mumbai CST,SCL,Silchar
+12423,Rajdhani Express,ADI,Ahmedabad,HWH,Howrah
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,ADI,Ahmedabad
+12378,Padatik Express,HWH,Howrah,CSMT,Mumbai CST
+12001,Shatabdi Express,GHY,Guwahati,AGTL,Agartala
+15910,Avadh Assam Express,VSKP,Visakhapatnam,JP,Jaipur
+12505,North East Express,AGTL,Agartala,SCL,Silchar
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,AGTL,Agartala
+15960,Kanchanjunga Express,KOAA,Kolkata,PNBE,Patna
+12423,Rajdhani Express,SBC,Bangalore,JP,Jaipur
+12423,Rajdhani Express,VSKP,Visakhapatnam,SBC,Bangalore
+12378,Padatik Express,VSKP,Visakhapatnam,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,CSMT,Mumbai CST
+12423,Rajdhani Express,AGTL,Agartala,SCL,Silchar
+15644,Kamakhya Express,VSKP,Visakhapatnam,SCL,Silchar
+15644,Kamakhya Express,AGTL,Agartala,RNC,Ranchi
+15666,BG Express,CSMT,Mumbai CST,SCL,Silchar
+15910,Avadh Assam Express,KOAA,Kolkata,RNC,Ranchi
+12378,Padatik Express,SCL,Silchar,JP,Jaipur
+15644,Kamakhya Express,BBS,Bhubaneswar,ADI,Ahmedabad
+12378,Padatik Express,PNBE,Patna,NDLS,New Delhi
+15910,Avadh Assam Express,KOAA,Kolkata,ADI,Ahmedabad
+12378,Padatik Express,GHY,Guwahati,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,CSMT,Mumbai CST
+12345,Saraighat Express,JP,Jaipur,ADI,Ahmedabad
+15960,Kanchanjunga Express,RNC,Ranchi,BBS,Bhubaneswar
+12345,Saraighat Express,AGTL,Agartala,DBRG,Dibrugarh
+12001,Shatabdi Express,VSKP,Visakhapatnam,NDLS,New Delhi
+12505,North East Express,SDAH,Sealdah,CSMT,Mumbai CST
+15910,Avadh Assam Express,BBS,Bhubaneswar,ADI,Ahmedabad
+15666,BG Express,BSB,Varanasi,SDAH,Sealdah
+15960,Kanchanjunga Express,BSB,Varanasi,BBS,Bhubaneswar
+12423,Rajdhani Express,AGTL,Agartala,NDLS,New Delhi
+12345,Saraighat Express,SCL,Silchar,KOAA,Kolkata
+12423,Rajdhani Express,PNBE,Patna,SBC,Bangalore
+12001,Shatabdi Express,CSMT,Mumbai CST,KOAA,Kolkata
+15644,Kamakhya Express,MAS,Chennai Central,PNBE,Patna
+12505,North East Express,ADI,Ahmedabad,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,HWH,Howrah,RNC,Ranchi
+12505,North East Express,SBC,Bangalore,PNBE,Patna
+12505,North East Express,RNC,Ranchi,HWH,Howrah
+15666,BG Express,HWH,Howrah,DBRG,Dibrugarh
+12505,North East Express,CSMT,Mumbai CST,KOAA,Kolkata
+12423,Rajdhani Express,AGTL,Agartala,CSMT,Mumbai CST
+12423,Rajdhani Express,SCL,Silchar,AGTL,Agartala
+15910,Avadh Assam Express,SCL,Silchar,MAS,Chennai Central
+12423,Rajdhani Express,SCL,Silchar,NDLS,New Delhi
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,BBS,Bhubaneswar
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,HWH,Howrah
+15666,BG Express,HWH,Howrah,BBS,Bhubaneswar
+15960,Kanchanjunga Express,SCL,Silchar,BBS,Bhubaneswar
+12001,Shatabdi Express,SBC,Bangalore,BSB,Varanasi
+12345,Saraighat Express,MAS,Chennai Central,NDLS,New Delhi
+12505,North East Express,VSKP,Visakhapatnam,NDLS,New Delhi
+15910,Avadh Assam Express,AGTL,Agartala,VSKP,Visakhapatnam
+12505,North East Express,KOAA,Kolkata,ADI,Ahmedabad
+15666,BG Express,RNC,Ranchi,BSB,Varanasi
+15910,Avadh Assam Express,PNBE,Patna,BBS,Bhubaneswar
+12423,Rajdhani Express,BSB,Varanasi,JP,Jaipur
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,KOAA,Kolkata
+12345,Saraighat Express,SBC,Bangalore,VSKP,Visakhapatnam
+15666,BG Express,SBC,Bangalore,NDLS,New Delhi
+15960,Kanchanjunga Express,ADI,Ahmedabad,AGTL,Agartala
+12505,North East Express,SDAH,Sealdah,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,NDLS,New Delhi
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,NDLS,New Delhi
+12505,North East Express,BSB,Varanasi,SCL,Silchar
+15960,Kanchanjunga Express,BBS,Bhubaneswar,AGTL,Agartala
+15960,Kanchanjunga Express,NDLS,New Delhi,HWH,Howrah
+12001,Shatabdi Express,SCL,Silchar,JP,Jaipur
+15960,Kanchanjunga Express,PNBE,Patna,AGTL,Agartala
+12345,Saraighat Express,BBS,Bhubaneswar,SCL,Silchar
+12423,Rajdhani Express,DBRG,Dibrugarh,GHY,Guwahati
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,CSMT,Mumbai CST
+12378,Padatik Express,CSMT,Mumbai CST,PNBE,Patna
+15644,Kamakhya Express,NDLS,New Delhi,HWH,Howrah
+12505,North East Express,BSB,Varanasi,RNC,Ranchi
+12001,Shatabdi Express,PNBE,Patna,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,SBC,Bangalore
+12001,Shatabdi Express,BBS,Bhubaneswar,CSMT,Mumbai CST
+12501,Poorvottar Sampark Kranti,HWH,Howrah,SDAH,Sealdah
+12378,Padatik Express,MAS,Chennai Central,JP,Jaipur
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,RNC,Ranchi
+15644,Kamakhya Express,PNBE,Patna,SCL,Silchar
+12001,Shatabdi Express,BBS,Bhubaneswar,SCL,Silchar
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,AGTL,Agartala
+15644,Kamakhya Express,AGTL,Agartala,BBS,Bhubaneswar
+12505,North East Express,GHY,Guwahati,ADI,Ahmedabad
+12378,Padatik Express,NDLS,New Delhi,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,ADI,Ahmedabad,CSMT,Mumbai CST
+15910,Avadh Assam Express,VSKP,Visakhapatnam,SCL,Silchar
+12501,Poorvottar Sampark Kranti,HWH,Howrah,BSB,Varanasi
+12505,North East Express,SDAH,Sealdah,JP,Jaipur
+12345,Saraighat Express,CSMT,Mumbai CST,AGTL,Agartala
+15666,BG Express,SDAH,Sealdah,BBS,Bhubaneswar
+15910,Avadh Assam Express,HWH,Howrah,NDLS,New Delhi
+12345,Saraighat Express,CSMT,Mumbai CST,SBC,Bangalore
+12345,Saraighat Express,RNC,Ranchi,AGTL,Agartala
+12505,North East Express,SDAH,Sealdah,PNBE,Patna
+15910,Avadh Assam Express,VSKP,Visakhapatnam,MAS,Chennai Central
+12505,North East Express,VSKP,Visakhapatnam,GHY,Guwahati
+15960,Kanchanjunga Express,SBC,Bangalore,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,BBS,Bhubaneswar
+12423,Rajdhani Express,BBS,Bhubaneswar,HWH,Howrah
+12378,Padatik Express,SBC,Bangalore,AGTL,Agartala
+12345,Saraighat Express,CSMT,Mumbai CST,KOAA,Kolkata
+15644,Kamakhya Express,DBRG,Dibrugarh,VSKP,Visakhapatnam
+12001,Shatabdi Express,HWH,Howrah,CSMT,Mumbai CST
+12378,Padatik Express,HWH,Howrah,MAS,Chennai Central
+15960,Kanchanjunga Express,PNBE,Patna,ADI,Ahmedabad
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,AGTL,Agartala
+15666,BG Express,DBRG,Dibrugarh,VSKP,Visakhapatnam
+12345,Saraighat Express,GHY,Guwahati,ADI,Ahmedabad
+15960,Kanchanjunga Express,KOAA,Kolkata,SDAH,Sealdah
+15644,Kamakhya Express,ADI,Ahmedabad,RNC,Ranchi
+15960,Kanchanjunga Express,HWH,Howrah,CSMT,Mumbai CST
+12505,North East Express,CSMT,Mumbai CST,JP,Jaipur
+12423,Rajdhani Express,VSKP,Visakhapatnam,AGTL,Agartala
+12345,Saraighat Express,ADI,Ahmedabad,DBRG,Dibrugarh
+15910,Avadh Assam Express,BSB,Varanasi,CSMT,Mumbai CST
+12501,Poorvottar Sampark Kranti,SBC,Bangalore,SCL,Silchar
+12345,Saraighat Express,HWH,Howrah,PNBE,Patna
+15910,Avadh Assam Express,BBS,Bhubaneswar,VSKP,Visakhapatnam
+12423,Rajdhani Express,DBRG,Dibrugarh,NDLS,New Delhi
+12378,Padatik Express,CSMT,Mumbai CST,BBS,Bhubaneswar
+12423,Rajdhani Express,GHY,Guwahati,NDLS,New Delhi
+12345,Saraighat Express,PNBE,Patna,DBRG,Dibrugarh
+12501,Poorvottar Sampark Kranti,PNBE,Patna,JP,Jaipur
+15644,Kamakhya Express,PNBE,Patna,AGTL,Agartala
+12345,Saraighat Express,VSKP,Visakhapatnam,SBC,Bangalore
+15910,Avadh Assam Express,PNBE,Patna,CSMT,Mumbai CST
+12501,Poorvottar Sampark Kranti,SCL,Silchar,MAS,Chennai Central
+15666,BG Express,CSMT,Mumbai CST,ADI,Ahmedabad
+15910,Avadh Assam Express,AGTL,Agartala,DBRG,Dibrugarh
+15910,Avadh Assam Express,MAS,Chennai Central,NDLS,New Delhi
+12423,Rajdhani Express,ADI,Ahmedabad,BBS,Bhubaneswar
+15960,Kanchanjunga Express,HWH,Howrah,KOAA,Kolkata
+12345,Saraighat Express,ADI,Ahmedabad,JP,Jaipur
+15910,Avadh Assam Express,JP,Jaipur,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,BBS,Bhubaneswar,PNBE,Patna
+12505,North East Express,JP,Jaipur,NDLS,New Delhi
+12378,Padatik Express,JP,Jaipur,SBC,Bangalore
+12001,Shatabdi Express,SCL,Silchar,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,SBC,Bangalore,KOAA,Kolkata
+15644,Kamakhya Express,HWH,Howrah,ADI,Ahmedabad
+15644,Kamakhya Express,BBS,Bhubaneswar,JP,Jaipur
+12423,Rajdhani Express,BBS,Bhubaneswar,RNC,Ranchi
+12378,Padatik Express,NDLS,New Delhi,JP,Jaipur
+12001,Shatabdi Express,AGTL,Agartala,SBC,Bangalore
+12378,Padatik Express,PNBE,Patna,AGTL,Agartala
+12001,Shatabdi Express,VSKP,Visakhapatnam,AGTL,Agartala
+15666,BG Express,JP,Jaipur,PNBE,Patna
+12501,Poorvottar Sampark Kranti,SCL,Silchar,RNC,Ranchi
+12345,Saraighat Express,DBRG,Dibrugarh,CSMT,Mumbai CST
+12345,Saraighat Express,RNC,Ranchi,BBS,Bhubaneswar
+12001,Shatabdi Express,HWH,Howrah,GHY,Guwahati
+12345,Saraighat Express,SBC,Bangalore,JP,Jaipur
+12423,Rajdhani Express,DBRG,Dibrugarh,PNBE,Patna
+12423,Rajdhani Express,SBC,Bangalore,HWH,Howrah
+12505,North East Express,ADI,Ahmedabad,SBC,Bangalore
+12423,Rajdhani Express,VSKP,Visakhapatnam,GHY,Guwahati
+15910,Avadh Assam Express,ADI,Ahmedabad,PNBE,Patna
+15960,Kanchanjunga Express,JP,Jaipur,DBRG,Dibrugarh
+15666,BG Express,SDAH,Sealdah,SBC,Bangalore
+12378,Padatik Express,DBRG,Dibrugarh,HWH,Howrah
+12505,North East Express,GHY,Guwahati,SBC,Bangalore
+12001,Shatabdi Express,SBC,Bangalore,GHY,Guwahati
+12378,Padatik Express,RNC,Ranchi,DBRG,Dibrugarh
+15910,Avadh Assam Express,RNC,Ranchi,HWH,Howrah
+15960,Kanchanjunga Express,CSMT,Mumbai CST,NDLS,New Delhi
+15666,BG Express,NDLS,New Delhi,DBRG,Dibrugarh
+15666,BG Express,JP,Jaipur,BBS,Bhubaneswar
+15960,Kanchanjunga Express,CSMT,Mumbai CST,SCL,Silchar
+12423,Rajdhani Express,VSKP,Visakhapatnam,BSB,Varanasi
+12505,North East Express,MAS,Chennai Central,BSB,Varanasi
+15910,Avadh Assam Express,SCL,Silchar,BSB,Varanasi
+15910,Avadh Assam Express,GHY,Guwahati,HWH,Howrah
+12378,Padatik Express,VSKP,Visakhapatnam,RNC,Ranchi
+15666,BG Express,NDLS,New Delhi,PNBE,Patna
+12505,North East Express,BSB,Varanasi,JP,Jaipur
+12001,Shatabdi Express,NDLS,New Delhi,VSKP,Visakhapatnam
+12345,Saraighat Express,GHY,Guwahati,CSMT,Mumbai CST
+15644,Kamakhya Express,PNBE,Patna,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,SCL,Silchar
+15666,BG Express,GHY,Guwahati,JP,Jaipur
+12001,Shatabdi Express,HWH,Howrah,VSKP,Visakhapatnam
+12505,North East Express,CSMT,Mumbai CST,BSB,Varanasi
+12345,Saraighat Express,VSKP,Visakhapatnam,JP,Jaipur
+12423,Rajdhani Express,GHY,Guwahati,SDAH,Sealdah
+12378,Padatik Express,BSB,Varanasi,VSKP,Visakhapatnam
+15666,BG Express,KOAA,Kolkata,BBS,Bhubaneswar
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,JP,Jaipur
+12345,Saraighat Express,VSKP,Visakhapatnam,DBRG,Dibrugarh
+15960,Kanchanjunga Express,CSMT,Mumbai CST,HWH,Howrah
+12378,Padatik Express,RNC,Ranchi,JP,Jaipur
+12345,Saraighat Express,NDLS,New Delhi,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,JP,Jaipur
+12423,Rajdhani Express,GHY,Guwahati,MAS,Chennai Central
+12345,Saraighat Express,MAS,Chennai Central,KOAA,Kolkata
+15666,BG Express,HWH,Howrah,NDLS,New Delhi
+12001,Shatabdi Express,ADI,Ahmedabad,VSKP,Visakhapatnam
+15644,Kamakhya Express,VSKP,Visakhapatnam,JP,Jaipur
+12505,North East Express,PNBE,Patna,ADI,Ahmedabad
+12505,North East Express,HWH,Howrah,ADI,Ahmedabad
+15960,Kanchanjunga Express,SCL,Silchar,JP,Jaipur
+15666,BG Express,RNC,Ranchi,SCL,Silchar
+15644,Kamakhya Express,SDAH,Sealdah,HWH,Howrah
+15644,Kamakhya Express,PNBE,Patna,GHY,Guwahati
+15910,Avadh Assam Express,JP,Jaipur,SDAH,Sealdah
+15910,Avadh Assam Express,HWH,Howrah,SBC,Bangalore
+12345,Saraighat Express,MAS,Chennai Central,JP,Jaipur
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,AGTL,Agartala
+12001,Shatabdi Express,JP,Jaipur,KOAA,Kolkata
+15666,BG Express,KOAA,Kolkata,ADI,Ahmedabad
+15644,Kamakhya Express,BBS,Bhubaneswar,PNBE,Patna
+15960,Kanchanjunga Express,RNC,Ranchi,HWH,Howrah
+12501,Poorvottar Sampark Kranti,HWH,Howrah,CSMT,Mumbai CST
+12378,Padatik Express,SBC,Bangalore,BSB,Varanasi
+15666,BG Express,BBS,Bhubaneswar,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,CSMT,Mumbai CST,BSB,Varanasi
+15666,BG Express,SDAH,Sealdah,JP,Jaipur
+12501,Poorvottar Sampark Kranti,SCL,Silchar,SDAH,Sealdah
+15910,Avadh Assam Express,RNC,Ranchi,DBRG,Dibrugarh
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,HWH,Howrah
+12378,Padatik Express,SCL,Silchar,SDAH,Sealdah
+12505,North East Express,CSMT,Mumbai CST,RNC,Ranchi
+12345,Saraighat Express,NDLS,New Delhi,SDAH,Sealdah
+15666,BG Express,JP,Jaipur,GHY,Guwahati
+15644,Kamakhya Express,SDAH,Sealdah,ADI,Ahmedabad
+15644,Kamakhya Express,AGTL,Agartala,KOAA,Kolkata
+15910,Avadh Assam Express,BSB,Varanasi,GHY,Guwahati
+12345,Saraighat Express,AGTL,Agartala,MAS,Chennai Central
+15910,Avadh Assam Express,BSB,Varanasi,SDAH,Sealdah
+15644,Kamakhya Express,HWH,Howrah,MAS,Chennai Central
+15910,Avadh Assam Express,BSB,Varanasi,MAS,Chennai Central
+15644,Kamakhya Express,RNC,Ranchi,BSB,Varanasi
+15910,Avadh Assam Express,KOAA,Kolkata,SDAH,Sealdah
+15960,Kanchanjunga Express,AGTL,Agartala,KOAA,Kolkata
+12001,Shatabdi Express,BBS,Bhubaneswar,HWH,Howrah
+12345,Saraighat Express,KOAA,Kolkata,SBC,Bangalore
+12378,Padatik Express,SCL,Silchar,NDLS,New Delhi
+15666,BG Express,SCL,Silchar,AGTL,Agartala
+15960,Kanchanjunga Express,JP,Jaipur,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,MAS,Chennai Central
+15910,Avadh Assam Express,DBRG,Dibrugarh,CSMT,Mumbai CST
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,VSKP,Visakhapatnam
+12378,Padatik Express,GHY,Guwahati,MAS,Chennai Central
+15644,Kamakhya Express,SDAH,Sealdah,BBS,Bhubaneswar
+12001,Shatabdi Express,KOAA,Kolkata,SBC,Bangalore
+15960,Kanchanjunga Express,NDLS,New Delhi,AGTL,Agartala
+15666,BG Express,GHY,Guwahati,AGTL,Agartala
+12505,North East Express,SDAH,Sealdah,KOAA,Kolkata
+12001,Shatabdi Express,PNBE,Patna,BBS,Bhubaneswar
+12505,North East Express,MAS,Chennai Central,SBC,Bangalore
+12423,Rajdhani Express,BBS,Bhubaneswar,NDLS,New Delhi
+12001,Shatabdi Express,NDLS,New Delhi,CSMT,Mumbai CST
+12345,Saraighat Express,SBC,Bangalore,BBS,Bhubaneswar
+12378,Padatik Express,CSMT,Mumbai CST,KOAA,Kolkata
+15910,Avadh Assam Express,GHY,Guwahati,CSMT,Mumbai CST
+12501,Poorvottar Sampark Kranti,SCL,Silchar,VSKP,Visakhapatnam
+15910,Avadh Assam Express,ADI,Ahmedabad,AGTL,Agartala
+12345,Saraighat Express,AGTL,Agartala,RNC,Ranchi
+15644,Kamakhya Express,KOAA,Kolkata,HWH,Howrah
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,JP,Jaipur
+15644,Kamakhya Express,JP,Jaipur,PNBE,Patna
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,MAS,Chennai Central
+15910,Avadh Assam Express,VSKP,Visakhapatnam,AGTL,Agartala
+15910,Avadh Assam Express,CSMT,Mumbai CST,VSKP,Visakhapatnam
+15666,BG Express,NDLS,New Delhi,SCL,Silchar
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,DBRG,Dibrugarh
+15666,BG Express,DBRG,Dibrugarh,GHY,Guwahati
+15910,Avadh Assam Express,MAS,Chennai Central,SBC,Bangalore
+12505,North East Express,AGTL,Agartala,SBC,Bangalore
+15644,Kamakhya Express,CSMT,Mumbai CST,SCL,Silchar
+12505,North East Express,JP,Jaipur,BBS,Bhubaneswar
+12505,North East Express,RNC,Ranchi,SDAH,Sealdah
+15910,Avadh Assam Express,VSKP,Visakhapatnam,BBS,Bhubaneswar
+12505,North East Express,SBC,Bangalore,NDLS,New Delhi
+12423,Rajdhani Express,SBC,Bangalore,GHY,Guwahati
+12345,Saraighat Express,MAS,Chennai Central,VSKP,Visakhapatnam
+12378,Padatik Express,BBS,Bhubaneswar,HWH,Howrah
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,SDAH,Sealdah
+15666,BG Express,ADI,Ahmedabad,SCL,Silchar
+15910,Avadh Assam Express,BBS,Bhubaneswar,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,AGTL,Agartala
+15910,Avadh Assam Express,PNBE,Patna,RNC,Ranchi
+15960,Kanchanjunga Express,JP,Jaipur,AGTL,Agartala
+12423,Rajdhani Express,DBRG,Dibrugarh,SCL,Silchar
+12001,Shatabdi Express,MAS,Chennai Central,CSMT,Mumbai CST
+15960,Kanchanjunga Express,SCL,Silchar,HWH,Howrah
+15644,Kamakhya Express,GHY,Guwahati,JP,Jaipur
+12345,Saraighat Express,SBC,Bangalore,SDAH,Sealdah
+12378,Padatik Express,KOAA,Kolkata,GHY,Guwahati
+15644,Kamakhya Express,SBC,Bangalore,HWH,Howrah
+15666,BG Express,SDAH,Sealdah,NDLS,New Delhi
+15666,BG Express,JP,Jaipur,RNC,Ranchi
+15910,Avadh Assam Express,PNBE,Patna,HWH,Howrah
+12423,Rajdhani Express,MAS,Chennai Central,DBRG,Dibrugarh
+15666,BG Express,VSKP,Visakhapatnam,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,PNBE,Patna
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,HWH,Howrah
+12001,Shatabdi Express,CSMT,Mumbai CST,ADI,Ahmedabad
+15666,BG Express,JP,Jaipur,NDLS,New Delhi
+12001,Shatabdi Express,SBC,Bangalore,PNBE,Patna
+15960,Kanchanjunga Express,PNBE,Patna,DBRG,Dibrugarh
+12001,Shatabdi Express,RNC,Ranchi,GHY,Guwahati
+15960,Kanchanjunga Express,BSB,Varanasi,RNC,Ranchi
+15644,Kamakhya Express,DBRG,Dibrugarh,MAS,Chennai Central
+12345,Saraighat Express,SCL,Silchar,HWH,Howrah
+15644,Kamakhya Express,GHY,Guwahati,ADI,Ahmedabad
+12001,Shatabdi Express,CSMT,Mumbai CST,BSB,Varanasi
+15666,BG Express,RNC,Ranchi,GHY,Guwahati
+12423,Rajdhani Express,HWH,Howrah,BBS,Bhubaneswar
+15644,Kamakhya Express,HWH,Howrah,GHY,Guwahati
+12378,Padatik Express,GHY,Guwahati,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,PNBE,Patna
+12345,Saraighat Express,SDAH,Sealdah,VSKP,Visakhapatnam
+15666,BG Express,DBRG,Dibrugarh,BSB,Varanasi
+12345,Saraighat Express,VSKP,Visakhapatnam,BBS,Bhubaneswar
+15644,Kamakhya Express,CSMT,Mumbai CST,GHY,Guwahati
+15960,Kanchanjunga Express,SCL,Silchar,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,AGTL,Agartala
+15960,Kanchanjunga Express,AGTL,Agartala,RNC,Ranchi
+15666,BG Express,MAS,Chennai Central,SCL,Silchar
+15960,Kanchanjunga Express,DBRG,Dibrugarh,MAS,Chennai Central
+12345,Saraighat Express,GHY,Guwahati,BBS,Bhubaneswar
+15960,Kanchanjunga Express,MAS,Chennai Central,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,CSMT,Mumbai CST
+12505,North East Express,DBRG,Dibrugarh,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,SCL,Silchar,SBC,Bangalore
+15666,BG Express,PNBE,Patna,BSB,Varanasi
+12423,Rajdhani Express,BBS,Bhubaneswar,JP,Jaipur
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,SCL,Silchar
+12501,Poorvottar Sampark Kranti,JP,Jaipur,HWH,Howrah
+12423,Rajdhani Express,JP,Jaipur,PNBE,Patna
+12345,Saraighat Express,HWH,Howrah,SCL,Silchar
+15910,Avadh Assam Express,PNBE,Patna,DBRG,Dibrugarh
+15666,BG Express,SDAH,Sealdah,SCL,Silchar
+15644,Kamakhya Express,RNC,Ranchi,HWH,Howrah
+12345,Saraighat Express,VSKP,Visakhapatnam,BSB,Varanasi
+12423,Rajdhani Express,HWH,Howrah,RNC,Ranchi
+12345,Saraighat Express,AGTL,Agartala,CSMT,Mumbai CST
+12001,Shatabdi Express,BBS,Bhubaneswar,DBRG,Dibrugarh
+15644,Kamakhya Express,GHY,Guwahati,KOAA,Kolkata
+15666,BG Express,AGTL,Agartala,SBC,Bangalore
+12001,Shatabdi Express,PNBE,Patna,CSMT,Mumbai CST
+12345,Saraighat Express,PNBE,Patna,SCL,Silchar
+12505,North East Express,MAS,Chennai Central,SDAH,Sealdah
+12378,Padatik Express,KOAA,Kolkata,VSKP,Visakhapatnam
+12505,North East Express,HWH,Howrah,AGTL,Agartala
+12001,Shatabdi Express,SDAH,Sealdah,GHY,Guwahati
+15960,Kanchanjunga Express,SCL,Silchar,NDLS,New Delhi
+15910,Avadh Assam Express,MAS,Chennai Central,CSMT,Mumbai CST
+12423,Rajdhani Express,SDAH,Sealdah,BSB,Varanasi
+12378,Padatik Express,SDAH,Sealdah,GHY,Guwahati
+12378,Padatik Express,PNBE,Patna,CSMT,Mumbai CST
+12378,Padatik Express,SDAH,Sealdah,VSKP,Visakhapatnam
+12378,Padatik Express,SDAH,Sealdah,BSB,Varanasi
+12423,Rajdhani Express,SCL,Silchar,BSB,Varanasi
+12423,Rajdhani Express,ADI,Ahmedabad,AGTL,Agartala
+12423,Rajdhani Express,RNC,Ranchi,DBRG,Dibrugarh
+12345,Saraighat Express,PNBE,Patna,GHY,Guwahati
+12001,Shatabdi Express,GHY,Guwahati,KOAA,Kolkata
+12001,Shatabdi Express,ADI,Ahmedabad,NDLS,New Delhi
+15644,Kamakhya Express,DBRG,Dibrugarh,BBS,Bhubaneswar
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,HWH,Howrah
+15960,Kanchanjunga Express,CSMT,Mumbai CST,BBS,Bhubaneswar
+15666,BG Express,PNBE,Patna,HWH,Howrah
+15960,Kanchanjunga Express,SDAH,Sealdah,ADI,Ahmedabad
+12345,Saraighat Express,SBC,Bangalore,KOAA,Kolkata
+15644,Kamakhya Express,BSB,Varanasi,VSKP,Visakhapatnam
+12423,Rajdhani Express,HWH,Howrah,SBC,Bangalore
+15666,BG Express,KOAA,Kolkata,VSKP,Visakhapatnam
+12001,Shatabdi Express,SBC,Bangalore,KOAA,Kolkata
+12001,Shatabdi Express,AGTL,Agartala,MAS,Chennai Central
+12378,Padatik Express,BSB,Varanasi,RNC,Ranchi
+15910,Avadh Assam Express,RNC,Ranchi,PNBE,Patna
+15910,Avadh Assam Express,VSKP,Visakhapatnam,KOAA,Kolkata
+15666,BG Express,VSKP,Visakhapatnam,SDAH,Sealdah
+15910,Avadh Assam Express,AGTL,Agartala,SCL,Silchar
+12423,Rajdhani Express,BBS,Bhubaneswar,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,SBC,Bangalore,CSMT,Mumbai CST
+15910,Avadh Assam Express,KOAA,Kolkata,BBS,Bhubaneswar
+12345,Saraighat Express,SBC,Bangalore,ADI,Ahmedabad
+15910,Avadh Assam Express,ADI,Ahmedabad,JP,Jaipur
+12423,Rajdhani Express,NDLS,New Delhi,SBC,Bangalore
+12345,Saraighat Express,DBRG,Dibrugarh,SCL,Silchar
+15960,Kanchanjunga Express,DBRG,Dibrugarh,RNC,Ranchi
+15644,Kamakhya Express,PNBE,Patna,HWH,Howrah
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,KOAA,Kolkata
+12001,Shatabdi Express,SCL,Silchar,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,PNBE,Patna,BSB,Varanasi
+15644,Kamakhya Express,RNC,Ranchi,SDAH,Sealdah
+15960,Kanchanjunga Express,GHY,Guwahati,SCL,Silchar
+15644,Kamakhya Express,JP,Jaipur,BSB,Varanasi
+15960,Kanchanjunga Express,CSMT,Mumbai CST,AGTL,Agartala
+12505,North East Express,ADI,Ahmedabad,KOAA,Kolkata
+12378,Padatik Express,SDAH,Sealdah,SBC,Bangalore
+12423,Rajdhani Express,SCL,Silchar,KOAA,Kolkata
+12378,Padatik Express,CSMT,Mumbai CST,GHY,Guwahati
+12001,Shatabdi Express,HWH,Howrah,MAS,Chennai Central
+15644,Kamakhya Express,ADI,Ahmedabad,BSB,Varanasi
+15910,Avadh Assam Express,CSMT,Mumbai CST,SBC,Bangalore
+12378,Padatik Express,HWH,Howrah,SCL,Silchar
+15666,BG Express,SBC,Bangalore,ADI,Ahmedabad
+12001,Shatabdi Express,MAS,Chennai Central,VSKP,Visakhapatnam
+15666,BG Express,HWH,Howrah,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,JP,Jaipur,AGTL,Agartala
+15910,Avadh Assam Express,MAS,Chennai Central,GHY,Guwahati
+12378,Padatik Express,BSB,Varanasi,HWH,Howrah
+15666,BG Express,BBS,Bhubaneswar,GHY,Guwahati
+12001,Shatabdi Express,KOAA,Kolkata,DBRG,Dibrugarh
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,SBC,Bangalore
+12001,Shatabdi Express,RNC,Ranchi,VSKP,Visakhapatnam
+12505,North East Express,SCL,Silchar,MAS,Chennai Central
+15644,Kamakhya Express,JP,Jaipur,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,BSB,Varanasi
+12378,Padatik Express,SDAH,Sealdah,ADI,Ahmedabad
+12423,Rajdhani Express,BBS,Bhubaneswar,AGTL,Agartala
+12423,Rajdhani Express,VSKP,Visakhapatnam,BBS,Bhubaneswar
+12505,North East Express,HWH,Howrah,RNC,Ranchi
+15666,BG Express,AGTL,Agartala,RNC,Ranchi
+12001,Shatabdi Express,ADI,Ahmedabad,HWH,Howrah
+12378,Padatik Express,CSMT,Mumbai CST,ADI,Ahmedabad
+15666,BG Express,SBC,Bangalore,KOAA,Kolkata
+12378,Padatik Express,DBRG,Dibrugarh,ADI,Ahmedabad
+12505,North East Express,AGTL,Agartala,CSMT,Mumbai CST
+15644,Kamakhya Express,DBRG,Dibrugarh,SBC,Bangalore
+15960,Kanchanjunga Express,RNC,Ranchi,PNBE,Patna
+15644,Kamakhya Express,KOAA,Kolkata,AGTL,Agartala
+12378,Padatik Express,DBRG,Dibrugarh,PNBE,Patna
+15644,Kamakhya Express,ADI,Ahmedabad,SDAH,Sealdah
+12001,Shatabdi Express,BSB,Varanasi,SCL,Silchar
+12001,Shatabdi Express,KOAA,Kolkata,VSKP,Visakhapatnam
+15666,BG Express,VSKP,Visakhapatnam,BBS,Bhubaneswar
+12345,Saraighat Express,SDAH,Sealdah,SCL,Silchar
+15644,Kamakhya Express,RNC,Ranchi,ADI,Ahmedabad
+15666,BG Express,MAS,Chennai Central,BSB,Varanasi
+15910,Avadh Assam Express,AGTL,Agartala,JP,Jaipur
+12505,North East Express,CSMT,Mumbai CST,NDLS,New Delhi
+15960,Kanchanjunga Express,BBS,Bhubaneswar,CSMT,Mumbai CST
+15666,BG Express,SBC,Bangalore,MAS,Chennai Central
+15666,BG Express,JP,Jaipur,MAS,Chennai Central
+15910,Avadh Assam Express,AGTL,Agartala,SBC,Bangalore
+15960,Kanchanjunga Express,CSMT,Mumbai CST,DBRG,Dibrugarh
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,CSMT,Mumbai CST
+12378,Padatik Express,NDLS,New Delhi,PNBE,Patna
+15644,Kamakhya Express,SBC,Bangalore,RNC,Ranchi
+12345,Saraighat Express,BSB,Varanasi,SCL,Silchar
+15910,Avadh Assam Express,GHY,Guwahati,SDAH,Sealdah
+15644,Kamakhya Express,CSMT,Mumbai CST,BSB,Varanasi
+12423,Rajdhani Express,MAS,Chennai Central,GHY,Guwahati
+15666,BG Express,AGTL,Agartala,HWH,Howrah
+12378,Padatik Express,BBS,Bhubaneswar,SBC,Bangalore
+15910,Avadh Assam Express,SDAH,Sealdah,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,BSB,Varanasi,GHY,Guwahati
+12001,Shatabdi Express,JP,Jaipur,DBRG,Dibrugarh
+12001,Shatabdi Express,NDLS,New Delhi,BBS,Bhubaneswar
+15910,Avadh Assam Express,NDLS,New Delhi,ADI,Ahmedabad
+12505,North East Express,BSB,Varanasi,SBC,Bangalore
+12423,Rajdhani Express,SDAH,Sealdah,AGTL,Agartala
+15910,Avadh Assam Express,KOAA,Kolkata,SCL,Silchar
+12505,North East Express,SCL,Silchar,AGTL,Agartala
+12501,Poorvottar Sampark Kranti,PNBE,Patna,GHY,Guwahati
+12505,North East Express,SBC,Bangalore,VSKP,Visakhapatnam
+12423,Rajdhani Express,VSKP,Visakhapatnam,RNC,Ranchi
+12378,Padatik Express,DBRG,Dibrugarh,SDAH,Sealdah
+12378,Padatik Express,DBRG,Dibrugarh,SBC,Bangalore
+15644,Kamakhya Express,CSMT,Mumbai CST,SBC,Bangalore
+15666,BG Express,BBS,Bhubaneswar,KOAA,Kolkata
+12345,Saraighat Express,SDAH,Sealdah,KOAA,Kolkata
+15910,Avadh Assam Express,JP,Jaipur,MAS,Chennai Central
+15666,BG Express,MAS,Chennai Central,ADI,Ahmedabad
+12505,North East Express,NDLS,New Delhi,PNBE,Patna
+12378,Padatik Express,HWH,Howrah,SBC,Bangalore
+12001,Shatabdi Express,VSKP,Visakhapatnam,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,ADI,Ahmedabad
+15666,BG Express,SCL,Silchar,SDAH,Sealdah
+12001,Shatabdi Express,BBS,Bhubaneswar,PNBE,Patna
+15666,BG Express,DBRG,Dibrugarh,JP,Jaipur
+15666,BG Express,PNBE,Patna,SDAH,Sealdah
+12505,North East Express,NDLS,New Delhi,RNC,Ranchi
+12378,Padatik Express,VSKP,Visakhapatnam,PNBE,Patna
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,PNBE,Patna
+15910,Avadh Assam Express,MAS,Chennai Central,KOAA,Kolkata
+12001,Shatabdi Express,MAS,Chennai Central,RNC,Ranchi
+12001,Shatabdi Express,MAS,Chennai Central,BBS,Bhubaneswar
+15960,Kanchanjunga Express,BBS,Bhubaneswar,SCL,Silchar
+12423,Rajdhani Express,KOAA,Kolkata,CSMT,Mumbai CST
+15910,Avadh Assam Express,BSB,Varanasi,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,KOAA,Kolkata
+15644,Kamakhya Express,GHY,Guwahati,VSKP,Visakhapatnam
+12378,Padatik Express,GHY,Guwahati,RNC,Ranchi
+12378,Padatik Express,HWH,Howrah,DBRG,Dibrugarh
+15644,Kamakhya Express,SDAH,Sealdah,VSKP,Visakhapatnam
+12345,Saraighat Express,BBS,Bhubaneswar,SBC,Bangalore
+15960,Kanchanjunga Express,JP,Jaipur,SCL,Silchar
+12345,Saraighat Express,JP,Jaipur,KOAA,Kolkata
+12001,Shatabdi Express,CSMT,Mumbai CST,SBC,Bangalore
+15644,Kamakhya Express,AGTL,Agartala,ADI,Ahmedabad
+12505,North East Express,RNC,Ranchi,ADI,Ahmedabad
+15666,BG Express,BBS,Bhubaneswar,DBRG,Dibrugarh
+12505,North East Express,VSKP,Visakhapatnam,SCL,Silchar
+15644,Kamakhya Express,BSB,Varanasi,HWH,Howrah
+15666,BG Express,VSKP,Visakhapatnam,CSMT,Mumbai CST
+12345,Saraighat Express,SBC,Bangalore,HWH,Howrah
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,GHY,Guwahati
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,VSKP,Visakhapatnam
+12345,Saraighat Express,HWH,Howrah,ADI,Ahmedabad
+15644,Kamakhya Express,SDAH,Sealdah,NDLS,New Delhi
+12505,North East Express,RNC,Ranchi,JP,Jaipur
+15910,Avadh Assam Express,GHY,Guwahati,RNC,Ranchi
+12378,Padatik Express,SBC,Bangalore,VSKP,Visakhapatnam
+15666,BG Express,BSB,Varanasi,BBS,Bhubaneswar
+12345,Saraighat Express,AGTL,Agartala,GHY,Guwahati
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,DBRG,Dibrugarh
+15644,Kamakhya Express,ADI,Ahmedabad,PNBE,Patna
+12345,Saraighat Express,KOAA,Kolkata,CSMT,Mumbai CST
+15910,Avadh Assam Express,GHY,Guwahati,KOAA,Kolkata
+15910,Avadh Assam Express,SCL,Silchar,KOAA,Kolkata
+15666,BG Express,BSB,Varanasi,CSMT,Mumbai CST
+15666,BG Express,AGTL,Agartala,PNBE,Patna
+15644,Kamakhya Express,BSB,Varanasi,CSMT,Mumbai CST
+12001,Shatabdi Express,MAS,Chennai Central,AGTL,Agartala
+12505,North East Express,SCL,Silchar,HWH,Howrah
+12505,North East Express,SBC,Bangalore,RNC,Ranchi
+12345,Saraighat Express,KOAA,Kolkata,GHY,Guwahati
+15644,Kamakhya Express,JP,Jaipur,HWH,Howrah
+15910,Avadh Assam Express,RNC,Ranchi,MAS,Chennai Central
+12378,Padatik Express,RNC,Ranchi,CSMT,Mumbai CST
+12505,North East Express,BSB,Varanasi,DBRG,Dibrugarh
+15644,Kamakhya Express,SDAH,Sealdah,PNBE,Patna
+12345,Saraighat Express,NDLS,New Delhi,CSMT,Mumbai CST
+15960,Kanchanjunga Express,BBS,Bhubaneswar,BSB,Varanasi
+15644,Kamakhya Express,CSMT,Mumbai CST,KOAA,Kolkata
+12345,Saraighat Express,JP,Jaipur,CSMT,Mumbai CST
+12505,North East Express,JP,Jaipur,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,DBRG,Dibrugarh
+15644,Kamakhya Express,CSMT,Mumbai CST,PNBE,Patna
+12505,North East Express,SCL,Silchar,KOAA,Kolkata
+15960,Kanchanjunga Express,SBC,Bangalore,CSMT,Mumbai CST
+15644,Kamakhya Express,SCL,Silchar,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,HWH,Howrah,NDLS,New Delhi
+15910,Avadh Assam Express,ADI,Ahmedabad,KOAA,Kolkata
+12378,Padatik Express,AGTL,Agartala,SCL,Silchar
+15910,Avadh Assam Express,KOAA,Kolkata,HWH,Howrah
+12501,Poorvottar Sampark Kranti,SBC,Bangalore,ADI,Ahmedabad
+12345,Saraighat Express,BBS,Bhubaneswar,KOAA,Kolkata
+12345,Saraighat Express,NDLS,New Delhi,ADI,Ahmedabad
+15644,Kamakhya Express,NDLS,New Delhi,CSMT,Mumbai CST
+12001,Shatabdi Express,MAS,Chennai Central,JP,Jaipur
+12001,Shatabdi Express,RNC,Ranchi,AGTL,Agartala
+12378,Padatik Express,NDLS,New Delhi,BBS,Bhubaneswar
+12423,Rajdhani Express,VSKP,Visakhapatnam,PNBE,Patna
+12505,North East Express,SCL,Silchar,VSKP,Visakhapatnam
+12345,Saraighat Express,KOAA,Kolkata,HWH,Howrah
+12001,Shatabdi Express,MAS,Chennai Central,SCL,Silchar
+15666,BG Express,KOAA,Kolkata,DBRG,Dibrugarh
+15910,Avadh Assam Express,CSMT,Mumbai CST,SDAH,Sealdah
+15644,Kamakhya Express,NDLS,New Delhi,ADI,Ahmedabad
+15910,Avadh Assam Express,KOAA,Kolkata,AGTL,Agartala
+15666,BG Express,RNC,Ranchi,CSMT,Mumbai CST
+12423,Rajdhani Express,JP,Jaipur,CSMT,Mumbai CST
+12505,North East Express,KOAA,Kolkata,MAS,Chennai Central
+15666,BG Express,JP,Jaipur,BSB,Varanasi
+15910,Avadh Assam Express,SDAH,Sealdah,GHY,Guwahati
+15910,Avadh Assam Express,DBRG,Dibrugarh,GHY,Guwahati
+12505,North East Express,RNC,Ranchi,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,GHY,Guwahati
+15666,BG Express,MAS,Chennai Central,SDAH,Sealdah
+12423,Rajdhani Express,AGTL,Agartala,BBS,Bhubaneswar
+12001,Shatabdi Express,ADI,Ahmedabad,DBRG,Dibrugarh
+12378,Padatik Express,PNBE,Patna,BBS,Bhubaneswar
+12423,Rajdhani Express,RNC,Ranchi,KOAA,Kolkata
+15644,Kamakhya Express,ADI,Ahmedabad,CSMT,Mumbai CST
+15644,Kamakhya Express,JP,Jaipur,AGTL,Agartala
+15644,Kamakhya Express,BBS,Bhubaneswar,NDLS,New Delhi
+15960,Kanchanjunga Express,RNC,Ranchi,BSB,Varanasi
+12505,North East Express,JP,Jaipur,ADI,Ahmedabad
+12505,North East Express,GHY,Guwahati,PNBE,Patna
+12505,North East Express,NDLS,New Delhi,SDAH,Sealdah
+12345,Saraighat Express,VSKP,Visakhapatnam,GHY,Guwahati
+15666,BG Express,PNBE,Patna,ADI,Ahmedabad
+12345,Saraighat Express,BSB,Varanasi,RNC,Ranchi
+15910,Avadh Assam Express,RNC,Ranchi,JP,Jaipur
+12423,Rajdhani Express,VSKP,Visakhapatnam,HWH,Howrah
+15644,Kamakhya Express,NDLS,New Delhi,RNC,Ranchi
+15960,Kanchanjunga Express,SBC,Bangalore,ADI,Ahmedabad
+12001,Shatabdi Express,GHY,Guwahati,NDLS,New Delhi
+15910,Avadh Assam Express,BSB,Varanasi,SBC,Bangalore
+12505,North East Express,SDAH,Sealdah,RNC,Ranchi
+15644,Kamakhya Express,CSMT,Mumbai CST,SDAH,Sealdah
+12001,Shatabdi Express,RNC,Ranchi,CSMT,Mumbai CST
+12001,Shatabdi Express,BBS,Bhubaneswar,MAS,Chennai Central
+12345,Saraighat Express,BSB,Varanasi,HWH,Howrah
+12001,Shatabdi Express,CSMT,Mumbai CST,SCL,Silchar
+12001,Shatabdi Express,JP,Jaipur,SCL,Silchar
+15644,Kamakhya Express,HWH,Howrah,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,PNBE,Patna,HWH,Howrah
+15666,BG Express,RNC,Ranchi,PNBE,Patna
+12378,Padatik Express,SCL,Silchar,DBRG,Dibrugarh
+12423,Rajdhani Express,BSB,Varanasi,RNC,Ranchi
+12345,Saraighat Express,AGTL,Agartala,JP,Jaipur
+15644,Kamakhya Express,MAS,Chennai Central,SCL,Silchar
+12378,Padatik Express,HWH,Howrah,SDAH,Sealdah
+12505,North East Express,DBRG,Dibrugarh,KOAA,Kolkata
+15644,Kamakhya Express,HWH,Howrah,SCL,Silchar
+15960,Kanchanjunga Express,GHY,Guwahati,CSMT,Mumbai CST
+12001,Shatabdi Express,AGTL,Agartala,HWH,Howrah
+12001,Shatabdi Express,MAS,Chennai Central,KOAA,Kolkata
+12378,Padatik Express,HWH,Howrah,JP,Jaipur
+12505,North East Express,BBS,Bhubaneswar,AGTL,Agartala
+15644,Kamakhya Express,KOAA,Kolkata,DBRG,Dibrugarh
+12001,Shatabdi Express,ADI,Ahmedabad,BSB,Varanasi
+12378,Padatik Express,NDLS,New Delhi,ADI,Ahmedabad
+12378,Padatik Express,GHY,Guwahati,PNBE,Patna
+15960,Kanchanjunga Express,CSMT,Mumbai CST,KOAA,Kolkata
+12378,Padatik Express,DBRG,Dibrugarh,CSMT,Mumbai CST
+12001,Shatabdi Express,AGTL,Agartala,PNBE,Patna
+12423,Rajdhani Express,SDAH,Sealdah,VSKP,Visakhapatnam
+12001,Shatabdi Express,SDAH,Sealdah,JP,Jaipur
+12345,Saraighat Express,SBC,Bangalore,BSB,Varanasi
+15910,Avadh Assam Express,KOAA,Kolkata,CSMT,Mumbai CST
+12505,North East Express,MAS,Chennai Central,HWH,Howrah
+15910,Avadh Assam Express,ADI,Ahmedabad,SBC,Bangalore
+12345,Saraighat Express,JP,Jaipur,NDLS,New Delhi
+12001,Shatabdi Express,HWH,Howrah,BSB,Varanasi
+15644,Kamakhya Express,BSB,Varanasi,ADI,Ahmedabad
+15960,Kanchanjunga Express,PNBE,Patna,HWH,Howrah
+12423,Rajdhani Express,SBC,Bangalore,PNBE,Patna
+12001,Shatabdi Express,DBRG,Dibrugarh,VSKP,Visakhapatnam
+12505,North East Express,BSB,Varanasi,HWH,Howrah
+12505,North East Express,HWH,Howrah,KOAA,Kolkata
+12345,Saraighat Express,VSKP,Visakhapatnam,SDAH,Sealdah
+15910,Avadh Assam Express,RNC,Ranchi,SDAH,Sealdah
+15910,Avadh Assam Express,GHY,Guwahati,PNBE,Patna
+12505,North East Express,SCL,Silchar,CSMT,Mumbai CST
+12505,North East Express,SBC,Bangalore,GHY,Guwahati
+15644,Kamakhya Express,SBC,Bangalore,DBRG,Dibrugarh
+12423,Rajdhani Express,HWH,Howrah,SCL,Silchar
+12501,Poorvottar Sampark Kranti,NDLS,New Delhi,ADI,Ahmedabad
+12001,Shatabdi Express,SCL,Silchar,NDLS,New Delhi
+12423,Rajdhani Express,PNBE,Patna,BBS,Bhubaneswar
+15666,BG Express,BSB,Varanasi,NDLS,New Delhi
+12001,Shatabdi Express,JP,Jaipur,BBS,Bhubaneswar
+15960,Kanchanjunga Express,AGTL,Agartala,NDLS,New Delhi
+12501,Poorvottar Sampark Kranti,HWH,Howrah,DBRG,Dibrugarh
+15666,BG Express,KOAA,Kolkata,PNBE,Patna
+12001,Shatabdi Express,AGTL,Agartala,SDAH,Sealdah
+15666,BG Express,CSMT,Mumbai CST,RNC,Ranchi
+12378,Padatik Express,DBRG,Dibrugarh,KOAA,Kolkata
+12001,Shatabdi Express,JP,Jaipur,AGTL,Agartala
+15666,BG Express,GHY,Guwahati,DBRG,Dibrugarh
+15644,Kamakhya Express,PNBE,Patna,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,VSKP,Visakhapatnam,SBC,Bangalore
+12423,Rajdhani Express,AGTL,Agartala,PNBE,Patna
+12378,Padatik Express,SDAH,Sealdah,MAS,Chennai Central
+12001,Shatabdi Express,VSKP,Visakhapatnam,RNC,Ranchi
+12505,North East Express,NDLS,New Delhi,GHY,Guwahati
+15910,Avadh Assam Express,SBC,Bangalore,AGTL,Agartala
+12423,Rajdhani Express,RNC,Ranchi,SDAH,Sealdah
+12001,Shatabdi Express,PNBE,Patna,KOAA,Kolkata
+12001,Shatabdi Express,CSMT,Mumbai CST,VSKP,Visakhapatnam
+12378,Padatik Express,AGTL,Agartala,PNBE,Patna
+12423,Rajdhani Express,NDLS,New Delhi,ADI,Ahmedabad
+12378,Padatik Express,JP,Jaipur,BBS,Bhubaneswar
+12001,Shatabdi Express,NDLS,New Delhi,RNC,Ranchi
+15960,Kanchanjunga Express,DBRG,Dibrugarh,VSKP,Visakhapatnam
+12423,Rajdhani Express,SDAH,Sealdah,ADI,Ahmedabad
+12378,Padatik Express,MAS,Chennai Central,CSMT,Mumbai CST
+12501,Poorvottar Sampark Kranti,ADI,Ahmedabad,SDAH,Sealdah
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,JP,Jaipur
+12505,North East Express,SDAH,Sealdah,AGTL,Agartala
+12378,Padatik Express,PNBE,Patna,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,NDLS,New Delhi
+15910,Avadh Assam Express,NDLS,New Delhi,KOAA,Kolkata
+15960,Kanchanjunga Express,ADI,Ahmedabad,BSB,Varanasi
+12423,Rajdhani Express,SCL,Silchar,JP,Jaipur
+12001,Shatabdi Express,VSKP,Visakhapatnam,PNBE,Patna
+12505,North East Express,GHY,Guwahati,HWH,Howrah
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,MAS,Chennai Central,NDLS,New Delhi
+12505,North East Express,SDAH,Sealdah,DBRG,Dibrugarh
+15960,Kanchanjunga Express,ADI,Ahmedabad,SBC,Bangalore
+12378,Padatik Express,BSB,Varanasi,GHY,Guwahati
+12378,Padatik Express,ADI,Ahmedabad,BSB,Varanasi
+12001,Shatabdi Express,SDAH,Sealdah,ADI,Ahmedabad
+12423,Rajdhani Express,AGTL,Agartala,SBC,Bangalore
+12345,Saraighat Express,BBS,Bhubaneswar,NDLS,New Delhi
+15644,Kamakhya Express,SDAH,Sealdah,GHY,Guwahati
+12423,Rajdhani Express,SCL,Silchar,PNBE,Patna
+12345,Saraighat Express,DBRG,Dibrugarh,PNBE,Patna
+15644,Kamakhya Express,SCL,Silchar,KOAA,Kolkata
+12345,Saraighat Express,PNBE,Patna,CSMT,Mumbai CST
+12001,Shatabdi Express,DBRG,Dibrugarh,BBS,Bhubaneswar
+12501,Poorvottar Sampark Kranti,CSMT,Mumbai CST,DBRG,Dibrugarh
+15910,Avadh Assam Express,KOAA,Kolkata,GHY,Guwahati
+12505,North East Express,VSKP,Visakhapatnam,DBRG,Dibrugarh
+15644,Kamakhya Express,JP,Jaipur,GHY,Guwahati
+12423,Rajdhani Express,AGTL,Agartala,KOAA,Kolkata
+12423,Rajdhani Express,SCL,Silchar,DBRG,Dibrugarh
+12001,Shatabdi Express,RNC,Ranchi,JP,Jaipur
+15960,Kanchanjunga Express,ADI,Ahmedabad,HWH,Howrah
+15960,Kanchanjunga Express,KOAA,Kolkata,HWH,Howrah
+12423,Rajdhani Express,RNC,Ranchi,ADI,Ahmedabad
+12505,North East Express,BSB,Varanasi,PNBE,Patna
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,SDAH,Sealdah
+12378,Padatik Express,SBC,Bangalore,SCL,Silchar
+15910,Avadh Assam Express,MAS,Chennai Central,SDAH,Sealdah
+12001,Shatabdi Express,BSB,Varanasi,JP,Jaipur
+12378,Padatik Express,NDLS,New Delhi,GHY,Guwahati
+12378,Padatik Express,AGTL,Agartala,BBS,Bhubaneswar
+12001,Shatabdi Express,MAS,Chennai Central,DBRG,Dibrugarh
+12378,Padatik Express,DBRG,Dibrugarh,RNC,Ranchi
+15960,Kanchanjunga Express,GHY,Guwahati,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,VSKP,Visakhapatnam
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,MAS,Chennai Central
+15910,Avadh Assam Express,MAS,Chennai Central,BSB,Varanasi
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,ADI,Ahmedabad
+15910,Avadh Assam Express,SDAH,Sealdah,SCL,Silchar
+15666,BG Express,RNC,Ranchi,SDAH,Sealdah
+15910,Avadh Assam Express,AGTL,Agartala,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,JP,Jaipur,ADI,Ahmedabad
+12505,North East Express,AGTL,Agartala,BSB,Varanasi
+15666,BG Express,BSB,Varanasi,SBC,Bangalore
+12378,Padatik Express,BBS,Bhubaneswar,JP,Jaipur
+12001,Shatabdi Express,VSKP,Visakhapatnam,BBS,Bhubaneswar
+12378,Padatik Express,SBC,Bangalore,KOAA,Kolkata
+15644,Kamakhya Express,VSKP,Visakhapatnam,HWH,Howrah
+12345,Saraighat Express,SCL,Silchar,SDAH,Sealdah
+12345,Saraighat Express,BBS,Bhubaneswar,JP,Jaipur
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,GHY,Guwahati
+12505,North East Express,JP,Jaipur,AGTL,Agartala
+15644,Kamakhya Express,BBS,Bhubaneswar,SCL,Silchar
+15960,Kanchanjunga Express,ADI,Ahmedabad,RNC,Ranchi
+15910,Avadh Assam Express,NDLS,New Delhi,CSMT,Mumbai CST
+12345,Saraighat Express,JP,Jaipur,SDAH,Sealdah
+15910,Avadh Assam Express,BBS,Bhubaneswar,HWH,Howrah
+15910,Avadh Assam Express,MAS,Chennai Central,VSKP,Visakhapatnam
+15910,Avadh Assam Express,SBC,Bangalore,DBRG,Dibrugarh
+12001,Shatabdi Express,KOAA,Kolkata,MAS,Chennai Central
+12501,Poorvottar Sampark Kranti,RNC,Ranchi,CSMT,Mumbai CST
+12505,North East Express,DBRG,Dibrugarh,AGTL,Agartala
+12505,North East Express,SBC,Bangalore,KOAA,Kolkata
+12505,North East Express,VSKP,Visakhapatnam,KOAA,Kolkata
+15960,Kanchanjunga Express,BSB,Varanasi,JP,Jaipur
+12345,Saraighat Express,SCL,Silchar,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,DBRG,Dibrugarh,NDLS,New Delhi
+12505,North East Express,PNBE,Patna,GHY,Guwahati
+12378,Padatik Express,KOAA,Kolkata,ADI,Ahmedabad
+15960,Kanchanjunga Express,JP,Jaipur,CSMT,Mumbai CST
+12423,Rajdhani Express,BSB,Varanasi,BBS,Bhubaneswar
+12378,Padatik Express,MAS,Chennai Central,KOAA,Kolkata
+15644,Kamakhya Express,SDAH,Sealdah,CSMT,Mumbai CST
+12505,North East Express,CSMT,Mumbai CST,BBS,Bhubaneswar
+15666,BG Express,PNBE,Patna,RNC,Ranchi
+15644,Kamakhya Express,VSKP,Visakhapatnam,ADI,Ahmedabad
+12378,Padatik Express,CSMT,Mumbai CST,AGTL,Agartala
+15644,Kamakhya Express,DBRG,Dibrugarh,CSMT,Mumbai CST
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,BBS,Bhubaneswar
+15666,BG Express,JP,Jaipur,DBRG,Dibrugarh
+15666,BG Express,ADI,Ahmedabad,CSMT,Mumbai CST
+12345,Saraighat Express,ADI,Ahmedabad,PNBE,Patna
+12378,Padatik Express,ADI,Ahmedabad,HWH,Howrah
+15960,Kanchanjunga Express,KOAA,Kolkata,SBC,Bangalore
+15910,Avadh Assam Express,JP,Jaipur,BBS,Bhubaneswar
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,HWH,Howrah
+15666,BG Express,SDAH,Sealdah,AGTL,Agartala
+12423,Rajdhani Express,KOAA,Kolkata,BSB,Varanasi
+12345,Saraighat Express,SDAH,Sealdah,GHY,Guwahati
+15910,Avadh Assam Express,NDLS,New Delhi,GHY,Guwahati
+12423,Rajdhani Express,SDAH,Sealdah,JP,Jaipur
+15960,Kanchanjunga Express,SCL,Silchar,MAS,Chennai Central
+12505,North East Express,RNC,Ranchi,VSKP,Visakhapatnam
+15666,BG Express,VSKP,Visakhapatnam,DBRG,Dibrugarh
+12505,North East Express,VSKP,Visakhapatnam,ADI,Ahmedabad
+12501,Poorvottar Sampark Kranti,SCL,Silchar,ADI,Ahmedabad
+15910,Avadh Assam Express,SDAH,Sealdah,MAS,Chennai Central
+12001,Shatabdi Express,HWH,Howrah,RNC,Ranchi
+15960,Kanchanjunga Express,HWH,Howrah,GHY,Guwahati
+15644,Kamakhya Express,GHY,Guwahati,RNC,Ranchi
+12423,Rajdhani Express,ADI,Ahmedabad,SBC,Bangalore
+15910,Avadh Assam Express,SBC,Bangalore,BBS,Bhubaneswar
+12378,Padatik Express,RNC,Ranchi,BSB,Varanasi
+12345,Saraighat Express,GHY,Guwahati,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,BSB,Varanasi,GHY,Guwahati
+12345,Saraighat Express,SDAH,Sealdah,BBS,Bhubaneswar
+12505,North East Express,JP,Jaipur,KOAA,Kolkata
+15666,BG Express,RNC,Ranchi,HWH,Howrah
+15960,Kanchanjunga Express,BBS,Bhubaneswar,VSKP,Visakhapatnam
+12423,Rajdhani Express,SCL,Silchar,SBC,Bangalore
+12501,Poorvottar Sampark Kranti,KOAA,Kolkata,ADI,Ahmedabad
+12345,Saraighat Express,VSKP,Visakhapatnam,NDLS,New Delhi
+15644,Kamakhya Express,ADI,Ahmedabad,MAS,Chennai Central
+12001,Shatabdi Express,SBC,Bangalore,CSMT,Mumbai CST
+12001,Shatabdi Express,KOAA,Kolkata,GHY,Guwahati
+12505,North East Express,JP,Jaipur,CSMT,Mumbai CST
+12378,Padatik Express,AGTL,Agartala,GHY,Guwahati
+12345,Saraighat Express,RNC,Ranchi,SBC,Bangalore
+15960,Kanchanjunga Express,SBC,Bangalore,HWH,Howrah
+12345,Saraighat Express,GHY,Guwahati,MAS,Chennai Central
+12505,North East Express,ADI,Ahmedabad,AGTL,Agartala
+12345,Saraighat Express,GHY,Guwahati,JP,Jaipur
+15666,BG Express,DBRG,Dibrugarh,AGTL,Agartala
+12378,Padatik Express,DBRG,Dibrugarh,AGTL,Agartala
+15644,Kamakhya Express,CSMT,Mumbai CST,NDLS,New Delhi
+15960,Kanchanjunga Express,SDAH,Sealdah,KOAA,Kolkata
+12423,Rajdhani Express,CSMT,Mumbai CST,SDAH,Sealdah
+12378,Padatik Express,SBC,Bangalore,SDAH,Sealdah
+12378,Padatik Express,GHY,Guwahati,SBC,Bangalore
+15644,Kamakhya Express,RNC,Ranchi,DBRG,Dibrugarh
+15960,Kanchanjunga Express,SCL,Silchar,SDAH,Sealdah
+12345,Saraighat Express,VSKP,Visakhapatnam,KOAA,Kolkata
+12423,Rajdhani Express,AGTL,Agartala,DBRG,Dibrugarh
+15666,BG Express,BSB,Varanasi,MAS,Chennai Central
+15960,Kanchanjunga Express,GHY,Guwahati,DBRG,Dibrugarh
+15910,Avadh Assam Express,NDLS,New Delhi,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,ADI,Ahmedabad
+15644,Kamakhya Express,SCL,Silchar,DBRG,Dibrugarh
+15666,BG Express,CSMT,Mumbai CST,AGTL,Agartala
+15666,BG Express,VSKP,Visakhapatnam,JP,Jaipur
+12423,Rajdhani Express,BSB,Varanasi,VSKP,Visakhapatnam
+15644,Kamakhya Express,BSB,Varanasi,RNC,Ranchi
+15910,Avadh Assam Express,SDAH,Sealdah,KOAA,Kolkata
+12001,Shatabdi Express,VSKP,Visakhapatnam,SCL,Silchar
+15910,Avadh Assam Express,DBRG,Dibrugarh,BBS,Bhubaneswar
+15666,BG Express,KOAA,Kolkata,HWH,Howrah
+15644,Kamakhya Express,AGTL,Agartala,BSB,Varanasi
+12505,North East Express,CSMT,Mumbai CST,SCL,Silchar
+15960,Kanchanjunga Express,HWH,Howrah,SBC,Bangalore
+12378,Padatik Express,GHY,Guwahati,ADI,Ahmedabad
+12423,Rajdhani Express,CSMT,Mumbai CST,NDLS,New Delhi
+15644,Kamakhya Express,MAS,Chennai Central,HWH,Howrah
+15910,Avadh Assam Express,BSB,Varanasi,ADI,Ahmedabad
+12505,North East Express,GHY,Guwahati,BBS,Bhubaneswar
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,SDAH,Sealdah
+15666,BG Express,CSMT,Mumbai CST,GHY,Guwahati
+15644,Kamakhya Express,NDLS,New Delhi,SDAH,Sealdah
+12505,North East Express,ADI,Ahmedabad,BBS,Bhubaneswar
+12423,Rajdhani Express,JP,Jaipur,BBS,Bhubaneswar
+15910,Avadh Assam Express,VSKP,Visakhapatnam,RNC,Ranchi
+12378,Padatik Express,HWH,Howrah,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,SDAH,Sealdah,DBRG,Dibrugarh
+12501,Poorvottar Sampark Kranti,PNBE,Patna,SBC,Bangalore
+15666,BG Express,HWH,Howrah,GHY,Guwahati
+12423,Rajdhani Express,SBC,Bangalore,RNC,Ranchi
+12505,North East Express,HWH,Howrah,VSKP,Visakhapatnam
+15644,Kamakhya Express,BBS,Bhubaneswar,HWH,Howrah
+12501,Poorvottar Sampark Kranti,SBC,Bangalore,VSKP,Visakhapatnam
+12423,Rajdhani Express,SDAH,Sealdah,BBS,Bhubaneswar
+15910,Avadh Assam Express,SDAH,Sealdah,NDLS,New Delhi
+15644,Kamakhya Express,DBRG,Dibrugarh,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,DBRG,Dibrugarh,PNBE,Patna
+12423,Rajdhani Express,VSKP,Visakhapatnam,ADI,Ahmedabad
+15644,Kamakhya Express,VSKP,Visakhapatnam,NDLS,New Delhi
+15960,Kanchanjunga Express,SBC,Bangalore,VSKP,Visakhapatnam
+12505,North East Express,DBRG,Dibrugarh,BBS,Bhubaneswar
+15666,BG Express,GHY,Guwahati,HWH,Howrah
+12378,Padatik Express,BBS,Bhubaneswar,SCL,Silchar
+15960,Kanchanjunga Express,BBS,Bhubaneswar,SBC,Bangalore
+15666,BG Express,SCL,Silchar,NDLS,New Delhi
+12505,North East Express,ADI,Ahmedabad,SCL,Silchar
+15960,Kanchanjunga Express,AGTL,Agartala,SBC,Bangalore
+15960,Kanchanjunga Express,SBC,Bangalore,BBS,Bhubaneswar
+15960,Kanchanjunga Express,KOAA,Kolkata,DBRG,Dibrugarh
+12423,Rajdhani Express,MAS,Chennai Central,SDAH,Sealdah
+12345,Saraighat Express,SCL,Silchar,PNBE,Patna
+12505,North East Express,BSB,Varanasi,SDAH,Sealdah
+15910,Avadh Assam Express,SBC,Bangalore,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,PNBE,Patna
+12001,Shatabdi Express,NDLS,New Delhi,GHY,Guwahati
+12423,Rajdhani Express,DBRG,Dibrugarh,BBS,Bhubaneswar
+12001,Shatabdi Express,SBC,Bangalore,MAS,Chennai Central
+12423,Rajdhani Express,KOAA,Kolkata,BBS,Bhubaneswar
+15910,Avadh Assam Express,JP,Jaipur,ADI,Ahmedabad
+12378,Padatik Express,SBC,Bangalore,MAS,Chennai Central
+12505,North East Express,BBS,Bhubaneswar,HWH,Howrah
+15910,Avadh Assam Express,SDAH,Sealdah,BSB,Varanasi
+12345,Saraighat Express,BSB,Varanasi,CSMT,Mumbai CST
+15960,Kanchanjunga Express,RNC,Ranchi,NDLS,New Delhi
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,JP,Jaipur
+12378,Padatik Express,BSB,Varanasi,DBRG,Dibrugarh
+15666,BG Express,SDAH,Sealdah,MAS,Chennai Central
+15960,Kanchanjunga Express,SBC,Bangalore,RNC,Ranchi
+15960,Kanchanjunga Express,BBS,Bhubaneswar,HWH,Howrah
+15644,Kamakhya Express,DBRG,Dibrugarh,JP,Jaipur
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,KOAA,Kolkata
+12423,Rajdhani Express,NDLS,New Delhi,CSMT,Mumbai CST
+12423,Rajdhani Express,CSMT,Mumbai CST,KOAA,Kolkata
+12423,Rajdhani Express,KOAA,Kolkata,AGTL,Agartala
+15644,Kamakhya Express,BBS,Bhubaneswar,DBRG,Dibrugarh
+12505,North East Express,GHY,Guwahati,BSB,Varanasi
+15960,Kanchanjunga Express,BSB,Varanasi,SBC,Bangalore
+15960,Kanchanjunga Express,AGTL,Agartala,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,PNBE,Patna,BBS,Bhubaneswar
+12001,Shatabdi Express,BSB,Varanasi,KOAA,Kolkata
+12501,Poorvottar Sampark Kranti,JP,Jaipur,KOAA,Kolkata
+15960,Kanchanjunga Express,MAS,Chennai Central,BSB,Varanasi
+15666,BG Express,BSB,Varanasi,KOAA,Kolkata
+15910,Avadh Assam Express,NDLS,New Delhi,AGTL,Agartala
+12378,Padatik Express,BSB,Varanasi,AGTL,Agartala
+12505,North East Express,BBS,Bhubaneswar,JP,Jaipur
+12378,Padatik Express,NDLS,New Delhi,CSMT,Mumbai CST
+15910,Avadh Assam Express,SCL,Silchar,VSKP,Visakhapatnam
+12423,Rajdhani Express,DBRG,Dibrugarh,MAS,Chennai Central
+15644,Kamakhya Express,PNBE,Patna,SDAH,Sealdah
+12345,Saraighat Express,DBRG,Dibrugarh,RNC,Ranchi
+12378,Padatik Express,DBRG,Dibrugarh,BSB,Varanasi
+12345,Saraighat Express,SCL,Silchar,SBC,Bangalore
+15910,Avadh Assam Express,CSMT,Mumbai CST,SCL,Silchar
+15666,BG Express,HWH,Howrah,SCL,Silchar
+12423,Rajdhani Express,SBC,Bangalore,SDAH,Sealdah
+15910,Avadh Assam Express,BBS,Bhubaneswar,MAS,Chennai Central
+15960,Kanchanjunga Express,BSB,Varanasi,PNBE,Patna
+12501,Poorvottar Sampark Kranti,BBS,Bhubaneswar,MAS,Chennai Central
+15960,Kanchanjunga Express,GHY,Guwahati,SBC,Bangalore
+15666,BG Express,KOAA,Kolkata,SDAH,Sealdah
+12345,Saraighat Express,BBS,Bhubaneswar,AGTL,Agartala
+15910,Avadh Assam Express,JP,Jaipur,HWH,Howrah
+12423,Rajdhani Express,BBS,Bhubaneswar,SDAH,Sealdah
+15644,Kamakhya Express,JP,Jaipur,MAS,Chennai Central
+12345,Saraighat Express,SCL,Silchar,NDLS,New Delhi
+15960,Kanchanjunga Express,CSMT,Mumbai CST,JP,Jaipur
+15644,Kamakhya Express,CSMT,Mumbai CST,MAS,Chennai Central
+12001,Shatabdi Express,SCL,Silchar,BBS,Bhubaneswar
+15960,Kanchanjunga Express,SDAH,Sealdah,VSKP,Visakhapatnam
+15960,Kanchanjunga Express,ADI,Ahmedabad,SDAH,Sealdah
+12001,Shatabdi Express,NDLS,New Delhi,JP,Jaipur
+12423,Rajdhani Express,SCL,Silchar,RNC,Ranchi
+12505,North East Express,PNBE,Patna,CSMT,Mumbai CST
+12505,North East Express,HWH,Howrah,BBS,Bhubaneswar
+12345,Saraighat Express,NDLS,New Delhi,SBC,Bangalore
+15666,BG Express,AGTL,Agartala,MAS,Chennai Central
+12505,North East Express,PNBE,Patna,SBC,Bangalore
+15910,Avadh Assam Express,DBRG,Dibrugarh,JP,Jaipur
+12501,Poorvottar Sampark Kranti,SDAH,Sealdah,GHY,Guwahati
+12345,Saraighat Express,JP,Jaipur,BSB,Varanasi
+15910,Avadh Assam Express,DBRG,Dibrugarh,AGTL,Agartala
+15666,BG Express,KOAA,Kolkata,NDLS,New Delhi
+15644,Kamakhya Express,SCL,Silchar,JP,Jaipur
+15910,Avadh Assam Express,PNBE,Patna,AGTL,Agartala
+12345,Saraighat Express,MAS,Chennai Central,DBRG,Dibrugarh
+12501,Poorvottar Sampark Kranti,JP,Jaipur,GHY,Guwahati
+12001,Shatabdi Express,GHY,Guwahati,RNC,Ranchi
+12501,Poorvottar Sampark Kranti,HWH,Howrah,MAS,Chennai Central
+12378,Padatik Express,JP,Jaipur,MAS,Chennai Central
+15960,Kanchanjunga Express,KOAA,Kolkata,VSKP,Visakhapatnam
+12423,Rajdhani Express,PNBE,Patna,JP,Jaipur
+12001,Shatabdi Express,NDLS,New Delhi,ADI,Ahmedabad
+15910,Avadh Assam Express,BSB,Varanasi,JP,Jaipur
+12378,Padatik Express,BBS,Bhubaneswar,NDLS,New Delhi
+15960,Kanchanjunga Express,AGTL,Agartala,CSMT,Mumbai CST
+15644,Kamakhya Express,AGTL,Agartala,HWH,Howrah
+12378,Padatik Express,RNC,Ranchi,SBC,Bangalore
+12378,Padatik Express,AGTL,Agartala,BSB,Varanasi
+15910,Avadh Assam Express,VSKP,Visakhapatnam,SDAH,Sealdah
+12345,Saraighat Express,AGTL,Agartala,KOAA,Kolkata
+12423,Rajdhani Express,JP,Jaipur,BSB,Varanasi
+15644,Kamakhya Express,BSB,Varanasi,DBRG,Dibrugarh
+15910,Avadh Assam Express,SCL,Silchar,SBC,Bangalore
+12423,Rajdhani Express,BSB,Varanasi,PNBE,Patna
+12423,Rajdhani Express,SDAH,Sealdah,DBRG,Dibrugarh
+12378,Padatik Express,VSKP,Visakhapatnam,GHY,Guwahati
+15910,Avadh Assam Express,HWH,Howrah,VSKP,Visakhapatnam
+12345,Saraighat Express,DBRG,Dibrugarh,MAS,Chennai Central
+12378,Padatik Express,NDLS,New Delhi,SCL,Silchar
+15644,Kamakhya Express,JP,Jaipur,ADI,Ahmedabad
+12345,Saraighat Express,AGTL,Agartala,BBS,Bhubaneswar
+12423,Rajdhani Express,GHY,Guwahati,CSMT,Mumbai CST
+12423,Rajdhani Express,PNBE,Patna,DBRG,Dibrugarh
+15644,Kamakhya Express,GHY,Guwahati,DBRG,Dibrugarh
+15666,BG Express,BBS,Bhubaneswar,NDLS,New Delhi
+12501,Poorvottar Sampark Kranti,JP,Jaipur,VSKP,Visakhapatnam
+15644,Kamakhya Express,DBRG,Dibrugarh,SCL,Silchar
+12423,Rajdhani Express,NDLS,New Delhi,KOAA,Kolkata
+12505,North East Express,BBS,Bhubaneswar,KOAA,Kolkata
+12001,Shatabdi Express,RNC,Ranchi,KOAA,Kolkata
+12378,Padatik Express,PNBE,Patna,ADI,Ahmedabad
+15644,Kamakhya Express,HWH,Howrah,JP,Jaipur
+15666,BG Express,KOAA,Kolkata,SBC,Bangalore
+12378,Padatik Express,BBS,Bhubaneswar,AGTL,Agartala
+12378,Padatik Express,ADI,Ahmedabad,SBC,Bangalore
+12345,Saraighat Express,GHY,Guwahati,DBRG,Dibrugarh
+12378,Padatik Express,VSKP,Visakhapatnam,ADI,Ahmedabad
+12378,Padatik Express,SDAH,Sealdah,AGTL,Agartala
+12505,North East Express,MAS,Chennai Central,CSMT,Mumbai CST
+12001,Shatabdi Express,SCL,Silchar,GHY,Guwahati
+12501,Poorvottar Sampark Kranti,JP,Jaipur,DBRG,Dibrugarh
+15666,BG Express,RNC,Ranchi,SBC,Bangalore
+12378,Padatik Express,NDLS,New Delhi,SBC,Bangalore
+12345,Saraighat Express,RNC,Ranchi,SCL,Silchar
+12505,North East Express,SDAH,Sealdah,SCL,Silchar
+15666,BG Express,HWH,Howrah,SBC,Bangalore
+12001,Shatabdi Express,HWH,Howrah,DBRG,Dibrugarh
+12001,Shatabdi Express,RNC,Ranchi,SCL,Silchar
+12345,Saraighat Express,MAS,Chennai Central,PNBE,Patna
+12001,Shatabdi Express,VSKP,Visakhapatnam,GHY,Guwahati
+15644,Kamakhya Express,HWH,Howrah,PNBE,Patna
+15666,BG Express,VSKP,Visakhapatnam,PNBE,Patna
+12345,Saraighat Express,AGTL,Agartala,SCL,Silchar
+15910,Avadh Assam Express,JP,Jaipur,BSB,Varanasi
+12345,Saraighat Express,GHY,Guwahati,PNBE,Patna
+12001,Shatabdi Express,ADI,Ahmedabad,SDAH,Sealdah
+12423,Rajdhani Express,ADI,Ahmedabad,BSB,Varanasi
+12345,Saraighat Express,MAS,Chennai Central,SDAH,Sealdah
+15910,Avadh Assam Express,SCL,Silchar,HWH,Howrah
+12001,Shatabdi Express,DBRG,Dibrugarh,ADI,Ahmedabad
+12378,Padatik Express,SCL,Silchar,SBC,Bangalore
+15910,Avadh Assam Express,SDAH,Sealdah,ADI,Ahmedabad
+12001,Shatabdi Express,GHY,Guwahati,BBS,Bhubaneswar
+15666,BG Express,MAS,Chennai Central,DBRG,Dibrugarh
+12345,Saraighat Express,SBC,Bangalore,DBRG,Dibrugarh
+12378,Padatik Express,SBC,Bangalore,BBS,Bhubaneswar
+15644,Kamakhya Express,AGTL,Agartala,NDLS,New Delhi
+15960,Kanchanjunga Express,MAS,Chennai Central,SCL,Silchar
+12501,Poorvottar Sampark Kranti,SBC,Bangalore,JP,Jaipur
+12345,Saraighat Express,KOAA,Kolkata,BSB,Varanasi
+12505,North East Express,MAS,Chennai Central,JP,Jaipur
+12501,Poorvottar Sampark Kranti,GHY,Guwahati,SCL,Silchar
+12001,Shatabdi Express,BSB,Varanasi,VSKP,Visakhapatnam
+12378,Padatik Express,MAS,Chennai Central,PNBE,Patna
+12501,Poorvottar Sampark Kranti,AGTL,Agartala,ADI,Ahmedabad
+12423,Rajdhani Express,ADI,Ahmedabad,JP,Jaipur
+12378,Padatik Express,KOAA,Kolkata,SBC,Bangalore
+15910,Avadh Assam Express,BBS,Bhubaneswar,SCL,Silchar
+12001,Shatabdi Express,SCL,Silchar,VSKP,Visakhapatnam
+12505,North East Express,AGTL,Agartala,ADI,Ahmedabad
+12001,Shatabdi Express,PNBE,Patna,RNC,Ranchi
+12001,Shatabdi Express,DBRG,Dibrugarh,KOAA,Kolkata
+12505,North East Express,PNBE,Patna,HWH,Howrah
+15666,BG Express,MAS,Chennai Central,PNBE,Patna
+15666,BG Express,GHY,Guwahati,CSMT,Mumbai CST
+12345,Saraighat Express,DBRG,Dibrugarh,VSKP,Visakhapatnam
+12423,Rajdhani Express,HWH,Howrah,SDAH,Sealdah
+12505,North East Express,GHY,Guwahati,DBRG,Dibrugarh
+15644,Kamakhya Express,VSKP,Visakhapatnam,BBS,Bhubaneswar
+15666,BG Express,NDLS,New Delhi,VSKP,Visakhapatnam
+15910,Avadh Assam Express,SBC,Bangalore,SCL,Silchar
+12505,North East Express,GHY,Guwahati,CSMT,Mumbai CST
+15960,Kanchanjunga Express,DBRG,Dibrugarh,BBS,Bhubaneswar
+12001,Shatabdi Express,PNBE,Patna,JP,Jaipur
+15910,Avadh Assam Express,AGTL,Agartala,CSMT,Mumbai CST
+15666,BG Express,VSKP,Visakhapatnam,HWH,Howrah
+15644,Kamakhya Express,CSMT,Mumbai CST,ADI,Ahmedabad
+12505,North East Express,GHY,Guwahati,SDAH,Sealdah
+15644,Kamakhya Express,VSKP,Visakhapatnam,BSB,Varanasi
