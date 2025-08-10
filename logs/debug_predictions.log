@@ -754,3 +754,9 @@ Input Data:
 [{'mouse_movement_units': 3786.41, 'typing_speed_cpm': 102.21, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 304.18, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 304.18, 'captcha_time_sec': 4.12}]
 Model Probability: 0.0463
 Classified as bot: 0
+
+=== Prediction Log 2025-08-10 10:46:45.844639 ===
+Input Data:
+[{'mouse_movement_units': 10127.31, 'typing_speed_cpm': 27.95, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 124.8, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 124.8, 'captcha_time_sec': 4.63}]
+Model Probability: 0.0379
+Classified as bot: 0
