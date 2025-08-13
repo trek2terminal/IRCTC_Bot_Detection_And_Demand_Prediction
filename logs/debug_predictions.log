@@ -760,3 +760,75 @@ Input Data:
 [{'mouse_movement_units': 10127.31, 'typing_speed_cpm': 27.95, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 124.8, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 124.8, 'captcha_time_sec': 4.63}]
 Model Probability: 0.0379
 Classified as bot: 0
+
+=== Prediction Log 2025-08-11 15:10:41.382229 ===
+Input Data:
+[{'mouse_movement_units': 0.0, 'typing_speed_cpm': 266.08, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 20.39, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 20.39, 'captcha_time_sec': 0.01}]
+Model Probability: 0.9941
+Classified as bot: 1
+
+=== Prediction Log 2025-08-11 15:10:56.329907 ===
+Input Data:
+[{'mouse_movement_units': 0.0, 'typing_speed_cpm': 327.87, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 12.58, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 12.58, 'captcha_time_sec': 0.02}]
+Model Probability: 0.9948
+Classified as bot: 1
+
+=== Prediction Log 2025-08-11 15:11:16.301265 ===
+Input Data:
+[{'mouse_movement_units': 0.0, 'typing_speed_cpm': 351.48, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 15.25, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 15.25, 'captcha_time_sec': 0.01}]
+Model Probability: 0.9944
+Classified as bot: 1
+
+=== Prediction Log 2025-08-11 15:11:37.469407 ===
+Input Data:
+[{'mouse_movement_units': 0.0, 'typing_speed_cpm': 342.97, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 17.32, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 17.32, 'captcha_time_sec': 0.01}]
+Model Probability: 0.9941
+Classified as bot: 1
+
+=== Prediction Log 2025-08-11 15:11:58.927929 ===
+Input Data:
+[{'mouse_movement_units': 0.0, 'typing_speed_cpm': 302.82, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 17.49, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 17.49, 'captcha_time_sec': 0.01}]
+Model Probability: 0.9943
+Classified as bot: 1
+
+=== Prediction Log 2025-08-11 15:12:15.662850 ===
+Input Data:
+[{'mouse_movement_units': 0.0, 'typing_speed_cpm': 429.57, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 12.61, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 12.61, 'captcha_time_sec': 0.01}]
+Model Probability: 0.9944
+Classified as bot: 1
+
+=== Prediction Log 2025-08-11 17:59:45.407630 ===
+Input Data:
+[{'mouse_movement_units': 1189.97, 'typing_speed_cpm': 109.89, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 1285.0, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 1285.0, 'captcha_time_sec': 7.51}]
+Model Probability: 0.0196
+Classified as bot: 0
+
+=== Prediction Log 2025-08-11 18:00:20.554493 ===
+Input Data:
+[{'mouse_movement_units': 0.0, 'typing_speed_cpm': 342.75, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 14.93, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 14.93, 'captcha_time_sec': 0.2}]
+Model Probability: 0.9921
+Classified as bot: 1
+
+=== Prediction Log 2025-08-11 18:00:41.287098 ===
+Input Data:
+[{'mouse_movement_units': 0.0, 'typing_speed_cpm': 336.26, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 17.01, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 17.01, 'captcha_time_sec': 0.02}]
+Model Probability: 0.9941
+Classified as bot: 1
+
+=== Prediction Log 2025-08-11 18:01:02.546743 ===
+Input Data:
+[{'mouse_movement_units': 0.0, 'typing_speed_cpm': 293.94, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 17.14, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 17.14, 'captcha_time_sec': 0.08}]
+Model Probability: 0.9937
+Classified as bot: 1
+
+=== Prediction Log 2025-08-11 18:01:20.085072 ===
+Input Data:
+[{'mouse_movement_units': 458.36, 'typing_speed_cpm': 353.63, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 13.07, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 13.07, 'captcha_time_sec': 0.03}]
+Model Probability: 0.9717
+Classified as bot: 1
+
+=== Prediction Log 2025-08-11 18:01:40.654431 ===
+Input Data:
+[{'mouse_movement_units': 1188.19, 'typing_speed_cpm': 390.7, 'click_pattern_score': 0.01, 'time_spent_on_page_sec': 16.27, 'scroll_behavior': 0, 'captcha_success': 1, 'form_fill_time_sec': 16.27, 'captcha_time_sec': 0.01}]
+Model Probability: 0.8934
+Classified as bot: 1
