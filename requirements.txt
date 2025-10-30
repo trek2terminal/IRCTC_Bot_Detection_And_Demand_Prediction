@@ -12,6 +12,6 @@ click==8.1.7
 Jinja2==3.1.4
 
 
-// Optional (only if used in deployment or debugging)
+# Optional (only if used in deployment or debugging)
 matplotlib==3.9.2      # if you visualize logs or model results
 python-dotenv==1.0.1   # if you load environment variables
