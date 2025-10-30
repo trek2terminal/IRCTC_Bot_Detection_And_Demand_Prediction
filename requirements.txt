@@ -1,0 +1,17 @@
+Flask==3.0.3
+tensorflow==2.17.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.2
+joblib==1.4.2
+Pillow==10.4.0
+gunicorn==22.0.0
+werkzeug==3.0.3
+itsdangerous==2.2.0
+click==8.1.7
+Jinja2==3.1.4
+
+
+// Optional (only if used in deployment or debugging)
+matplotlib==3.9.2      # if you visualize logs or model results
+python-dotenv==1.0.1   # if you load environment variables
