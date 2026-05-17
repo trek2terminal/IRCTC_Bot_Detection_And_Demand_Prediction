@@ -991,7 +991,6 @@ def demand_heatmap():
     return jsonify({'success': True, 'img_data': img_base64})
 
 
-
 if __name__ == '__main__':
     print("\n🚀 Server Running: http://127.0.0.1:5000\n")
     app.run(host='0.0.0.0', port=5000, debug=True)
